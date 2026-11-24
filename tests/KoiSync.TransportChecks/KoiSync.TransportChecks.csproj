@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net48</TargetFramework><OutputType>Exe</OutputType><AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects></PropertyGroup>
+ <ItemGroup>
+  <Compile Include="..\..\src\Shared\*.cs" Link="Shared\%(Filename)%(Extension)" />
+  <Compile Include="..\..\src\KoiSync.Plugin\Devices.cs" Link="Devices.cs" />
+  <Compile Include="..\..\src\KoiSync.Plugin\SerialTransport.cs" Link="SerialTransport.cs" />
+  <Reference Include="LitJSON"><HintPath>..\..\src\Libraries\LitJSON.dll</HintPath></Reference>
+  <Reference Include="SuperSocket.ClientEngine"><HintPath>..\..\src\Libraries\SuperSocket.ClientEngine.dll</HintPath></Reference>
+  <Reference Include="WebSocket4Net"><HintPath>..\..\src\Libraries\WebSocket4Net.dll</HintPath></Reference>
+ </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\src\Shared\*.cs" Link="Core\%(Filename)%(Extension)" />
+    <Compile Include="..\..\src\KoiSync.MainGame\ActionPolicy.cs" Link="ActionPolicy.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\LocaleCatalog.cs" Link="LocaleCatalog.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\UiText.cs" Link="UiText.cs" />
+    <EmbeddedResource Include="..\..\src\KoiSync.MainGame\Locale.tsv" LogicalName="KoiSync.MainGame.Locale.tsv" />
+    <Compile Include="..\..\src\KoiSync.MainGame\AnimationResources.cs" Link="AnimationResources.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\ActionProfile.cs" Link="ActionProfile.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\GameDrive.cs" Link="GameDrive.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\StrokeMapping.cs" Link="StrokeMapping.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\ActionCalibration.cs" Link="ActionCalibration.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\ActionEntry.cs" Link="ActionEntry.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\ActionMotion.cs" Link="ActionMotion.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\ActionRotationReference.cs" Link="ActionRotationReference.cs" />
+    <Compile Include="..\..\src\KoiSync.MainGame\Runtime\ActionRecorder.cs" Link="ActionRecorder.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioDrive.cs" Link="StudioDrive.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StrokeMapping.cs" Link="StudioStrokeMapping.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterRotationReference.cs" Link="StudioRotationReference.cs" />
+    <None Include="..\..\src\KoiSync.MainGame\Actions.tsv" Link="Actions.tsv" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\src\KoiSync.MainGame\NativeResources.tsv" Link="NativeResources.tsv" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\src\KoiSync.MainGame\KPlugActions.tsv" Link="KPlugActions.tsv" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\src\KoiSync.MainGame\NativeAnimations.csv" Link="NativeAnimations.csv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup><Compile Include="..\..\src\Shared\*.cs" Link="Shared\%(Filename)%(Extension)" /></ItemGroup>
+  <ItemGroup>
+    <None Update="fixtures\sr6-reference-rotations.json" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Include="..\..\src\KoiSync.Plugin\FunscriptPlayback.cs" Link="FunscriptPlayback.cs" />
+    <Reference Include="LitJSON"><HintPath>..\..\src\Libraries\LitJSON.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

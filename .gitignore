@@ -1,0 +1,66 @@
+# Build & IDE outputs
+**/bin/
+**/obj/
+**/obj-kks/
+artifacts/
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+
+# Python caches & virtualenvs
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+
+# Local secrets, personal configs & runtime memory (NEVER commit!)
+voice_director/chat_config.json
+voice_director/memory_store.json
+voice_director/.env
+.env
+*.env.local
+voice_director/custom_models/*.pth
+voice_director/custom_models/*.onnx
+voice_director/custom_models/*.ckpt
+voice_director/custom_models/*.safetensors
+voice_director/custom_models/*.bin
+
+# Large local media renders & Blender backups
+blender_sr6_sim/renders/
+blender_sr6_sim/*.blend1
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# Third-party reference PDFs
+515274428-*.pdf
+
+# Local-only Chinese & internal working docs (keep GitHub docs English-only)
+docs/KoiSync_详细使用说明.md
+docs/KoiSync_详细使用说明.docx
+docs/ANIMATION-ALIGNMENT.md
+docs/ARCHITECTURE.md
+docs/DEVICE-PREVIEW-ASSETS.md
+docs/FUNSCRIPT.md
+docs/KKS-PORT.md
+docs/LEGACY-README-v0138.md
+docs/MAIN-GAME.md
+docs/NATIVE-STROKE.md
+docs/PLAYBACK-PROFILES.md
+docs/PROJECT-STATUS-ZH.md
+docs/SR6-PHYSICAL-CONTACT-MODEL.md
+docs/STUDIO-BP-ANALYSIS.md
+docs/STUDIO-EXPERIMENTS.md
+docs/STUDIO-LITE.md
+docs/STUDIO-VALIDATION-0.2.20.md
+docs/STUDIO-WORKFLOW-ROADMAP.md
+docs/STUDIO.md
+docs/VALIDATION.md
+docs/VR.md
+docs/skills/
+voice_director/custom_models/README_模型放入说明.txt
+tests/KoiSync.NativeAudit/README.md

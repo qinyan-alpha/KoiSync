@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\src\KoiSync.Studio\Locale.tsv"><LogicalName>KoiSync.Locale.tsv</LogicalName></EmbeddedResource>
+    <Compile Include="..\..\src\KoiSync.Studio\LocaleCatalog.cs" Link="LocaleCatalog.cs" />
+    <Compile Include="..\..\src\Shared\*.cs" Link="Core\%(Filename)%(Extension)" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioDrive.cs" Link="StudioDrive.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterBook.cs" Link="ChapterBook.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterSelection.cs" Link="ChapterSelection.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterClimax.cs" Link="ChapterClimax.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterGrind.cs" Link="ChapterGrind.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ModelOrigins.cs" Link="ModelOrigins.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterCalibration.cs" Link="ChapterCalibration.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterRotationReference.cs" Link="ChapterRotationReference.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StrokeMapping.cs" Link="StrokeMapping.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioRecorder.cs" Link="StudioRecorder.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\SceneScriptPath.cs" Link="SceneScriptPath.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\CameraPairRanking.cs" Link="CameraPairRanking.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\ChapterTransition.cs" Link="ChapterTransition.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioDirectorPlan.cs" Link="StudioDirectorPlan.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioFeelEngine.cs" Link="StudioFeelEngine.cs" />
+    <Compile Include="..\..\src\KoiSync.Studio\StudioStepAnalyzer.cs" Link="StudioStepAnalyzer.cs" />
+  </ItemGroup>
+</Project>

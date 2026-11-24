@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>KoiSync.PreviewAssetChecks</AssemblyName>
+    <Version>0.1.0</Version>
+    <GameRoot Condition="'$(GameRoot)' == ''">E:\Galgames\kk</GameRoot>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine"><HintPath>$(GameRoot)\Koikatu_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <ProjectReference Include="..\..\src\KoiSync.Plugin\KoiSync.Plugin.csproj"><Private>false</Private></ProjectReference>
+  </ItemGroup>
+</Project>

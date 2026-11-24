@@ -1,0 +1,97 @@
+# id	name	source	target	effector	contact	anal	centered-motion	classification	optional-weak-source
+aibu_0	立ち愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_1	仰向け愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_2	四つん這い愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_3	椅子座り愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_4	椅子バック愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_5	机バック愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_6	壁バック愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_7	机座り愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_8	机しゃがみ愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_9	本棚愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+aibu_10	いたずら愛撫	Male	Female0	InteractionItem	VAGINAL	false	false	读取原生 HandCtrl 的阴部或肛门交互物件，不使用未播放的男方
+houshi_0	亀頭いじり	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对（右手摩擦龟头，左手扶根）
+houshi_1	片手コキ	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对
+houshi_2	両手コキ	Male	Female0	Shaft	LEFTHAND	false	false	原生动作固定配对
+houshi_5	先舐め＋竿舐め	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_7	片手フェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_8	両手フェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_11	パイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_12	腕はさみパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_13	押し付けパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_15	パイズリ+咥え	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_16	椅子亀頭いじり	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对（右手摩擦龟头，左手扶根）
+houshi_17	椅子片手コキ	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对
+houshi_21	椅子先舐め＋竿舐め	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_22	椅子ノーハンド先舐め	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_24	椅子両手フェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_27	椅子パイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_28	椅子腕はさみパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_30	椅子パイズリ+舐め	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_31	椅子パイズリ+咥え	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_32	立ち亀頭いじり	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对（右手摩擦龟头，左手扶根）
+houshi_33	立ち片手コキ	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对
+houshi_35	立ち玉舐め手コキ	Male	Female0	Shaft	ORAL	false	true	非插入服务：固定角色和部位，首次有效姿态捕获标尺，随后保持不变
+houshi_36	立ち手コキ玉いじり	Male	Female0	Shaft	LEFTHAND	false	true	非插入服务：固定角色和部位，首次有效姿态捕获标尺，随后保持不变
+houshi_39	立ち片手フェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_40	立ち両手フェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_42	立ちノーハンドフェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_43	立ちパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_44	立ち腕はさみパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_47	立ちパイズリ+咥え	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_48	プールパイズリ	Male	Female0	Shaft	BREASTS	false	false	原生动作固定配对
+houshi_49	立ちオナホ手コキ	Male	Female0	Shaft	RIGHTHAND	false	true	非插入服务：固定角色和部位，首次有效姿态捕获标尺，随后保持不变
+houshi_50	椅子またがりフェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_51	ベンチフェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi_52	密着手コキ	Male	Female0	Shaft	RIGHTHAND	false	false	原生动作固定配对
+sonyu_0	正常位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_1	開脚正常位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_2	後背位	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_3	腕引っ張り後背位	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_4	騎乗位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_6	側位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_7	立位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_8	駅弁	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_9	椅子対面	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_10	椅子背面	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_11	椅子バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_12	腕引っ張り椅子バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_13	机寝位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_14	机バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_15	腕引っ張り机バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_16	机側位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_17	壁対面片足上げ	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_18	壁バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_19	片足上げ壁バック	Male	Female0	Shaft	VAGINAL	true	false	原生动作固定配对
+sonyu_20	プールバック	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_21	フェンス後背位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_22	フェンス掴まり駅弁	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_23	種付けプレス	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_24	マングリ正常位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_25	跳び箱バック	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_26	寝バック	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_27	ソファ騎乗位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu_28	押し付けバック	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+masturbation_0	角オナニー	Female0	Female0	SceneAnchor	VAGINAL	false	false	单人固定支撑动作：骨盆相对场景标尺
+masturbation_1	椅子オナニー	Female0	Female0	RightFinger	VAGINAL	false	false	单人：自身右手指链到阴部；可手动更正固定手侧
+masturbation_2	立ちオナニー	Female0	Female0	RightFinger	VAGINAL	false	false	单人：自身右手指链到阴部；可手动更正固定手侧
+masturbation_3	トイレオナニー	Female0	Female0	RightFinger	VAGINAL	false	false	单人：自身右手指链到阴部；可手动更正固定手侧
+masturbation_4	シャワーオナニー	Female0	Female0	RightFinger	VAGINAL	false	false	单人：自身右手指链到阴部；可手动更正固定手侧
+masturbation_5	ハードルオナニー	Female0	Female0	SceneAnchor	VAGINAL	false	false	单人固定支撑动作：骨盆相对场景标尺
+peeping_0	トイレ覗き	Female0	Female0	SceneAnchor	VAGINAL	false	false	旁观动作：记录骨盆相对场景固定支撑的实际运动
+peeping_1	シャワー覗き	Female0	Female0	SceneAnchor	VAGINAL	false	false	旁观动作：记录骨盆相对场景固定支撑的实际运动
+lesbian_0	具合わせ	Female1	Female0	Pelvis	VAGINAL	false	false	双女固定来源部位到第一角色入口
+lesbian_1	椅子クンニ	Female1	Female0	Head	VAGINAL	false	false	双女固定来源部位到第一角色入口
+lesbian_2	互い弄り	Female1	Female0	RightFinger	VAGINAL	false	false	双女固定来源部位到第一角色入口
+houshi3P_0	Wフェラ	Male	Female0	Shaft	ORAL	false	false	原生动作固定配对
+houshi3P_1	Wフェラ入れ替え	Male	Female1	Shaft	ORAL	false	false	原生动作固定配对
+sonyu3P_0	騎乗位クンニ	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu3P_1	騎乗位クンニ入れ替え	Male	Female1	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu3P_2	後背位手マン	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu3P_3	後背位手マン入れ替え	Male	Female1	Shaft	VAGINAL	false	false	原生动作固定配对
+houshi3PMMF_0	胸揉まれ手コキ	Male	Female0	Shaft	RIGHTHAND	false	false	双男：主来源 Male，第二来源可按固定槽位切换
+houshi3PMMF_1	イラマチオ	Male	Female0	Shaft	ORAL	false	false	双男：主来源 Male，第二来源可按固定槽位切换
+houshi3PMMF_2	フェラ＆手コキ	Male	Female0	Shaft	ORAL	false	false	双男固定阶段配对：WLoop 使用 Male1，其他阶段使用 Male；人工来源优先	Male1
+sonyu3PMMF_0	押さえ正常位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu3PMMF_1	押さえ側位	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对
+sonyu3PMMF_2	バック＆フェラ	Male	Female0	Shaft	VAGINAL	false	false	原生动作固定配对

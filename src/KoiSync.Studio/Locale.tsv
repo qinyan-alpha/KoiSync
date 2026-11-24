@@ -1,0 +1,582 @@
+# English key, Traditional Chinese, Russian, Japanese, Korean, German, French
+Smooth delay ms	平滑延遲 ms	Задержка, мс	平滑化遅延 ms	평활 지연 ms	Glättungsverzögerung ms	Délai de lissage ms
+Sync preference	同步效果	Режим синхронизации	同期設定	동기화 효과	Synchronisationsmodus	Mode de synchronisation
+Rebuild automatic chapters	重建自動章節	Пересоздать автоглавы	自動章を再作成	자동 챕터 재생성	Automatische Kapitel neu erstellen	Recréer les chapitres automatiques
+Read actors / new chapter	讀取角色 / 新建章節	Персонажи / новая глава	キャラ読込 / 新しい章	캐릭터 읽기 / 새 챕터	Figuren lesen / neues Kapitel	Charger les personnages / nouveau chapitre
+Chapter synchronization	章節同步效果	Синхронизация главы	章の同期設定	챕터 동기화	Kapitel-Synchronisation	Synchronisation du chapitre
+Edit chapter type / climax effect	編輯本章類型 / 高潮效果	Тип главы / эффект кульминации	章の種類 / 絶頂効果を編集	챕터 유형 / 절정 효과 편집	Kapiteltyp / Höhepunkteffekt bearbeiten	Modifier le type / l’effet d’orgasme
+Analysis / chapters	自動分析 / 分章	Анализ / главы	自動解析 / 章分け	자동 분석 / 장 구분	Analyse / Kapitel	Analyse / chapitres
+Enable analysis / chapters first	請先開啟自動分析 / 分章	Сначала включите анализ / главы	先に自動解析 / 章分けを有効にしてください	먼저 자동 분석 / 장 구분을 켜세요	Zuerst Analyse / Kapitel aktivieren	Activez d’abord Analyse / chapitres
+Follow chapters	跟隨章節	Следовать главам	章に従う	장 따라가기	Kapiteln folgen	Suivre les chapitres
+Left hand → vulva	左手→陰部	Левая рука → вульва	左手→外陰部	왼손→외음부	Linke Hand → Vulva	Main gauche → vulve
+Right hand → vulva	右手→陰部	Правая рука → вульва	右手→外陰部	오른손→외음부	Rechte Hand → Vulva	Main droite → vulve
+Finger length mm	手指鏈長 mm	Длина пальца, мм	指の長さ mm	손가락 길이 mm	Fingerlänge mm	Longueur du doigt mm
+Finger 	手指 	Палец 	指 	손가락 	Finger 	Doigt 
+Reset finger length	重置手指鏈長	Сброс длины пальца	指の長さをリセット	손가락 길이 초기화	Fingerlänge zurücksetzen	Réinitialiser le doigt
+Reset from finger chain	按手指鏈重置	По костям пальца	指の骨格から設定	손가락 뼈 기준 초기화	Aus Fingerknochen	Depuis les os du doigt
+Interaction: finger preset	互動長度：手指預設	Контакт: длина пальца	動作長：指のプリセット	상호작용: 손가락 기본값	Interaktion: Finger-Vorgabe	Interaction : préréglage du doigt
+Finger length reset; player length unchanged	手指鏈長已重置；玩家長度保持不變	Длина пальца сброшена; длина игрока сохранена	指の長さをリセットしました。プレイヤーの長さは維持されます	손가락 길이를 초기화했습니다. 사용자 길이는 유지됩니다	Fingerlänge zurückgesetzt; Spielerlänge unverändert	Longueur du doigt réinitialisée ; longueur du joueur conservée
+Visible · source finger contact	可見角色 · 來源手指接觸	Видимые · контакт пальца источника	表示中 · 操作側の指の接触	표시 중 · 동작 주체의 손가락 접촉	Sichtbar · Fingerkontakt der Quelle	Visibles · contact du doigt source
+Source has no usable finger chain	來源缺少手指骨骼鏈	Нет подходящих костей пальца	操作側の指の骨格が見つかりません	동작 주체의 손가락 뼈가 없습니다	Keine nutzbare Fingerkette	Aucune chaîne de doigt utilisable
+KoiSync Studio · Penis / Sleeve	KoiSync Studio · 陰莖 / 飛機杯	KoiSync Studio · Модель / Стакан	KoiSync Studio · ペニス / カップ	KoiSync Studio · 페니스 / 컵	KoiSync Studio · Penis / Hülse	KoiSync Studio · Pénis / Gaine
+KoiSync Studio · Penis	KoiSync Studio · 陰莖	KoiSync Studio · Пенис	KoiSync Studio · ペニス	KoiSync Studio · 페니스	KoiSync Studio · Penis	KoiSync Studio · Pénis
+KoiSync Studio · Sleeve	KoiSync Studio · 飛機杯	KoiSync Studio · Стакан	KoiSync Studio · カップ	KoiSync Studio · 컵	KoiSync Studio · Hülse	KoiSync Studio · Gaine
+Not connected	未連線	Не подключено	未接続	연결 안 됨	Nicht verbunden	Non connecté
+Disconnected	已中斷連線	Отключено	切断済み	연결 해제됨	Getrennt	Déconnecté
+Connection cancelled	已取消連線	Подключение отменено	接続をキャンセル	연결 취소됨	Verbindung abgebrochen	Connexion annulée
+Serial	序列埠	COM-порт	シリアル	직렬 포트	Seriell	Port série
+Scan ports	掃描連接埠	Поиск портов	ポート検索	포트 검색	Ports suchen	Chercher les ports
+Scanning…	掃描中…	Поиск…	検索中…	검색 중…	Suche…	Recherche…
+Connect	連線	Подключить	接続	연결	Verbinden	Connecter
+Disconnect	中斷連線	Отключить	切断	연결 해제	Trennen	Déconnecter
+Cancel	取消	Отмена	キャンセル	취소	Abbrechen	Annuler
+Stop output	停止設備輸出	Остановить вывод	出力停止	출력 중지	Ausgabe stoppen	Arrêter la sortie
+Next port	切換連接埠	Следующий порт	次のポート	다음 포트	Nächster Port	Port suivant
+Scan to list available ports	掃描以列出可用連接埠	Нажмите поиск портов	検索でポートを表示	검색하여 포트 표시	Verfügbare Ports suchen	Rechercher les ports disponibles
+Port / Baud rate · 	連接埠 / 鮑率 · 	Порт / Скорость · 	ポート / ボーレート · 	포트 / 전송 속도 · 	Port / Baud · 	Port / Débit · 
+Device IP / UDP port	設備 IP / UDP 連接埠	IP устройства / UDP-порт	機器 IP / UDP ポート	기기 IP / UDP 포트	Geräte-IP / UDP-Port	IP de l’appareil / Port UDP
+Preview / Output stopped	預覽 / 設備已停止	Просмотр / Вывод остановлен	プレビュー / 出力停止中	미리보기 / 출력 중지	Vorschau / Ausgabe gestoppt	Aperçu / Sortie arrêtée
+Sending output	同步傳送中	Передача данных	同期出力中	동기화 전송 중	Ausgabe läuft	Envoi en cours
+Send current six axes to device	向設備傳送目前六軸	Передавать шесть осей	現在の6軸を機器へ送信	현재 6축을 기기로 전송	Sechs Achsen ans Gerät senden	Envoyer les six axes à l’appareil
+Auto grouping	自動分組	Автогруппировка	自動グループ	자동 그룹화	Auto-Gruppierung	Groupement auto
+Re-detect chapter	重新辨識本章	Определить раздел	章を再検出	현재 장 다시 인식	Kapitel neu erkennen	Redétecter le chapitre
+Manual pair for this chapter	本章使用手動配對	Пара задана вручную	この章は手動ペア	현재 장은 수동 페어	Manuelles Paar im Kapitel	Paire manuelle pour ce chapitre
+Visible actors · view centre	可見角色優先 · 畫面中心	Видимые персонажи · Центр	表示キャラ優先 · 画面中央	표시된 캐릭터 · 화면 중앙	Sichtbare Figuren · Bildmitte	Personnages visibles · Centre
+Read scene actors	讀取目前角色	Прочитать персонажей	現在のキャラを取得	현재 캐릭터 읽기	Figuren einlesen	Lire les personnages
+Source: 	來源：	Источник: 	対象元：	소스: 	Quelle: 	Source : 
+Target: 	目標：	Цель: 	対象先：	대상: 	Ziel: 	Cible : 
+Manual: 	手動：	Вручную: 	手動：	수동: 	Manuell: 	Manuel : 
+Auto: 	自動：	Авто: 	自動：	자동: 	Auto: 	Auto : 
+Attachment	吸附	Привязка	吸着	흡착	Bindung	Fixation
+Follow BP automatically	自動跟隨 BP	Автоматически по BP	BP に自動追従	BP 자동 추적	BP automatisch folgen	Suivre BP automatiquement
+Vaginal	陰道	Вагина	膣	질	Vaginal	Vaginal
+Anal	肛門	Анус	肛門	항문	Anal	Anal
+Mouth	口部	Рот	口	입	Mund	Bouche
+Left hand	左手	Левая рука	左手	왼손	Linke Hand	Main gauche
+Right hand	右手	Правая рука	右手	오른손	Rechte Hand	Main droite
+Chest	胸部	Грудь	胸	가슴	Brust	Poitrine
+Read and bind pair	讀取並綁定角色對	Прочитать и связать	取得してペアを設定	읽고 페어 연결	Einlesen und verbinden	Lire et lier la paire
+Bind selected pair	綁定目前角色對	Связать выбранную пару	選択ペアを設定	선택한 페어 연결	Gewähltes Paar binden	Lier la paire choisie
+Rebind	重新綁定	Перепривязать	再設定	다시 연결	Neu binden	Relier
+Unbind / Stop	解除綁定 / 停止	Отвязать / Стоп	解除 / 停止	연결 해제 / 중지	Lösen / Stopp	Délier / Arrêter
+Not read	未讀取	Не прочитано	未取得	읽지 않음	Nicht eingelesen	Non lu
+Preview models	預覽模型	Показать модели	モデル表示	모델 미리보기	Modelle anzeigen	Afficher les modèles
+X-ray	透視顯示	Сквозной вид	透過表示	투시 표시	Röntgenansicht	Vue transparente
+Model length mm	模型長度 mm	Длина модели, мм	モデル長 mm	모델 길이 mm	Modelllänge mm	Longueur modèle mm
+Apply length	套用長度	Применить длину	長さを適用	길이 적용	Länge anwenden	Appliquer la longueur
+Reset length to model	重設長度至模型長度	Длина по модели	モデルの長さに戻す	모델 길이로 초기화	Länge vom Modell	Longueur du modèle
+Reset origin to model	重設起點至實際位置	Начало по модели	原点をモデルに戻す	실제 시작점으로 초기화	Ursprung vom Modell	Origine du modèle
+Lengths / L1/L2 / Origin	長度 / L1/L2 / 起點	Длины / L1/L2 / Начало	長さ / L1/L2 / 原点	길이 / L1/L2 / 시작점	Längen / L1/L2 / Ursprung	Longueurs / L1/L2 / Origine
+Six-axis window	六軸行程視窗	Окно шести осей	6軸ウィンドウ	6축 창	Sechs-Achsen-Fenster	Fenêtre des six axes
+Hide six axes	隱藏六軸視窗	Скрыть шесть осей	6軸を隠す	6축 창 숨기기	Sechs Achsen ausblenden	Masquer les six axes
+Timeline / Chapters	Timeline / 章節	Timeline / Разделы	Timeline / 章	Timeline / 장	Timeline / Kapitel	Timeline / Chapitres
+Hide Timeline	隱藏 Timeline	Скрыть Timeline	Timeline を隠す	Timeline 숨기기	Timeline ausblenden	Masquer Timeline
+Scripts / Record	腳本 / 錄製	Скрипты / Запись	スクリプト / 記録	스크립트 / 녹화	Skripte / Aufnahme	Scripts / Enregistrer
+Source: live calculation	資料來源：即時計算	Источник: расчёт в реальном времени	ソース：リアルタイム計算	소스: 실시간 계산	Quelle: Live-Berechnung	Source : calcul en direct
+Source: funscript	資料來源：funscript	Источник: funscript	ソース：funscript	소스: funscript	Quelle: funscript	Source : funscript
+Six axes · Teal: input / Orange: output	六軸行程 · 青：輸入 / 橙：輸出	Шесть осей · Бирюзовый: вход / Оранжевый: выход	6軸 · 青緑：入力 / 橙：出力	6축 · 청록: 입력 / 주황: 출력	Sechs Achsen · Türkis: Eingang / Orange: Ausgang	Six axes · Turquoise : entrée / Orange : sortie
+Drag travel limits · × sets gain · Check output channels	拖曳行程限制 · × 調整倍率 · 勾選傳送通道	Тяните границы · × усиление · Выберите каналы	端点をドラッグ · × 倍率 · 出力軸を選択	범위 드래그 · × 배율 · 전송 채널 선택	Grenzen ziehen · × Verstärkung · Kanäle wählen	Glisser les limites · × gain · Choisir les canaux
+Absolute	絕對原值	Абсолютные значения	絶対値	절대 원값	Absolut	Valeurs absolues
+Soft	柔性映射	Мягкое отображение	柔軟マッピング	유연한 매핑	Weiche Abbildung	Adaptation souple
+As faithful as possible	盡量保真	Максимум точности	できるだけ忠実	최대한 충실하게	Möglichst originalgetreu	Fidélité maximale
+No compression or offset; device and user travel limits still clip	不壓縮、不偏移；仍受設備及使用者行程限制	Без сжатия и смещения; пределы хода действуют	圧縮・基準補正なし。機器と設定の範囲で制限	압축·기준 보정 없음. 기기와 설정 범위는 유지	Ohne Kompression/Versatz; Weggrenzen gelten	Sans compression ni décalage ; limites conservées
+Chapter reference; L0 preserves distance or scales down	章節基準偏移；L0 保持距離，必要時縮小	База раздела; L0 сохраняет или уменьшает ход	章の基準を使用。L0 は距離維持または縮小	장별 기준 사용. L0 거리 유지 또는 축소	Kapitelreferenz; L0 erhält oder verkleinert den Weg	Référence du chapitre ; L0 conserve ou réduit la course
+Soft rotations; L0 scales by the player/scene ratio	旋轉柔性壓縮；L0 依玩家與交互比例適配	Мягкие углы; L0 по соотношению длин	回転を柔軟圧縮。L0 は長さの比率で調整	회전 유연 압축. L0는 길이 비율로 조정	Weiche Drehung; L0 nach Spieler/Szene-Verhältnis	Rotations souples ; L0 selon le rapport des longueurs
+Absolute: original geometric distance and rotation	絕對原值：原始幾何距離與角度	Абсолютно: исходные расстояния и углы	絶対値：元の幾何距離と角度	절대값: 원래 기하학적 거리와 각도	Absolut: ursprüngliche Distanz und Drehung	Absolu : distance et rotation géométriques initiales
+Absolute rotation · Exact centre, soft outer range	絕對角度 · 中段保持原幅度，外側柔性壓縮	Абсолютный угол · Точный центр, мягкие края	絶対角度 · 中央は原振幅、外側は柔軟圧縮	절대 각도 · 중앙 원진폭, 가장자리 유연 압축	Absolute Drehung · Exakte Mitte, weiche Ränder	Rotation absolue · Centre exact, bords souples
+Relative motion: exact central 80%, soft edges	相對轉動：中間 80% 原幅度，外側柔性壓縮	Относительно: точные 80%, мягкие края	相対回転：中央80%は原振幅、端は柔軟圧縮	상대 회전: 중앙 80% 원진폭, 끝은 유연 압축	Relativ: zentrale 80% exakt, weiche Ränder	Relatif : 80% centraux exacts, bords souples
+Recapture reference	重新取得本章基準	Обновить базу	基準を再取得	기준 다시 설정	Referenz neu erfassen	Reprendre la référence
+Reference 	本章基準 	База 	基準 	기준 	Referenz 	Référence 
+Waiting for data	等待資料	Ожидание данных	データ待ち	데이터 대기	Warte auf Daten	En attente de données
+Req 	需求 	Запрос 	要求 	요청 	Soll 	Cible 
+Script	腳本	Скрипт	スクリプト	스크립트	Skript	Script
+Scripts use recorded final values	腳本使用已錄製的最終數值	Скрипт содержит итоговые значения	スクリプトの最終値を使用	스크립트의 최종값 사용	Skripte nutzen aufgezeichnete Endwerte	Les scripts utilisent les valeurs finales enregistrées
+Scripts use the recorded final rotations	腳本使用已錄製的最終角度	Скрипт содержит итоговые углы	記録済みの最終角度を使用	녹화된 최종 각도 사용	Skripte nutzen aufgezeichnete Endwinkel	Les scripts utilisent les rotations finales enregistrées
+Waiting for full contact to capture this chapter's fixed reference	等待有效接觸姿態以固定本章基準	Ожидание полного контакта для базы раздела	有効な接触姿勢で章の基準を固定	유효한 접촉 자세에서 장 기준 설정	Warte auf vollen Kontakt für Kapitelreferenz	En attente du contact pour fixer la référence du chapitre
+Length settings: Lengths / L1/L2 / Origin	長度設定位於「長度 / L1/L2 / 起點」	Параметры: Длины / L1/L2 / Начало	長さ設定：長さ / L1/L2 / 原点	길이 설정: 길이 / L1/L2 / 시작점	Einstellungen: Längen / L1/L2 / Ursprung	Réglages : Longueurs / L1/L2 / Origine
+Lengths · Origin · L1/L2 mapping	長度 · 起點 · L1/L2 映射	Длины · Начало · L1/L2	長さ · 原点 · L1/L2	길이 · 시작점 · L1/L2	Längen · Ursprung · L1/L2	Longueurs · Origine · L1/L2
+Show handles: penis tip, origin and L1/L2 ranges	顯示拖曳控制點：末端、起點、L1/L2 範圍	Ручки: конец, начало и диапазоны L1/L2	ドラッグハンドル：先端、原点、L1/L2 範囲	드래그 핸들: 끝, 시작점, L1/L2 범위	Griffe: Spitze, Ursprung und L1/L2-Bereiche	Poignées : extrémité, origine et plages L1/L2
+L1 F/B ±	L1 前後 ±	L1 продол. ±	L1 前後 ±	L1 앞뒤 ±	L1 vor/zur. ±	L1 av./arr. ±
+L2 L/R ±	L2 左右 ±	L2 попер. ±	L2 左右 ±	L2 좌우 ±	L2 li./re. ±	L2 g./d. ±
+Apply ranges	套用範圍	Применить ход	範囲を適用	범위 적용	Bereiche anwenden	Appliquer les plages
+Link L1/L2 ranges to penis length (keep each axis ratio)	長度聯動 L1/L2 範圍（保留各軸比例）	Связать L1/L2 с длиной, сохраняя пропорции	長さと L1/L2 範囲を連動（軸の比率維持）	길이와 L1/L2 범위 연동 (축 비율 유지)	L1/L2 mit Länge koppeln (Achsenverhältnis erhalten)	Lier L1/L2 à la longueur (conserver les proportions)
+Origin offset from the actual bone root (mm)	起點相對實際骨骼根部的偏移（mm）	Смещение начала от корня кости (мм)	実際の骨格根元からの原点オフセット (mm)	실제 뼈 루트로부터 시작점 오프셋 (mm)	Ursprungsversatz zur Knochenwurzel (mm)	Décalage de l’origine depuis la racine osseuse (mm)
+Axial	軸向	Ось	軸方向	축 방향	Axial	Axial
+Apply origin	套用起點	Применить	原点を適用	시작점 적용	Anwenden	Appliquer
+L0: separate player and scene interaction lengths	L0：玩家長度 / 遊戲交互長度獨立適配	L0: отдельно длина игрока и сцены	L0：プレイヤーとシーンの長さを個別に設定	L0: 사용자 길이와 장면 상호작용 길이 분리	L0: Spieler- und Szenenlänge getrennt	L0 : longueurs du joueur et de la scène séparées
+Player usable length mm	玩家可用長度 mm	Доступная длина, мм	使用可能な長さ mm	사용 가능한 길이 mm	Nutzbare Länge mm	Longueur utilisable mm
+Chapter interaction mm	本章交互長度 mm	Длина раздела, мм	章の交互動作長 mm	장 상호작용 길이 mm	Kapitel-Interaktion mm	Interaction du chapitre mm
+Device L0 travel mm	設備 L0 全程 mm	Полный ход L0, мм	機器 L0 全ストローク mm	기기 L0 전체 이동 mm	Geräte-L0-Hub mm	Course totale L0 mm
+Restore default length	恢復預設長度	Длина по умолчанию	既定の長さに戻す	기본 길이 복원	Standardlänge herstellen	Rétablir la longueur par défaut
+Apply lengths	套用長度參數	Применить длины	長さ設定を適用	길이 설정 적용	Längen anwenden	Appliquer les longueurs
+Reset from body scale	依骨架尺度重設	Сброс по масштабу тела	骨格スケールで再設定	골격 크기로 초기화	Aus Körpermaß ableiten	Réinitialiser selon le corps
+Player length is global; scene length saves per chapter	玩家長度全域保存；交互長度依章節保存	Длина игрока общая; длина сцены — по разделам	使用長は全体保存、シーン長は章ごとに保存	사용자 길이는 공통, 장면 길이는 장별 저장	Spielerlänge global; Szenenlänge je Kapitel	Longueur joueur globale ; longueur scène par chapitre
+Bind actors to set the chapter interaction length	綁定後設定本章交互長度	Привяжите пару для настройки длины раздела	キャラ設定後に章の長さを設定	페어 연결 후 장 상호작용 길이 설정	Figuren binden, um die Kapitellänge zu setzen	Lier les personnages pour régler la longueur du chapitre
+Body scale 	骨架估計 	Масштаб тела 	骨格推定 	골격 추정 	Körpermaß 	Échelle du corps 
+Interaction: scale preset	交互長度：尺度預設	Длина: по масштабу	動作長：スケール初期値	상호작용: 크기 기본값	Interaktion: Maßvorgabe	Interaction : selon l’échelle
+Interaction: manual	交互長度：手動	Длина: вручную	動作長：手動	상호작용: 수동	Interaktion: manuell	Interaction : manuelle
+Player/scene 	玩家/交互 	Игрок/сцена 	プレイヤー/シーン 	사용자/장면 	Spieler/Szene 	Joueur/scène 
+Length must be 20-500 mm	長度須為 20–500 mm	Длина должна быть 20–500 мм	長さは20～500 mm	길이는 20–500 mm	Länge muss 20–500 mm sein	La longueur doit être de 20 à 500 mm
+Timeline · Chapter editor	Timeline · 章節編輯	Timeline · Редактор разделов	Timeline · 章エディター	Timeline · 장 편집	Timeline · Kapiteleditor	Timeline · Éditeur de chapitres
+Play	播放	Воспроизвести	再生	재생	Abspielen	Lire
+Pause	暫停	Пауза	一時停止	일시 정지	Pause	Pause
+Stop / Start	停止 / 起點	Стоп / Начало	停止 / 先頭	중지 / 시작점	Stopp / Anfang	Arrêt / Début
+Seek	定位	Перейти	移動	이동	Springen	Aller à
+Fit all	顯示全長	Вся шкала	全体を表示	전체 보기	Alles anzeigen	Tout afficher
+Read BP chapters	讀取吸附切換鍵	Разделы из BP	BP 切替キーを取得	BP 전환 키 읽기	BP-Kapitel lesen	Lire les chapitres BP
+Split at playhead	播放頭處分章	Разделить здесь	再生位置で分割	현재 위치에서 분할	Am Abspielkopf teilen	Diviser à la tête de lecture
+Merge previous	合併至上一章	Слить с предыдущим	前の章に結合	이전 장에 병합	Mit vorigem verbinden	Fusionner avec le précédent
+Undo	復原	Отменить	元に戻す	실행 취소	Rückgängig	Annuler
+Redo	重做	Повторить	やり直す	다시 실행	Wiederholen	Rétablir
+Follow chapter bindings	跟隨章節對象	Следовать разделам	章の対象に追従	장별 대상 따라가기	Kapitelbindungen folgen	Suivre les liaisons des chapitres
+Chapters · Double-click to seek	章節列表 · 連按兩下定位	Разделы · Двойной щелчок для перехода	章一覧 · ダブルクリックで移動	장 목록 · 더블클릭하여 이동	Kapitel · Doppelklick zum Springen	Chapitres · Double-clic pour accéder
+Selected chapter	所選章節	Выбранный раздел	選択中の章	선택한 장	Gewähltes Kapitel	Chapitre sélectionné
+Start (s)	起始秒	Начало (с)	開始 (秒)	시작 (초)	Start (s)	Début (s)
+End (s)	結束秒	Конец (с)	終了 (秒)	끝 (초)	Ende (s)	Fin (s)
+Disable chapter	本章不計算	Отключить раздел	この章を無効化	현재 장 비활성화	Kapitel deaktivieren	Désactiver le chapitre
+Seek chapter start	定位章節起點	К началу раздела	章の先頭へ	장 시작으로 이동	Zum Kapitelanfang	Aller au début du chapitre
+Apply chapter edits	套用章節修改	Применить изменения	章の変更を適用	장 수정 적용	Kapiteländerung anwenden	Appliquer les modifications
+Close list	關閉列表	Закрыть список	リストを閉じる	목록 닫기	Liste schließen	Fermer la liste
+Copy current calibration to chapter	將目前校準寫入章節	Сохранить калибровку в раздел	現在の校正を章に保存	현재 보정을 장에 저장	Kalibrierung ins Kapitel kopieren	Copier le réglage dans le chapitre
+Chapter calibration: not captured	本章校準：尚未記錄	Калибровка раздела не записана	章の校正：未記録	장 보정: 기록되지 않음	Kapitelkalibrierung: nicht erfasst	Réglage du chapitre : non enregistré
+Scripts · Recording and sync	腳本 · 錄製與同步	Скрипты · Запись и синхронизация	スクリプト · 記録と同期	스크립트 · 녹화 및 동기화	Skripte · Aufnahme und Synchronisation	Scripts · Enregistrement et synchronisation
+Auto (prefer script)	自動（優先腳本）	Авто (приоритет скрипта)	自動（スクリプト優先）	자동 (스크립트 우선)	Auto (Skript bevorzugt)	Auto (script prioritaire)
+Live calculation	即時計算	Расчёт в реальном времени	リアルタイム計算	실시간 계산	Live-Berechnung	Calcul en direct
+Script playback	腳本回放	Воспроизведение скрипта	スクリプト再生	스크립트 재생	Skriptwiedergabe	Lecture du script
+Open script folder	開啟腳本目錄	Открыть папку скриптов	保存フォルダーを開く	스크립트 폴더 열기	Skriptordner öffnen	Ouvrir le dossier des scripts
+Choose L0 script…	選擇 L0 腳本…	Выбрать скрипт L0…	L0 スクリプトを選択…	L0 스크립트 선택…	L0-Skript wählen…	Choisir le script L0…
+Record during playback	隨播放錄製	Записывать при воспроизведении	再生しながら記録	재생 중 녹화	Während Wiedergabe aufnehmen	Enregistrer pendant la lecture
+Finish and save	完成並儲存	Завершить и сохранить	終了して保存	완료 및 저장	Beenden und speichern	Terminer et enregistrer
+Folder: 	目錄：	Папка: 	フォルダー：	폴더: 	Ordner: 	Dossier : 
+Load a scene card	載入場景卡	Загрузите сцену	シーンカードを読み込む	장면 카드 불러오기	Szenenkarte laden	Charger une carte de scène
+Main panel · Grouping	主視窗 · 自動分組	Главное окно · Группы	メイン画面 · 自動グループ	메인 창 · 그룹화	Hauptfenster · Gruppierung	Fenêtre principale · Groupement
+Uses absolute Timeline time; L0 loads matching companion axes.	依 Timeline 絕對時間回放；L0 自動載入同名其他軸。	Время Timeline; L0 загружает остальные оси с тем же именем.	Timeline の絶対時刻を使用。L0 選択で同名の各軸も読み込み。	Timeline 절대 시간 사용. L0 선택 시 같은 이름의 축 자동 로드.	Absolute Timeline-Zeit; L0 lädt die gleichnamigen Zusatzachsen.	Temps absolu Timeline ; L0 charge les axes associés du même nom.
+Load a scene, then read and bind actors.	載入場景後，讀取角色並綁定。	Загрузите сцену, прочитайте и свяжите персонажей.	シーンを読み込み、キャラを取得して設定してください。	장면을 불러온 후 캐릭터를 읽고 연결하세요.	Szene laden, Figuren einlesen und verbinden.	Charger une scène, lire puis lier les personnages.
+Select actors, then click Bind.	選擇角色後點擊綁定。	Выберите персонажей и нажмите привязку.	キャラを選び、設定を押してください。	캐릭터 선택 후 연결을 누르세요.	Figuren wählen und auf Binden klicken.	Choisir les personnages puis cliquer sur Lier.
+Penis tip · 	陰莖末端 · 	Конец пениса · 	ペニス先端 · 	페니스 끝 · 	Penisspitze · 	Extrémité du pénis · 
+Origin · Axial	起點 · 軸向	Начало · Вдоль оси	原点 · 軸方向	시작점 · 축 방향	Ursprung · Axial	Origine · Axial
+Origin · L1	起點 · L1	Начало · L1	原点 · L1	시작점 · L1	Ursprung · L1	Origine · L1
+Origin · L2	起點 · L2	Начало · L2	原点 · L2	시작점 · L2	Ursprung · L2	Origine · L2
+  Paused	  暫停	  Пауза	  一時停止	  일시 정지	  Pause	  En pause
+  Playing	  播放	  Воспроизведение	  再生中	  재생 중	  Wiedergabe	  Lecture
+ frames	 幀	 кадров	 フレーム	 프레임	 Bilder	 images
+ frames · 	 幀 · 	 кадров · 	 フレーム · 	 프레임 · 	 Bilder · 	 images · 
+Recording: 	錄製中：	Запись: 	記録中：	녹화 중: 	Aufnahme: 	Enregistrement : 
+Current: live calculation	目前：即時計算	Сейчас: расчёт в реальном времени	現在：リアルタイム計算	현재: 실시간 계산	Aktuell: Live-Berechnung	Actuel : calcul en direct
+Current: live → recording	目前：即時計算 → 錄製	Сейчас: расчёт → запись	現在：リアルタイム → 記録	현재: 실시간 → 녹화	Aktuell: Live → Aufnahme	Actuel : direct → enregistrement
+Current: script · 	目前：腳本 · 	Сейчас: скрипт · 	現在：スクリプト · 	현재: 스크립트 · 	Aktuell: Skript · 	Actuel : script · 
+Current: waiting for script	目前：等待選擇腳本	Ожидание выбора скрипта	現在：スクリプト選択待ち	현재: 스크립트 선택 대기	Warte auf Skriptwahl	En attente d’un script
+L0: 	L0：	L0: 	L0：	L0: 	L0: 	L0 : 
+Manual / saved chapter bindings	依手動選擇 / 已儲存章節	Вручную / сохранённые разделы	手動選択 / 保存済みの章	수동 선택 / 저장된 장	Manuell / gespeicherte Kapitel	Manuel / chapitres enregistrés
+Script · saved chapter bindings	腳本 · 跟隨已儲存章節	Скрипт · Сохранённые разделы	スクリプト · 保存済みの章	스크립트 · 저장된 장	Skript · Gespeicherte Kapitel	Script · Chapitres enregistrés
+Paused · re-detect to resume	已暫停 · 重新辨識以恢復	Пауза · Определите заново	停止中 · 再検出で再開	일시 정지 · 다시 인식하여 재개	Pausiert · Neu erkennen zum Fortsetzen	En pause · Redétecter pour reprendre
+Pair found · contact unconfirmed 	已選組 · 接觸未確認 	Пара найдена · Контакт не подтверждён 	ペア検出 · 接触未確認 	페어 선택 · 접촉 미확인 	Paar erkannt · Kontakt unbestätigt 	Paire trouvée · Contact non confirmé 
+Scripts include gain · Adjust travel limits and enabled channels	腳本已包含倍率 · 可調整行程與傳送通道	Скрипт учитывает усиление · Настройте ход и каналы	スクリプトは倍率込み · 範囲と出力軸を設定	스크립트에 배율 포함 · 범위와 채널 설정	Skript enthält Verstärkung · Grenzen und Kanäle einstellen	Gain inclus dans le script · Régler limites et canaux
+± range: centre to one endpoint. Smaller range gives more response.	± 範圍：中心至單側端點；範圍越小，反應越大。	± ход: от центра до края. Меньше диапазон — выше отклик.	± 範囲：中央から片端まで。狭いほど反応が大きくなります。	± 범위: 중앙에서 한쪽 끝까지. 작을수록 반응 증가.	± Bereich: Mitte bis Rand. Kleinerer Bereich erhöht Reaktion.	Plage ± : du centre à une extrémité. Plus petite, plus réactive.
+Tip adjusts length. Origin offsets follow the actor and save with the scene.	末端調整長度；起點偏移跟隨角色並隨場景保存。	Конец меняет длину; смещение следует за персонажем и сохраняется.	先端で長さ調整。原点補正はキャラに追従し、シーンに保存。	끝점으로 길이 조절. 시작점은 캐릭터를 따라가며 장면에 저장.	Spitze ändert Länge. Ursprung folgt der Figur und wird gespeichert.	L’extrémité règle la longueur. L’origine suit le personnage et est enregistrée.
+Chapter calibration: length 	本章校準：長度 	Калибровка раздела: длина 	章の校正：長さ 	장 보정: 길이 	Kapitelkalibrierung: Länge 	Réglage du chapitre : longueur 
+origin 	起點 	начало 	原点 	시작점 	Ursprung 	origine 
+Length, origin and range edits save to the chapter at the playhead.	長度、起點與範圍修改自動儲存至播放頭所在章節。	Длина, начало и ход сохраняются в текущий раздел.	長さ・原点・範囲は再生位置の章に保存されます。	길이, 시작점, 범위 변경은 현재 재생 위치의 장에 저장.	Länge, Ursprung und Bereiche werden im aktuellen Kapitel gespeichert.	Longueur, origine et plages sont enregistrées dans le chapitre courant.
+Select chapters · Drag ruler to seek · Middle click: seek · Drag boundaries · Ctrl + wheel: zoom	選章 · 拖曳刻度定位 · 中鍵定位 · 拖曳邊界 · Ctrl + 滾輪縮放	Выбор раздела · Линейка/средняя кнопка: переход · Границы · Ctrl+колесо: масштаб	章選択 · 目盛ドラッグ/中クリックで移動 · 境界ドラッグ · Ctrl+ホイールでズーム	장 선택 · 눈금 드래그/가운데 클릭: 이동 · 경계 드래그 · Ctrl+휠: 확대	Kapitel wählen · Skala/Mittelklick: Springen · Grenzen ziehen · Strg+Rad: Zoom	Choisir un chapitre · Règle/clic milieu : déplacer · Limites · Ctrl+molette : zoom
+Manual chapter	手動章節	Ручной раздел	手動の章	수동 장	Manuelles Kapitel	Chapitre manuel
+Untitled chapter	未命名章節	Без названия	名称未設定の章	이름 없는 장	Unbenanntes Kapitel	Chapitre sans titre
+Chapter edits saved to the scene data folder	章節修改已儲存至場景資料目錄	Изменения раздела сохранены	章の変更をシーンデータに保存しました	장 수정 사항을 장면 데이터에 저장함	Kapiteländerungen gespeichert	Modifications du chapitre enregistrées
+Automatic grouping enabled for this chapter	已重新啟用本章自動分組	Автогруппировка раздела включена	この章の自動グループを有効化	현재 장 자동 그룹화 활성화	Auto-Gruppierung für Kapitel aktiviert	Groupement automatique activé pour ce chapitre
+Recording armed; captures playback and waits while paused	已準備錄製；播放時記錄，暫停時等待	Запись готова; при паузе ожидает	記録準備完了。再生中に記録、停止中は待機	녹화 준비됨. 재생 중 기록, 일시 정지 시 대기	Aufnahme bereit; wartet während Pause	Enregistrement prêt ; attend pendant la pause
+Too few recorded frames; no files written	錄製幀數不足，未寫入檔案	Недостаточно кадров; файлы не записаны	記録フレーム不足。ファイル未作成	녹화 프레임 부족. 파일 저장 안 됨	Zu wenige Bilder; keine Dateien geschrieben	Trop peu d’images ; aucun fichier écrit
+Six-axis scripts saved · 	六軸腳本已儲存 · 	Шесть осей сохранены · 	6軸スクリプトを保存 · 	6축 스크립트 저장됨 · 	Sechs Achsen gespeichert · 	Scripts des six axes enregistrés · 
+Scene data ready	場景資料已就緒	Данные сцены готовы	シーンデータ準備完了	장면 데이터 준비됨	Szenendaten bereit	Données de scène prêtes
+Penis length captured from the current model bone chain	長度已按目前模型骨骼鏈重設	Длина получена из костей модели	現在のモデル骨格から長さを取得	현재 모델 뼈에서 길이 설정	Länge aus Modellknochen erfasst	Longueur extraite des os du modèle
+Penis origin restored to the actual bone root	起點已回到實際骨骼根部	Начало возвращено к корню кости	原点を実際の骨格根元に戻しました	시작점을 실제 뼈 루트로 복원	Ursprung zur Knochenwurzel zurückgesetzt	Origine rétablie à la racine osseuse
+Selected pair · 	指定角色 · 	Выбранная пара · 	指定ペア · 	선택한 페어 · 	Gewähltes Paar · 	Paire choisie · 
+Follow attachment · 	跟隨吸附 · 	Следовать привязке · 	吸着に追従 · 	흡착 추적 · 	Bindung folgen · 	Suivre la fixation · 
+
+Device	裝置	Устройство	デバイス	장치	Gerät	Appareil
+Workbench	工作台	Редактор	作業台	작업대	Arbeitsbereich	Atelier
+Settings	設定	Настройки	設定	설정	Einstellungen	Paramètres
+Chapters	章節	Главы	チャプター	챕터	Kapitel	Chapitres
+Actor binding	角色綁定	Привязка персонажей	キャラクター設定	캐릭터 연결	Figurenzuordnung	Association des personnages
+Calibration	校準	Калибровка	調整	보정	Kalibrierung	Calibrage
+Time range	時間範圍	Интервал	時間範囲	시간 범위	Zeitbereich	Intervalle
+Name	名稱	Название	名前	이름	Name	Nom
+Pair / contact	對象 / 部位	Пара / контакт	対象 / 接触部位	대상 / 접촉 부위	Paar / Kontakt	Paire / contact
+Chapter 	章節 	Глава 	チャプター 	챕터 	Kapitel 	Chapitre 
+Rename chapter	重新命名章節	Переименовать главу	チャプター名を変更	챕터 이름 변경	Kapitel umbenennen	Renommer le chapitre
+Delete selected chapter	刪除所選章節	Удалить выбранную главу	選択チャプターを削除	선택한 챕터 삭제	Gewähltes Kapitel löschen	Supprimer le chapitre sélectionné
+Save name	儲存名稱	Сохранить название	名前を保存	이름 저장	Namen speichern	Enregistrer le nom
+Chapter deleted	章節已刪除	Глава удалена	チャプターを削除しました	챕터 삭제됨	Kapitel gelöscht	Chapitre supprimé
+Unbind actors	解除綁定	Снять привязку	バインド解除	연결 해제	Zuordnung lösen	Dissocier les personnages
+Contact 	接觸 	Контакт 	接触 	접촉 	Kontakt 	Contact 
+Expand workbench	展開工作台	Развернуть редактор	作業台を展開	작업대 펼치기	Arbeitsbereich ausklappen	Déplier l’atelier
+Collapse workbench	摺疊工作台	Свернуть редактор	作業台を折りたたむ	작업대 접기	Arbeitsbereich einklappen	Replier l’atelier
+Show / hide the six-axis display	顯示 / 隱藏六軸資料窗	Показать / скрыть шесть осей	6軸データ表示の切り替え	6축 데이터 창 표시 / 숨기기	Sechs-Achsen-Anzeige ein-/ausblenden	Afficher / masquer les six axes
+Select chapters · Right-click: rename / delete · Drag ruler to seek · Ctrl + wheel: zoom	左鍵選章 · 右鍵重新命名 / 刪除 · 拖動刻度定位 · Ctrl + 滾輪縮放	Выбор главы · ПКМ: имя / удаление · Шкала: переход · Ctrl + колесо: масштаб	左クリックで選択 · 右クリックで名前変更 / 削除 · 目盛をドラッグして移動 · Ctrl + ホイールで拡大	클릭: 선택 · 우클릭: 이름 변경 / 삭제 · 눈금 드래그: 이동 · Ctrl + 휠: 확대	Kapitel wählen · Rechtsklick: Name / Löschen · Skala ziehen: Position · Strg + Rad: Zoom	Choisir un chapitre · Clic droit : renommer / supprimer · Glisser la règle : position · Ctrl + molette : zoom
+Enable synchronization	開啟裝置同步	Включить синхронизацию	同期を開始	장치 동기화 시작	Synchronisierung starten	Activer la synchronisation
+Stop synchronization	停止裝置同步	Остановить синхронизацию	同期を停止	장치 동기화 중지	Synchronisierung stoppen	Arrêter la synchronisation
+Toggle shortcut: 	切換快捷鍵：	Клавиша переключения: 	切り替えキー：	전환 단축키: 	Umschalttaste: 	Raccourci : 
+Device synchronization started	裝置開始同步	Синхронизация устройства включена	デバイス同期を開始しました	장치 동기화 시작됨	Gerätesynchronisierung gestartet	Synchronisation de l’appareil démarrée
+Device synchronization stopped	裝置停止同步	Синхронизация устройства выключена	デバイス同期を停止しました	장치 동기화 중지됨	Gerätesynchronisierung gestoppt	Synchronisation de l’appareil arrêtée
+Sync enabled · Waiting for device connection	同步已啟用 · 等待裝置連線	Синхронизация включена · Ожидание подключения	同期有効 · デバイス接続待ち	동기화 켜짐 · 장치 연결 대기	Sync aktiv · Warte auf Geräteverbindung	Sync activée · En attente de connexion
+Holds the current pose while paused; keeps sync enabled while waiting for a connection or scene data.	暫停時保持目前姿態；等待連線或場景資料時保留同步開關。	На паузе сохраняется текущая поза; синхронизация остаётся включённой при ожидании подключения или данных сцены.	一時停止中は現在の姿勢を保持し、接続やシーンデータの待機中も同期設定を維持します。	일시 정지 중에는 현재 자세를 유지하며, 연결이나 장면 데이터를 기다릴 때도 동기화 설정은 유지됩니다.	Bei Pause wird die aktuelle Haltung gehalten; beim Warten auf Verbindung oder Szenendaten bleibt Sync aktiv.	En pause, la pose actuelle est maintenue ; la sync reste activée en attendant la connexion ou les données de scène.
+Synchronization preference · Hover for details	同步體驗 · 懸停查看說明	Режим синхронизации · Наведите для описания	同期の好み · ホバーで説明	동기화 방식 · 마우스를 올려 설명 확인	Synchronisierung · Erklärung beim Darüberfahren	Préférence de synchronisation · Survoler pour les détails
+Follows the actual motion size in the scene. Motion beyond device travel reaches the limit, so some changes may not be fully reproduced.	跟隨畫面的實際動作幅度。超出裝置行程時會到達邊界，餘下的動作變化可能無法完整表現。	Повторяет фактическую амплитуду сцены. При превышении хода устройства достигается предел, поэтому часть изменений может не воспроизводиться полностью.	シーンの実際の動作幅に追従します。可動範囲を超えると端に達し、その先の変化を十分に再現できない場合があります。	장면의 실제 움직임 크기를 따릅니다. 장치 범위를 넘으면 끝에 도달하므로 이후의 변화를 모두 재현하지 못할 수 있습니다.	Folgt der tatsächlichen Bewegungsgröße der Szene. Jenseits des Gerätewegs wird die Grenze erreicht; weitere Änderungen sind eventuell nicht vollständig darstellbar.	Suit l’amplitude réelle de la scène. Au-delà de la course de l’appareil, la limite est atteinte et certaines variations peuvent ne pas être reproduites complètement.
+Smoother motion with less time pressed against travel limits. In-and-out motion adapts to your length settings for continuous playback.	動作更平順，大幅動作較少持續頂到行程邊界。進退幅度會適配你設定的長度，適合連續播放。	Более плавное движение с меньшим временем у границ хода. Поступательная амплитуда подстраивается под заданную длину для непрерывного воспроизведения.	動作が滑らかになり、可動範囲の端に留まる時間が減ります。前後の動作幅も設定した長さに合わせ、連続再生に適しています。	움직임이 부드러워지고 범위 끝에 머무는 시간이 줄어듭니다. 앞뒤 움직임도 설정한 길이에 맞춰 연속 재생에 적합합니다.	Glattere Bewegung mit weniger Zeit an den Weggrenzen. Die Vor- und Zurückbewegung passt sich für fortlaufende Wiedergabe an Ihre Längeneinstellungen an.	Mouvements plus fluides et moins de temps passé aux limites. L’amplitude des allers-retours s’adapte à vos longueurs pour une lecture continue.
+Preserves this chapter's changes in motion as closely as possible, with less persistent bias to one side. Small motions are not amplified; large motions stay within device travel.	盡量保留本章動作的變化幅度，減少長期偏向一側。小動作不會主動放大，大動作仍保持在裝置行程內。	По возможности сохраняет изменения амплитуды главы, уменьшая постоянное смещение в одну сторону. Малые движения не усиливаются, большие остаются в пределах хода.	チャプター内の変化幅をできるだけ保ち、一方向への偏りを減らします。小さな動作は拡大せず、大きな動作も可動範囲内に収めます。	챕터의 움직임 변화 폭을 최대한 유지하고 한쪽으로 치우침을 줄입니다. 작은 움직임은 확대하지 않으며 큰 움직임도 장치 범위 안에 유지합니다.	Erhält Änderungen innerhalb des Kapitels möglichst genau und verringert dauerhafte einseitige Auslenkung. Kleine Bewegungen werden nicht verstärkt, große bleiben im Geräteweg.	Préserve au mieux les variations du chapitre, avec moins de décalage durable d’un côté. Les petits mouvements ne sont pas amplifiés et les grands restent dans la course.
+Keyboard and mouse shortcuts	快捷鍵設定	Клавиши и кнопки мыши	ショートカット設定	단축키 설정	Tastatur- und Mausbefehle	Raccourcis clavier et souris
+Click a shortcut, then press a keyboard or mouse button. Esc cancels.	點擊快捷鍵後，按下新的鍵盤或滑鼠按鍵；Esc 取消。	Нажмите на сочетание, затем клавишу или кнопку мыши. Esc — отмена.	項目をクリックして、キーまたはマウスボタンを押してください。Escでキャンセル。	단축키를 클릭한 뒤 키보드나 마우스 버튼을 누르세요. Esc로 취소합니다.	Kürzel anklicken, dann Taste oder Maustaste drücken. Esc bricht ab.	Cliquez sur un raccourci, puis appuyez sur une touche ou un bouton de souris. Échap annule.
+Show / hide interface	顯示 / 隱藏介面	Показать / скрыть интерфейс	画面の表示 / 非表示	인터페이스 표시 / 숨기기	Oberfläche ein-/ausblenden	Afficher / masquer l’interface
+Toggle device synchronization	裝置同步開關	Переключить синхронизацию	デバイス同期の切り替え	장치 동기화 전환	Gerätesynchronisierung umschalten	Basculer la synchronisation
+Synchronization is a toggle: press once to start, again to stop.	同步採用切換模式：按一次開始，再按一次停止。	Одно нажатие включает синхронизацию, следующее выключает.	一度押すと同期を開始し、もう一度押すと停止します。	한 번 누르면 동기화가 시작되고 다시 누르면 멈춥니다.	Einmal drücken startet die Synchronisierung, erneut drücken stoppt sie.	Une pression démarre la synchronisation, la suivante l’arrête.
+While typing, text keys stay in the input field. Side buttons can still toggle synchronization.	輸入文字時，文字按鍵留給輸入框。滑鼠側鍵仍可切換同步。	При вводе текста символьные клавиши работают в поле ввода. Боковые кнопки мыши могут переключать синхронизацию.	文字入力中は文字キーを入力欄に使用します。マウスのサイドボタンでは同期を切り替えられます。	입력 중에는 문자 키가 입력란에 사용됩니다. 마우스 측면 버튼으로는 동기화를 전환할 수 있습니다.	Beim Tippen bleiben Zeichentasten im Eingabefeld. Seitentasten der Maus können Sync weiter umschalten.	Pendant la saisie, les touches de texte restent dans le champ. Les boutons latéraux peuvent toujours basculer la sync.
+Restore defaults: F7 / Space	恢復預設：F7 / Space	Сбросить: F7 / пробел	既定値に戻す：F7 / Space	기본값 복원: F7 / Space	Standard: F7 / Leertaste	Valeurs par défaut : F7 / Espace
+Shortcut saved	快捷鍵已儲存	Сочетание сохранено	ショートカットを保存しました	단축키 저장됨	Tastenkürzel gespeichert	Raccourci enregistré
+Mouse side button 1	滑鼠側鍵 1	Боковая кнопка мыши 1	マウスサイドボタン 1	마우스 측면 버튼 1	Mausseitentaste 1	Bouton latéral 1
+Mouse side button 2	滑鼠側鍵 2	Боковая кнопка мыши 2	マウスサイドボタン 2	마우스 측면 버튼 2	Mausseitentaste 2	Bouton latéral 2
+Press the new shortcut	請按下新的快捷鍵	Нажмите новое сочетание	新しいショートカットを押してください	새 단축키를 누르세요	Neues Tastenkürzel drücken	Appuyez sur le nouveau raccourci
+This key is assigned to the other action. Choose another key.	此按鍵已用於另一個操作，請換一個按鍵。	Эта клавиша уже назначена другому действию. Выберите другую.	このキーは別の操作に使用されています。別のキーを選んでください。	다른 동작에 이미 지정된 키입니다. 다른 키를 선택하세요.	Diese Taste ist der anderen Aktion zugewiesen. Bitte eine andere wählen.	Cette touche est affectée à l’autre action. Choisissez-en une autre.
+Mouse side buttons and Ctrl / Shift / Alt combinations are supported. Press Esc to cancel.	支援滑鼠側鍵和 Ctrl / Shift / Alt 組合鍵。按 Esc 取消。	Поддерживаются боковые кнопки и сочетания Ctrl / Shift / Alt. Esc — отмена.	サイドボタンやCtrl / Shift / Altの組み合わせに対応。Escでキャンセル。	측면 버튼과 Ctrl / Shift / Alt 조합을 지원합니다. Esc로 취소하세요.	Seitentasten und Kombinationen mit Strg / Umschalt / Alt werden unterstützt. Esc bricht ab.	Boutons latéraux et combinaisons Ctrl / Maj / Alt pris en charge. Échap pour annuler.
+Show six-axis display	顯示六軸數值視窗	Показать окно шести осей	6軸表示を開く	6축 수치 창 표시	Sechs-Achsen-Anzeige öffnen	Afficher les six axes
+Hide six-axis display	隱藏六軸數值視窗	Скрыть окно шести осей	6軸表示を隠す	6축 수치 창 숨기기	Sechs-Achsen-Anzeige ausblenden	Masquer les six axes
+Back to chapter editor	返回章節編輯	Назад к редактору глав	チャプター編集に戻る	챕터 편집으로 돌아가기	Zurück zum Kapiteleditor	Retour à l’éditeur de chapitres
+
+Climax / ejaculation	高潮 / 射精	Оргазм / эякуляция	絶頂 / 射精	절정 / 사정	Orgasmus / Ejakulation	Orgasme / éjaculation
+Climax / ejaculation · 	高潮/射精 · 	Оргазм / эякуляция · 	絶頂 / 射精 · 	절정 / 사정 · 	Orgasmus / Ejakulation · 	Orgasme / éjaculation · 
+Chapter type / effect	章節類型 / 效果	Тип главы / эффект	種類 / 効果	챕터 유형 / 효과	Kapiteltyp / Effekt	Type de chapitre / effet
+Chapter type / climax effect	章節類型 / 高潮效果	Тип главы / эффект оргазма	チャプターの種類 / 絶頂効果	챕터 유형 / 절정 효과	Kapiteltyp / Orgasmuseffekt	Type de chapitre / effet d’orgasme
+Automatic	自動識別	Автоматически	自動判定	자동 인식	Automatisch	Automatique
+Normal chapter	普通章節	Обычная глава	通常チャプター	일반 챕터	Normales Kapitel	Chapitre normal
+Manual climax chapter	手動高潮章節	Глава оргазма вручную	手動の絶頂チャプター	수동 절정 챕터	Manuelles Orgasmuskapitel	Chapitre d’orgasme manuel
+Use L0 vibration during climax in this chapter	此章高潮時使用 L0 振動	Вибрация L0 при оргазме в этой главе	このチャプターの絶頂中にL0を振動	이 챕터의 절정에서 L0 진동 사용	L0-Vibration beim Orgasmus in diesem Kapitel	Vibration L0 pendant l’orgasme de ce chapitre
+L0 minimum	L0 最小值	Минимум L0	L0 最小値	L0 최솟값	L0-Minimum	Minimum L0
+L0 maximum	L0 最大值	Максимум L0	L0 最大値	L0 최댓값	L0-Maximum	Maximum L0
+Frequency Hz	頻率 Hz	Частота, Гц	周波数 Hz	주파수 Hz	Frequenz Hz	Fréquence Hz
+Use default effect	使用預設效果	Эффект по умолчанию	既定の効果を使用	기본 효과 사용	Standardeffekt verwenden	Utiliser l’effet par défaut
+Save chapter effect	儲存章節效果	Сохранить эффект главы	効果を保存	챕터 효과 저장	Kapiteleffekt speichern	Enregistrer l’effet du chapitre
+Climax / ejaculation · Defaults for new chapters	高潮 / 射精 · 新章節預設效果	Оргазм / эякуляция · Эффект новых глав	絶頂 / 射精 · 新規チャプターの既定値	절정 / 사정 · 새 챕터 기본 효과	Orgasmus / Ejakulation · Vorgaben für neue Kapitel	Orgasme / éjaculation · Réglages des nouveaux chapitres
+Detect climax events when analysis is enabled	開啟分析後識別高潮事件	Распознавать оргазм при включённом анализе	解析を有効にしたとき絶頂を判定	분석이 켜져 있을 때 절정 감지	Orgasmusereignisse bei aktiver Analyse erkennen	Détecter les orgasmes quand l’analyse est active
+Enable L0 vibration by default	預設啟用 L0 振動	Вибрация L0 по умолчанию	L0振動を既定で有効にする	기본으로 L0 진동 사용	L0-Vibration standardmäßig aktivieren	Activer la vibration L0 par défaut
+Maximum shooting event duration (s)	噴射事件最長持續秒數	Максимальная длительность выброса, с	噴射イベントの最大秒数	분출 이벤트 최대 지속 시간(초)	Maximale Dauer eines Spritzereignisses (s)	Durée maximale d’un jet (s)
+Save default effect	儲存預設效果	Сохранить настройки	既定の効果を保存	기본 효과 저장	Standardeffekt speichern	Enregistrer l’effet par défaut
+Reload climax event keys	重新讀取高潮事件鍵	Перечитать ключи оргазма	絶頂イベントキーを再読込	절정 이벤트 키 다시 읽기	Orgasmus-Ereignisschlüssel neu laden	Relire les clés d’événement d’orgasme
+ event tracks	 條事件軌道	 дорожек событий	 本のイベントトラック	개 이벤트 트랙	 Ereignisspuren	 pistes d’événements
+Hz is complete cycles per second; pauses hold. The other five axes follow the current data.	Hz 為每秒完整往復次數；暫停保持。其餘五軸繼續跟隨目前資料。	Гц — полные циклы в секунду; пауза удерживает положение. Остальные пять осей следуют текущим данным.	Hzは毎秒の完全な往復回数です。停止中は保持し、残り5軸は現在のデータに従います。	Hz는 초당 완전 왕복 횟수입니다. 일시 정지하면 위치를 유지하고 나머지 5축은 현재 데이터를 따릅니다.	Hz bezeichnet vollständige Zyklen pro Sekunde; Pausen halten die Position. Die anderen fünf Achsen folgen den aktuellen Daten.	Hz indique les allers-retours complets par seconde ; la pause maintient la position. Les cinq autres axes suivent les données actuelles.
+Defaults saved; existing chapters can be edited individually.	預設效果已儲存；已有章節可個別修改。	Настройки сохранены; существующие главы редактируются отдельно.	既定値を保存しました。既存チャプターは個別に変更できます。	기본값을 저장했습니다. 기존 챕터는 개별 수정할 수 있습니다.	Vorgaben gespeichert; vorhandene Kapitel können einzeln bearbeitet werden.	Réglages enregistrés ; les chapitres existants restent modifiables individuellement.
+Check L0, frequency and duration ranges.	請檢查 L0、頻率和持續時間範圍。	Проверьте диапазоны L0, частоты и длительности.	L0、周波数、持続時間の範囲を確認してください。	L0, 주파수와 지속 시간 범위를 확인하세요.	L0-, Frequenz- und Dauerbereiche prüfen.	Vérifiez les plages de L0, fréquence et durée.
+Without explicit events, set the climax type in the selected chapter.	無明確事件時，可在所選章節中手動指定高潮類型。	Без явных событий задайте оргазм в выбранной главе вручную.	明確なイベントがない場合は選択したチャプターで絶頂を指定できます。	명확한 이벤트가 없으면 선택한 챕터에서 절정 유형을 지정하세요.	Ohne eindeutige Ereignisse den Orgasmustyp im gewählten Kapitel festlegen.	Sans événement explicite, définissez le type d’orgasme dans le chapitre sélectionné.
+Enter L0 0–999, minimum no greater than maximum; frequency 0.1–20 Hz.	請輸入有效範圍：L0 0–999，最小值不大於最大值；頻率 0.1–20 Hz。	Введите L0 0–999, минимум не выше максимума; частота 0,1–20 Гц.	L0は0–999、最小値は最大値以下、周波数は0.1–20 Hzにしてください。	L0는 0–999, 최솟값은 최댓값 이하, 주파수는 0.1–20 Hz로 입력하세요.	L0 0–999, Minimum nicht größer als Maximum; Frequenz 0,1–20 Hz.	Saisissez L0 0–999, minimum inférieur ou égal au maximum ; fréquence 0,1–20 Hz.
+Chapter editor	章節編輯	Редактор глав	チャプター編集	챕터 편집	Kapitel bearbeiten	Éditeur de chapitres
+Save / Record	儲存 / 錄製	Сохранение / Запись	保存 / 記録	저장 / 녹화	Speichern / Aufnehmen	Enregistrer / Capturer
+Save all chapter data	儲存全部章節資訊	Сохранить все главы	全チャプター情報を保存	모든 챕터 정보 저장	Alle Kapiteldaten speichern	Enregistrer tous les chapitres
+Open save folder	開啟儲存目錄	Открыть папку сохранения	保存フォルダーを開く	저장 폴더 열기	Speicherordner öffnen	Ouvrir le dossier de sauvegarde
+Saves chapter timing, actor pairs, calibration and chapter effects.	儲存章節時間、角色配對、校準及章節效果。	Сохраняет время глав, пары персонажей, калибровку и эффекты.	時間区分・キャラの組合せ・校正・効果を保存します。	챕터 시간, 캐릭터 쌍, 보정 및 효과를 저장합니다.	Speichert Kapitelzeiten, Figurenpaare, Kalibrierung und Effekte.	Enregistre les temps, les paires, le calibrage et les effets.
+Chapter data: 	章節資料：	Данные глав: 	チャプター情報: 	챕터 데이터: 	Kapiteldaten: 	Données des chapitres : 
+All chapter data saved · 	已儲存全部章節資訊 · 	Все главы сохранены · 	全チャプター情報を保存しました · 	모든 챕터 정보 저장됨 · 	Alle Kapiteldaten gespeichert · 	Tous les chapitres enregistrés · 
+ chapters	 章	 глав	 チャプター	개 챕터	 Kapitel	 chapitres
+Load or save a scene card to establish the save path	先載入或儲存場景卡，以確定儲存路徑	Загрузите или сохраните сцену, чтобы определить путь	保存先を決めるにはシーンカードを読み込むか保存してください	저장 경로를 정하려면 장면 카드를 불러오거나 저장하세요	Szenenkarte laden oder speichern, um den Speicherpfad festzulegen	Chargez ou sauvegardez une carte de scène pour définir le chemin
+Edit default effect	編輯預設效果	Изменить эффект по умолчанию	既定の効果を編集	기본 효과 편집	Standardeffekt bearbeiten	Modifier l’effet par défaut
+Back to chapter effect	返回本章效果	Вернуться к эффекту главы	この章の効果に戻る	현재 챕터 효과로 돌아가기	Zurück zum Kapiteleffekt	Retour à l’effet du chapitre
+Analysis: 	自動分析：	Анализ: 	自動解析：	자동 분석: 	Analyse: 	Analyse : 
+Chapter data	章節資料	Данные глав	章データ	챕터 데이터	Kapiteldaten	Données des chapitres
+Chapter effect · selected chapter	章節效果 · 所選章節	Эффект главы · выбранная глава	章の効果 · 選択中の章	챕터 효과 · 선택한 챕터	Kapiteleffekt · ausgewähltes Kapitel	Effet du chapitre · chapitre sélectionné
+Chapter rotation reference saved	本章已儲存旋轉基準	Опорное вращение главы сохранено	この章の回転基準を保存済み	이 챕터의 회전 기준 저장됨	Rotationsreferenz des Kapitels gespeichert	Référence de rotation du chapitre enregistrée
+Connection	連線	Подключение	接続	연결	Verbindung	Connexion
+Display / preview	顯示 / 預覽	Отображение / предпросмотр	表示 / プレビュー	표시 / 미리보기	Anzeige / Vorschau	Affichage / aperçu
+Enter the seek time as seconds or mm:ss	定位時間請輸入秒數或 分:秒	Введите время в секундах или мм:сс	移動先は秒数または 分:秒 で入力してください	이동 시간은 초 또는 분:초로 입력하세요	Zielzeit in Sekunden oder mm:ss eingeben	Saisissez le temps en secondes ou en mm:ss
+L0 length adaptation	L0 長度適配	Адаптация длины L0	L0 長さ調整	L0 길이 맞춤	L0-Längenanpassung	Adaptation de longueur L0
+L1 / L2 mapping range	L1 / L2 映射範圍	Диапазон L1 / L2	L1 / L2 マッピング範囲	L1 / L2 매핑 범위	L1 / L2-Bereich	Plage L1 / L2
+Model and origin	模型與起點	Модель и начало	モデルと起点	모델과 시작점	Modell und Ursprung	Modèle et origine
+Motion source	資料來源	Источник движения	モーションソース	동작 소스	Bewegungsquelle	Source du mouvement
+No bound playing chapter · the choice becomes the default	未綁定播放中章節 · 選擇將作為新章節預設值	Нет привязанной текущей главы · выбор станет значением по умолчанию	再生中の章が未バインド · 選択は新しい章の既定値になります	재생 중인 챕터가 바인딩되지 않음 · 선택이 새 챕터 기본값이 됩니다	Kein gebundenes laufendes Kapitel · Auswahl wird zum Standard	Aucun chapitre lié en lecture · le choix devient la valeur par défaut
+No chapter selected	未選擇章節	Глава не выбрана	章が選択されていません	선택한 챕터 없음	Kein Kapitel ausgewählt	Aucun chapitre sélectionné
+Playing: 	播放中：	Воспроизводится: 	再生中：	재생 중: 	Läuft: 	En lecture :
+Recording / scripts	錄製 / 腳本	Запись / скрипты	録画 / スクリプト	녹화 / 스크립트	Aufnahme / Skripte	Enregistrement / scripts
+Rotation plane · manual mode	旋轉平面 · 手動模式	Плоскость вращения · ручной режим	回転平面 · 手動モード	회전 평면 · 수동 모드	Rotationsebene · manueller Modus	Plan de rotation · mode manuel
+Status	狀態	Состояние	状態	상태	Status	État
+Sync	同步	Синхр.	同期	동기화	Sync	Synchro
+Used by As faithful mode only	僅「盡量保真」模式使用	Только для режима «Максимально точно»	「できるだけ忠実」モードのみで使用	'최대한 충실' 모드에서만 사용	Nur im Modus „Möglichst originalgetreu“	Uniquement en mode « Aussi fidèle que possible »
+Mapping mode · playing chapter	計算模式 · 目前播放章節	Режим расчёта · текущая глава	計算モード · 再生中の章	계산 모드 · 재생 중인 챕터	Berechnungsmodus · laufendes Kapitel	Mode de calcul · chapitre en lecture
+Direct adjustment (manual)	直觀調節（手動）	Прямая настройка (вручную)	直感調整（手動）	직관 조정(수동)	Direkte Anpassung (manuell)	Réglage direct (manuel)
+Frequency source	頻率來源	Источник частоты	周波数ソース	주파수 소스	Frequenzquelle	Source de fréquence
+Fixed frequency	固定頻率	Фиксированная частота	固定周波数	고정 주파수	Feste Frequenz	Fréquence fixe
+Follow actual L0	跟隨實際 L0	Следовать реальному L0	実際の L0 に追従	실제 L0 따라가기	Tatsächlichem L0 folgen	Suivre le L0 réel
+L0 output range	L0 輸出範圍	Диапазон вывода L0	L0 出力範囲	L0 출력 범위	L0-Ausgabebereich	Plage de sortie L0
+Enable climax L0 for this chapter	本章高潮啟用 L0 效果	Включить эффект L0 кульминации для главы	この章のクライマックス L0 効果を有効化	이 챕터의 클라이맥스 L0 효과 사용	Höhepunkt-L0 für dieses Kapitel aktivieren	Activer le L0 de climax pour ce chapitre
+Detect this chapter's climax during analysis	自動分析時辨識本章高潮事件	Распознавать кульминацию главы при анализе	自動解析時にこの章のクライマックスを検出	자동 분석 시 이 챕터의 클라이맥스 감지	Höhepunkt dieses Kapitels bei Analyse erkennen	Détecter le climax de ce chapitre pendant l'analyse
+Maximum detected shooting duration	自動射精事件最長持續時間	Макс. длительность распознанного события	検出される射精イベントの最大時間	감지된 사정 이벤트 최대 지속 시간	Maximale Dauer erkannter Ereignisse	Durée maximale d'un événement détecté
+Synchronization and output response	同步與輸出響應	Синхронизация и отклик вывода	同期と出力応答	동기화 및 출력 응답	Synchronisation und Ausgabeverhalten	Synchronisation et réponse de sortie
+Device send delay ms	裝置傳送延遲 ms	Задержка отправки, мс	デバイス送信遅延 ms	장치 전송 지연 ms	Sendeverzögerung ms	Délai d'envoi ms
+Live output smoothing ms	即時輸出平滑 ms	Сглаживание вывода, мс	リアルタイム出力の平滑化 ms	실시간 출력 평활 ms	Ausgabeglättung ms	Lissage de sortie ms
+Output rate limit % / s	輸出速度上限 % / 秒	Предел скорости вывода, % / с	出力速度上限 % / 秒	출력 속도 상한 % / 초	Ausgabe-Ratenlimit % / s	Limite de vitesse de sortie % / s
+Off	關閉	Выкл.	オフ	끔	Aus	Désactivé
+Live preview	即時預覽	Живой предпросмотр	リアルタイムプレビュー	실시간 미리보기	Live-Vorschau	Aperçu en direct
+Script preview	腳本預覽	Предпросмотр скрипта	スクリプトプレビュー	스크립트 미리보기	Skriptvorschau	Aperçu du script
+Model preview: 	模型預覽：	Предпросмотр модели: 	モデルプレビュー：	모델 미리보기: 	Modellvorschau: 	Aperçu du modèle :
+Chapters · Click to select and seek	章節列表 · 點擊選擇並定位	Главы · щелчок — выбор и переход	章一覧 · クリックで選択して移動	챕터 목록 · 클릭하여 선택 및 이동	Kapitel · Klicken zum Auswählen und Springen	Chapitres · cliquer pour sélectionner et aller
+Rebuild auto chapters	重建自動章節	Пересоздать автоглавы	自動章を再作成	자동 챕터 재생성	Auto-Kapitel neu erstellen	Recréer les chapitres auto
+Restore defaults	恢復預設	Восстановить по умолчанию	既定値に戻す	기본값 복원	Standard wiederherstellen	Rétablir les valeurs par défaut
+Reset	歸零	Сброс	リセット	초기화	Zurücksetzen	Réinitialiser
+R0 twist	R0 扭轉	R0 кручение	R0 ねじり	R0 비틀기	R0 Drehung	R0 torsion
+R1 roll	R1 側傾	R1 крен	R1 ロール	R1 롤	R1 Rollen	R1 roulis
+R2 pitch	R2 俯仰	R2 тангаж	R2 ピッチ	R2 피치	R2 Neigung	R2 tangage
+Reset model length	恢復模型長度	Сбросить длину модели	モデルの長さに戻す	모델 길이 복원	Modelllänge zurücksetzen	Rétablir la longueur du modèle
+Reset tip to model	重置末端到實際位置	Вернуть конец к модели	先端を実位置に戻す	끝점을 실제 위치로	Spitze auf Modell zurücksetzen	Replacer l'extrémité sur le modèle
+Select serial port	選擇序列埠	Выберите COM-порт	シリアルポートを選択	시리얼 포트 선택	Seriellen Port wählen	Choisir le port série
+Penis length (origin → tip) mm	陰莖長度（起點 → 末端）mm	Длина (начало → конец), мм	長さ（起点 → 先端）mm	길이(시작점 → 끝점) mm	Länge (Ursprung → Spitze) mm	Longueur (origine → extrémité) mm
+Chapter transition smoothing	章節過渡平滑	Плавный переход между главами	章の切り替えスムージング	챕터 전환 부드럽게	Sanfter Kapitelübergang	Transition douce entre chapitres
+Smooth sudden SR6 output jumps at chapter changes	章節切換時平滑 SR6 輸出突變	Сглаживать резкие скачки SR6 при смене главы	章の切り替え時に SR6 出力の急変を滑らかにする	챕터 전환 시 SR6 출력 급변을 부드럽게	Plötzliche SR6-Sprünge beim Kapitelwechsel glätten	Lisser les sauts brusques de sortie SR6 au changement de chapitre
+Fade duration ms	過渡時長 ms	Длительность перехода, мс	遷移時間 ms	전환 시간 ms	Überblenddauer ms	Durée de transition ms
+Trigger threshold %	觸發閾值 %	Порог срабатывания, %	発動しきい値 %	작동 임계값 %	Auslöseschwelle %	Seuil de déclenchement %
+When any axis jumps by more than the threshold at a chapter change, output fades from the previous chapter into the new chapter's motion, which continues underneath. Applies to device output, the six-axis display and recording; fixed-frequency climax L0 stays unchanged.	任一軸在章節切換處的突變超過閾值時，從上一章的輸出平滑過渡到新章節動作；新章節的動作照常疊加。作用於裝置傳送、六軸窗和錄製；固定頻率高潮振動的 L0 保持原樣。	Если при смене главы любая ось скачет сильнее порога, вывод плавно переходит от прежней главы к движению новой, которое продолжается поверх. Действует на устройство, окно шести осей и запись; L0 кульминации с фиксированной частотой не меняется.	章の切り替えでいずれかの軸がしきい値を超えて急変すると、前の章の出力から新しい章の動きへ滑らかに移行します。新しい章の動きはそのまま重なります。デバイス送信・6軸表示・録画に適用され、固定周波数クライマックスの L0 は変更されません。	챕터 전환 시 어느 축이든 임계값보다 크게 급변하면 이전 챕터 출력에서 새 챕터 동작으로 부드럽게 전환하며, 새 챕터 동작은 그대로 겹쳐집니다. 장치 전송, 6축 창, 녹화에 적용되며 고정 주파수 클라이맥스 L0은 그대로 유지됩니다.	Springt eine Achse beim Kapitelwechsel stärker als die Schwelle, blendet die Ausgabe vom vorigen Kapitel in die Bewegung des neuen über, die darunter weiterläuft. Gilt für Geräteausgabe, Sechs-Achsen-Anzeige und Aufnahme; L0 eines Höhepunkts mit fester Frequenz bleibt unverändert.	Si un axe saute de plus que le seuil lors d'un changement de chapitre, la sortie passe en douceur du chapitre précédent au mouvement du nouveau, qui continue en dessous. S'applique à l'appareil, à l'affichage six axes et à l'enregistrement ; le L0 de climax à fréquence fixe reste inchangé.
+Off · chapter changes output the new pose directly	已關閉 · 章節切換時直接輸出新姿態	Выкл. · при смене главы сразу выводится новая поза	オフ · 章の切り替え時は新しい姿勢をそのまま出力	꺼짐 · 챕터 전환 시 새 자세를 바로 출력	Aus · Kapitelwechsel gibt die neue Pose direkt aus	Désactivé · le changement de chapitre envoie directement la nouvelle pose
+Fading · 	正在平滑過渡 · 	Переход · 	遷移中 · 	전환 중 · 	Überblendung · 	Transition · 
+Ready · last chapter jump 	待命 · 上次章節切換突變 	Готово · последний скачок 	待機中 · 前回の章切り替えの急変 	대기 · 마지막 챕터 전환 급변 	Bereit · letzter Kapitelsprung 	Prêt · dernier saut de chapitre 
+Drag origin and tip on the same axis; entry follows the game binding.	在同一軸線上拖曳起點與末端；入口跟隨遊戲綁定點。	Перетаскивайте начало и конец по одной оси; вход следует за привязкой игры.	同一軸上で原点と先端をドラッグします。入口はゲームのバインド点に追従します。	같은 축에서 시작점과 끝점을 드래그하세요. 입구는 게임 바인딩을 따릅니다.	Ursprung und Spitze auf derselben Achse ziehen; der Eingang folgt der Spielbindung.	Faites glisser l’origine et l’extrémité sur le même axe ; l’entrée suit la liaison du jeu.
+Enter a finite value in millimetres	請輸入有效的毫米數值	Введите конечное значение в миллиметрах	ミリメートル単位で有限の数値を入力してください	밀리미터 단위의 유한한 값을 입력하세요	Einen endlichen Wert in Millimetern eingeben	Saisissez une valeur finie en millimètres
+L1/L2 half ranges must be 1–500 mm	L1/L2 單側範圍須為 1–500 mm	Полудиапазон L1/L2 должен быть 1–500 мм	L1/L2 の片側範囲は 1–500 mm にしてください	L1/L2 편측 범위는 1–500 mm여야 합니다	L1/L2-Halbbereiche müssen 1–500 mm betragen	Les demi-plages L1/L2 doivent être comprises entre 1 et 500 mm
+L1/L2 mapping ranges applied	已套用 L1/L2 映射範圍	Диапазоны L1/L2 применены	L1/L2 マッピング範囲を適用しました	L1/L2 매핑 범위가 적용되었습니다	L1/L2-Abbildungsbereiche angewendet	Plages de mappage L1/L2 appliquées
+Origin offset applied; save the scene to keep it	已套用起點偏移；儲存場景以保留	Смещение начала применено; сохраните сцену, чтобы оставить его	原点オフセットを適用しました。保持するにはシーンを保存してください	시작점 오프셋이 적용되었습니다. 유지하려면 장면을 저장하세요	Ursprungsversatz angewendet; Szene zum Beibehalten speichern	Décalage d’origine appliqué ; enregistrez la scène pour le conserver
+Origin offsets must be within ±500 mm	起點偏移須在 ±500 mm 之內	Смещение начала должно быть в пределах ±500 мм	原点オフセットは ±500 mm 以内にしてください	시작점 오프셋은 ±500 mm 이내여야 합니다	Ursprungsversätze müssen innerhalb ±500 mm liegen	Les décalages d’origine doivent rester dans ±500 mm
+Multiple groups · view centre	多組目標 · 畫面中心	Несколько групп · центр кадра	複数グループ · 画面中央	다중 그룹 · 화면 중앙	Mehrere Gruppen · Bildmitte	Plusieurs groupes · centre de la vue
+No contact group found	未偵測到接觸組	Контактная группа не найдена	接触グループが見つかりません	접촉 그룹을 찾지 못했습니다	Keine Kontaktgruppe gefunden	Aucun groupe de contact trouvé
+Visible · BP attachment	可見角色 · BP 吸附	Видимые · привязка BP	表示中 · BP 吸着	표시 중 · BP 흡착	Sichtbar · BP-Bindung	Visibles · fixation BP
+Visible · contact position	可見角色 · 接觸位置	Видимые · позиция контакта	表示中 · 接触位置	표시 중 · 접촉 위치	Sichtbar · Kontaktposition	Visibles · position de contact
+Visible · explicit attachment	可見角色 · 明確吸附	Видимые · явная привязка	表示中 · 明示的吸着	표시 중 · 명시적 흡착	Sichtbar · explizite Bindung	Visibles · fixation explicite
+Current calibration saved to the selected chapter	已將目前校準儲存至所選章節	Текущая калибровка сохранена в выбранную главу	現在の校正を選択中の章に保存しました	현재 보정값을 선택한 챕터에 저장했습니다	Aktuelle Kalibrierung im gewählten Kapitel gespeichert	Calibrage actuel enregistré dans le chapitre sélectionné
+Waiting for a visible interaction	等待可見互動	Ожидание видимого взаимодействия	表示中のインタラクション待ち	보이는 상호작용 대기 중	Warte auf sichtbare Interaktion	En attente d’une interaction visible
+ s	 秒	 с	 秒	 초	 s	 s
+Chapter set to Climax; L0 output now uses the chapter effect.	已設為高潮章節；L0 輸出將套用本章效果。	Глава отмечена как кульминация; вывод L0 использует эффект главы.	絶頂章に設定しました。L0 出力はこの章の効果を使用します。	절정 챕터로 설정했습니다. L0 출력에 이 챕터 효과가 적용됩니다.	Kapitel als Höhepunkt gesetzt; L0 nutzt nun den Kapiteleffekt.	Chapitre défini sur Climax ; la sortie L0 utilise désormais l’effet du chapitre.
+Chapter set to Normal; L0 follows live calculation again.	已設為普通章節；L0 恢復跟隨即時計算。	Глава отмечена как обычная; L0 снова следует расчёту в реальном времени.	通常章に設定しました。L0 は再びリアルタイム計算に従います。	일반 챕터로 설정했습니다. L0이 다시 실시간 계산을 따릅니다.	Kapitel als Normal gesetzt; L0 folgt wieder der Live-Berechnung.	Chapitre défini sur Normal ; L0 suit de nouveau le calcul en direct.
+Measured: 	實測：	Измерено: 	実測：	측정값: 	Gemessen: 	Mesuré : 
+Normal chapters keep the original motion	普通章節保持原始動作	Обычные главы сохраняют исходное движение	通常章は元の動きを維持します	일반 챕터는 원래 동작을 유지합니다	Normale Kapitel behalten die Originalbewegung	Les chapitres normaux conservent le mouvement d’origine
+Play this chapter to measure frequency	請播放本章以量測頻率	Воспроизведите главу, чтобы измерить частоту	周波数を計測するにはこの章を再生してください	주파수를 측정하려면 이 챕터를 재생하세요	Dieses Kapitel abspielen, um die Frequenz zu messen	Lisez ce chapitre pour mesurer la fréquence
+Sampling · play a full cycle	取樣中 · 請播放完整週期	Замер · воспроизведите полный цикл	計測中 · 1 サイクル再生してください	샘플링 중 · 한 주기를 끝까지 재생하세요	Messung · einen vollen Zyklus abspielen	Échantillonnage · lisez un cycle complet
+Saved per chapter · Hz counts complete cycles	依章節獨立儲存 · Hz 為每秒完整往復次數	Сохраняется для каждой главы · Гц — полные циклы в секунду	章ごとに保存 · Hz は毎秒の完全往復回数	챕터별 저장 · Hz는 초당 완전 왕복 횟수	Je Kapitel gespeichert · Hz zählt vollständige Zyklen	Enregistré par chapitre · Hz compte les cycles complets
+Script playback uses recorded values; frequency applies to live recording	腳本回放使用已錄製數值；頻率設定僅作用於即時計算與錄製	Воспроизведение скрипта использует записанные значения; частота действует при живой записи	スクリプト再生は記録済み値を使用します。周波数はライブ計算・記録に適用されます	스크립트 재생은 녹화된 값을 사용하며 주파수는 실시간 녹화에 적용됩니다	Skriptwiedergabe nutzt aufgezeichnete Werte; Frequenz gilt für Live-Aufnahme	La lecture du script utilise les valeurs enregistrées ; la fréquence s’applique à l’enregistrement en direct
+This chapter only; normal motion is unchanged. Detection requires Analysis / chapters.	僅作用於本章，不影響普通動作。自動偵測需開啟「自動分析 / 分章」。	Только для этой главы; обычное движение не меняется. Для распознавания включите «Анализ / главы».	この章のみに適用され、通常動作は変わりません。自動検出には「自動解析 / 章分け」が必要です。	이 챕터에만 적용되며 일반 동작은 유지됩니다. 자동 감지는 '자동 분석 / 장 구분'이 필요합니다.	Nur für dieses Kapitel; normale Bewegung bleibt unverändert. Erkennung erfordert Analyse / Kapitel.	Ce chapitre uniquement ; le mouvement normal reste inchangé. La détection requiert Analyse / chapitres.
+End overlaps the next boundary	終點不能越過下一章邊界	Конец пересекает границу следующей главы	終了時刻が次の章の境界を超えています	끝 시간이 다음 챕터 경계를 넘었습니다	Ende überschneidet die nächste Grenze	La fin chevauche la limite suivante
+Invalid chapter start/end range	章節起止範圍無效	Недопустимый интервал начала/конца главы	章の開始・終了範囲が無効です	챕터 시작/끝 범위가 잘못되었습니다	Ungültiger Start-/Endbereich des Kapitels	Plage de début/fin du chapitre invalide
+Start overlaps the previous boundary	起點不能越過上一章邊界	Начало пересекает границу предыдущей главы	開始時刻が前の章の境界を超えています	시작 시간이 이전 챕터 경계를 넘었습니다	Start überschneidet die vorherige Grenze	Le début chevauche la limite précédente
+The first chapter start is fixed	首章起點不能移動	Начало первой главы зафиксировано	最初の章の開始時刻は固定です	첫 챕터의 시작 시간은 고정되어 있습니다	Der Start des ersten Kapitels ist fest	Le début du premier chapitre est fixe
+The last chapter ends with the scene	末章終點隨場景總時長	Конец последней главы совпадает с длительностью сцены	最後の章の終了時刻はシーン長に従います	마지막 챕터의 끝 시간은 장면 전체 길이를 따릅니다	Das letzte Kapitel endet mit der Szene	Le dernier chapitre se termine avec la scène
+Penis tip restored to the current model bone tip	陰莖末端已重設回目前模型骨骼末端	Конец пениса возвращён к кости текущей модели	ペニス先端を現在のモデル骨格先端に戻しました	페니스 끝점을 현재 모델 뼈 끝으로 복원했습니다	Penisspitze auf die aktuelle Modellknochenspitze zurückgesetzt	Extrémité du pénis rétablie sur l’os du modèle actuel
+No script at this time · choose one in Save / Record	目前時間無腳本 · 請至「儲存 / 錄製」選擇	Нет скрипта для этого времени · выберите в «Сохранение / Запись»	この時刻のスクリプトがありません · 「保存 / 記録」で選択してください	현재 시간에 스크립트가 없습니다 · '저장 / 녹화'에서 선택하세요	Kein Skript an dieser Stelle · unter Speichern / Aufnehmen wählen	Aucun script à cet instant · choisissez-en un dans Enregistrer / Capturer
+Endpoint distance must be 1-500 mm	端點距離須為 1–500 mm	Расстояние между концами должно быть 1–500 мм	端点間の距離は 1–500 mm にしてください	양 끝점 거리는 1–500 mm여야 합니다	Endpunktabstand muss 1–500 mm betragen	La distance entre extrémités doit être de 1 à 500 mm
+Penis origin	陰莖起點	Начало пениса	ペニス原点	페니스 시작점	Penisursprung	Origine du pénis
+Manual: edit either endpoint; player length updates automatically. Entry follows the game binding.	手動模式：可調整任一端點，玩家長度將自動更新；入口跟隨遊戲綁定點。	Вручную: измените любой конец, длина игрока обновится сама. Вход следует привязке игры.	手動：どちらの端点も編集でき、使用長は自動更新されます。入口はゲームのバインド点に追従します。	수동: 양 끝점을 편집하면 사용자 길이가 자동 갱신됩니다. 입구는 게임 바인딩을 따릅니다.	Manuell: Beide Endpunkte sind änderbar; Spielerlänge aktualisiert sich automatisch. Eingang folgt Spielbindung.	Manuel : modifiez l’une des extrémités ; la longueur du joueur se met à jour automatiquement. L’entrée suit la liaison du jeu.
+Rotation reference saved for the current chapter	已儲存目前章節的旋轉基準	Опорное вращение сохранено для текущей главы	現在の章の回転基準を保存しました	현재 챕터의 회전 기준이 저장되었습니다	Rotationsreferenz für das aktuelle Kapitel gespeichert	Référence de rotation enregistrée pour le chapitre actuel
+Load or save a scene card to establish the script path	請先載入或儲存場景卡，以確定腳本路徑	Загрузите или сохраните сцену, чтобы задать путь к скриптам	スクリプト保存先を決めるにはシーンカードを読み込むか保存してください	스크립트 경로를 정하려면 장면 카드를 불러오거나 저장하세요	Szenenkarte laden oder speichern, um den Skriptpfad festzulegen	Chargez ou sauvegardez une carte de scène pour définir le chemin des scripts
+Loaded companion axes: 	已載入同組其他軸：	Загружены сопутствующие оси: 	同名軸を読み込みました：	연동 축 불러옴: 	Begleitachsen geladen: 	Axes associés chargés : 
+Recording save failed: 	錄製儲存失敗：	Ошибка сохранения записи: 	録画の保存に失敗：	녹화 저장 실패: 	Speichern der Aufnahme fehlgeschlagen: 	Échec d’enregistrement de la capture : 
+Scene data load failed: 	場景資料讀取失敗：	Ошибка загрузки данных сцены: 	シーンデータの読込に失敗：	장면 데이터 불러오기 실패: 	Laden der Szenendaten fehlgeschlagen: 	Échec du chargement des données de scène : 
+Scene data save failed: 	場景資料儲存失敗：	Ошибка сохранения данных сцены: 	シーンデータの保存に失敗：	장면 데이터 저장 실패: 	Speichern der Szenendaten fehlgeschlagen: 	Échec de sauvegarde des données de scène : 
+Timeline and a valid actor pair are required	需要就緒的 Timeline 與有效角色配對	Требуются готовый Timeline и корректная пара персонажей	Timeline と有効なキャラペアが必要です	Timeline과 유효한 캐릭터 쌍이 필요합니다	Timeline und ein gültiges Figurenpaar erforderlich	Timeline et une paire de personnages valide sont requis
+Calibration saves per chapter; axis gain, travel limits and smoothing still apply.	校準依章節儲存；各軸倍率、行程限制與平滑仍會生效。	Калибровка сохраняется по главам; усиление, пределы хода и сглаживание действуют.	校正は章ごとに保存されます。軸倍率・範囲制限・平滑化も引き続き有効です。	보정은 챕터별로 저장되며 축 배율, 이동 제한, 평활화가 계속 적용됩니다.	Kalibrierung wird je Kapitel gespeichert; Verstärkung, Grenzen und Glättung bleiben aktiv.	Le calibrage est enregistré par chapitre ; le gain, les limites et le lissage restent actifs.
+L0: origin → 0, tip → 999; the endpoint span maps to full travel.	L0：起點 → 0，末端 → 999；起末距離直接映射完整行程。	L0: начало → 0, конец → 999; отрезок между точками задаёт полный ход.	L0：原点 → 0、先端 → 999。両端点の間隔が全ストロークに対応します。	L0: 시작점 → 0, 끝점 → 999. 양 끝점 간격이 전체 이동 범위에 대응합니다.	L0: Ursprung → 0, Spitze → 999; die Spanne entspricht dem vollen Weg.	L0 : origine → 0, extrémité → 999 ; l’intervalle couvre toute la course.
+Player length (distance between endpoints)	玩家長度（兩端點距離）	Длина игрока (расстояние между точками)	プレイヤー長（両端点間の距離）	사용자 길이(양 끝점 거리)	Spielerlänge (Abstand der Endpunkte)	Longueur du joueur (distance entre extrémités)
+Player length must be 1-500 mm	玩家長度須為 1–500 mm	Длина игрока должна быть 1–500 мм	プレイヤー長は 1–500 mm にしてください	사용자 길이는 1–500 mm여야 합니다	Spielerlänge muss 1–500 mm betragen	La longueur du joueur doit être de 1 à 500 mm
+Shorter spans amplify motion; longer spans reduce it. Entry follows its binding.	縮短距離可放大動作，拉長則縮小幅度；入口跟隨綁定點。	Меньше отрезок — сильнее движение, больше — мягче. Вход следует привязке.	間隔を短くすると動きが拡大し、長くすると抑えられます。入口はバインドに従います。	간격을 줄이면 동작이 커지고 늘리면 줄어듭니다. 입구는 바인딩을 따릅니다.	Kürzere Spanne verstärkt Bewegung, längere dämpft sie. Eingang folgt der Bindung.	Un écart court amplifie le mouvement, un écart long le réduit. L’entrée suit sa liaison.
+Updates with either endpoint	隨任一端點移動自動更新	Обновляется при сдвиге любой точки	どちらかの端点の移動に連動して更新	어느 끝점이든 이동 시 자동 갱신	Aktualisiert sich mit jedem Endpunkt	Se met à jour avec chaque extrémité
+Send delay affects device transmission only, not monitor rails or recording time. Lower smoothing and higher rate limits follow live targets faster; 0 disables that stage. Script playback bypasses live smoothing but retains send delay.	傳送延遲僅影響裝置輸出，不影響六軸監看條與錄製時間。平滑值越小、速度上限越高，跟隨即時目標越快；填 0 停用該階段。腳本回放會跳過即時平滑，但保留傳送延遲。	Задержка влияет только на отправку устройству, не на индикаторы и время записи. Меньше сглаживание и выше предел скорости — быстрее отклик; 0 отключает этап. Скрипт обходит сглаживание, но сохраняет задержку.	送信遅延はデバイス出力のみに適用され、モニター表示や録画時刻には影響しません。平滑化を下げ速度上限を上げると追従が速くなり、0 で無効化します。スクリプト再生はライブ平滑化を飛ばしますが送信遅延は維持します。	전송 지연은 장치 출력에만 적용되며 모니터 막대와 녹화 시간에는 영향을 주지 않습니다. 평활을 낮추고 속도 상한을 높이면 추종이 빨라지며 0은 해당 단계를 끕니다. 스크립트 재생은 실시간 평활을 건너뛰지만 전송 지연은 유지합니다.	Sendeverzögerung betrifft nur die Geräteausgabe, nicht Anzeige oder Aufnahmezeit. Weniger Glättung und höheres Limit folgen schneller; 0 deaktiviert die Stufe. Skripte umgehen Live-Glättung, behalten aber die Verzögerung.	Le délai d’envoi n’affecte que la sortie appareil, pas les barres ni le temps d’enregistrement. Moins de lissage et une limite plus haute suivent plus vite ; 0 désactive l’étape. Les scripts contournent le lissage en direct mais gardent le délai.
+Bound; create a chapter to edit	已綁定；請先建立章節再編輯	Привязано; создайте главу для редактирования	バインド済み · 編集するには章を作成してください	바인딩됨 · 편집하려면 챕터를 만드세요	Gebunden; Kapitel zum Bearbeiten erstellen	Lié ; créez un chapitre pour modifier
+Chapter created from current binding	已依目前綁定建立章節	Глава создана из текущей привязки	現在のバインドから章を作成しました	현재 바인딩으로 챕터를 생성했습니다	Kapitel aus aktueller Bindung erstellt	Chapitre créé à partir de la liaison actuelle
+Enter start and end in seconds	請以秒為單位輸入起始與結束時間	Введите начало и конец в секундах	開始と終了を秒単位で入力してください	시작과 끝 시간을 초 단위로 입력하세요	Start und Ende in Sekunden eingeben	Saisissez le début et la fin en secondes
+Keeps manual edits, reads attachment events and confirms interaction chapters during playback.	保留手動編輯，讀取吸附事件，並在播放期間確認互動章節。	Сохраняет ручные правки, считывает события привязки и подтверждает главы при воспроизведении.	手動編集を保持しつつ吸着イベントを読み込み、再生中にインタラクション章を確定します。	수동 편집을 유지하고 흡착 이벤트를 읽으며 재생 중 상호작용 챕터를 확정합니다.	Behält manuelle Änderungen, liest Bindungsereignisse und bestätigt Kapitel bei der Wiedergabe.	Conserve les modifications manuelles, lit les événements de fixation et confirme les chapitres pendant la lecture.
+Source and target must be different actors	來源與目標必須為不同角色	Источник и цель должны быть разными персонажами	操作側と対象先は異なるキャラにしてください	소스와 대상은 서로 다른 캐릭터여야 합니다	Quelle und Ziel müssen verschiedene Figuren sein	La source et la cible doivent être deux personnages différents
+Climax chapter · L0 teal is scene input; orange is chapter output	高潮章節 · L0 青色為畫面輸入，橙色為章節輸出	Глава кульминации · L0: бирюзовый — вход сцены, оранжевый — выход главы	絶頂章 · L0 青緑はシーン入力、橙は章出力	절정 챕터 · L0 청록은 장면 입력, 주황은 챕터 출력	Höhepunktkapitel · L0 Türkis ist Szeneneingang, Orange Kapitelausgang	Chapitre de climax · L0 turquoise : entrée scène ; orange : sortie chapitre
+Edits the playing chapter; unset chapters inherit this mode.\nManual: a shorter endpoint span increases L0 motion.	修改目前播放章節；未設定的章節沿用此模式。\n手動：縮短起末距離會放大 L0 動作。	Изменяет текущую главу; не заданные главы наследуют этот режим.\nВручную: меньший отрезок усиливает ход L0.	再生中の章を変更します。未設定の章はこのモードを継承します。\n手動：端点間を短くすると L0 の動きが大きくなります。	재생 중인 챕터를 수정하며 미설정 챕터는 이 모드를 상속합니다.\n수동: 양 끝점 거리를 줄이면 L0 동작이 커집니다.	Ändert das laufende Kapitel; nicht gesetzte übernehmen diesen Modus.\nManuell: Kürzere Spanne verstärkt L0-Bewegung.	Modifie le chapitre en lecture ; les autres héritent de ce mode.\nManuel : un écart plus court amplifie le mouvement L0.
+For manual editing: the endpoints span the full L0 travel; a shorter span amplifies small motions. Player length follows their distance; entry follows the game binding. Applies to the playing chapter and becomes the default for chapters without an explicit mode. Uses live input with analysis off; recording remains available.	手動調節請選此項：起點與末端之間映射完整 L0 行程，縮短距離可放大小幅運動；玩家長度自動取兩點距離，入口跟隨遊戲綁定點。套用於目前播放章節，並作為未單獨設定章節的預設模式。使用即時計算並關閉自動分析，仍可直接錄製。	Для ручной настройки: отрезок между концами задаёт весь ход L0; короче отрезок — сильнее малые движения. Длина игрока равна расстоянию между точками; вход следует привязке игры. Применяется к текущей главе и становится режимом по умолчанию. Работает от живого расчёта без анализа; запись доступна.	手動調整向け：原点から先端までが L0 全行程に割り当てられ、間隔を縮めると小さな動きが増幅されます。使用長は両点距離に追従し、入口はゲームバインドに従います。再生中の章に適用され未設定章の既定値になります。自動解析をオフにしてライブ計算を使用し、録画も利用可能です。	수동 조정용: 시작점과 끝점 사이가 L0 전체 이동에 매핑되며 간격을 좁히면 작은 동작이 증폭됩니다. 사용자 길이는 두 점 거리를 따르고 입구는 게임 바인딩을 따릅니다. 재생 중인 챕터에 적용되며 미설정 챕터의 기본값이 됩니다. 자동 분석 없이 실시간 계산을 사용하며 녹화도 가능합니다.	Für manuelle Anpassung: Die Endpunkte bilden den vollen L0-Weg ab; kürzere Spanne verstärkt kleine Bewegungen. Spielerlänge folgt dem Abstand; Eingang folgt der Spielbindung. Gilt für das laufende Kapitel und als Standard. Nutzt Live-Berechnung ohne Analyse; Aufnahme bleibt verfügbar.	Pour l’édition manuelle : les extrémités couvrent toute la course L0 ; un écart court amplifie les petits mouvements. La longueur suit leur distance ; l’entrée suit la liaison du jeu. S’applique au chapitre courant et sert de mode par défaut. Calcul en direct sans analyse ; l’enregistrement reste disponible.
+No serial ports found	未發現序列埠裝置	COM-порты не найдены	シリアルポートが見つかりません	시리얼 포트를 찾지 못했습니다	Keine seriellen Ports gefunden	Aucun port série trouvé
+Scan again	重新掃描	Сканировать снова	再スキャン	다시 검색	Erneut suchen	Rechercher à nouveau
+Select a discovered serial port	請選擇已發現的序列埠	Выберите найденный COM-порт	検出されたシリアルポートを選択してください	감지된 시리얼 포트를 선택하세요	Gefundenen seriellen Port wählen	Sélectionnez un port série détecté
+Select and seek · Right-click: rename / delete · Drag ruler to seek · Ctrl + wheel: zoom	左鍵選章並定位 · 右鍵重新命名 / 刪除 · 拖動刻度定位 · Ctrl + 滾輪縮放	Выбор и переход · ПКМ: имя / удалить · Шкала: переход · Ctrl + колесо: масштаб	クリックで選択・移動 · 右クリック：名前変更 / 削除 · 目盛ドラッグで移動 · Ctrl + ホイールで拡大	클릭: 선택·이동 · 우클릭: 이름 변경 / 삭제 · 눈금 드래그: 이동 · Ctrl + 휠: 확대	Wählen und springen · Rechtsklick: Name / Löschen · Skala ziehen · Strg + Rad: Zoom	Cliquer pour choisir/aller · Clic droit : renommer/supprimer · Glisser la règle · Ctrl + molette : zoom
+ actors; automatic binding follows BP.	 個角色；綁定時優先使用 BP 的吸附對象。	 перс.; автопривязка следует за BP.	 人のキャラを取得。自動設定は BP 吸着を優先します。	명의 캐릭터를 읽음. 자동 연결은 BP 흡착을 우선합니다.	 Figuren; automatische Bindung folgt BP.	 personnages ; la liaison auto suit BP.
+ attachment keys · 	 個吸附切換鍵 · 	 ключей привязки · 	 個の吸着キー · 	개 흡착 키 · 	 Bindungsschlüssel · 	 clés de fixation · 
+ mm · Contact 	 mm · 接觸 	 мм · Контакт 	 mm · 接触 	 mm · 접촉 	 mm · Kontakt 	 mm · Contact 
+ mm · Depth 	 mm · 插入 	 мм · Глубина 	 mm · 挿入 	 mm · 깊이 	 mm · Tiefe 	 mm · Profondeur 
+ s; assign actors to this chapter.	 s 手動分章；可指定本章對象。	 с; назначьте персонажей для этой главы.	 秒で分割しました。この章の対象を指定できます。	초에서 분할됨. 이 챕터의 대상을 지정하세요.	 s geteilt; Figuren für dieses Kapitel zuweisen.	 s ; assignez les personnages à ce chapitre.
+ serial ports	 個序列埠	 COM-портов	 個のシリアルポート	개의 시리얼 포트	 serielle Ports	 ports série
+0: capture and fix the BP rest length when binding.	填 0：綁定時取得 BP 原長並固定。	0: зафиксировать исходную длину BP при привязке.	0：バインド時に BP の原長を取得して固定します。	0: 바인딩 시 BP 원래 길이를 측정해 고정합니다.	0: BP-Ruhelänge beim Binden erfassen und fixieren.	0 : capture et fixe la longueur au repos BP lors de la liaison.
+Actor selection changed; click Bind.	角色已切換，請點擊綁定。	Выбор персонажей изменён; нажмите «Привязать».	キャラ選択を変更しました。「設定」を押してください。	캐릭터 선택이 변경되었습니다. 연결을 누르세요.	Figurenauswahl geändert; auf Binden klicken.	Sélection modifiée ; cliquez sur Lier.
+After import, read BP chapters again to use the new actor IDs.	場景匯入後請重新讀取吸附章節，以使用匯入後的新角色編號。	После импорта снова прочитайте главы BP для новых ID персонажей.	インポート後は新しいキャラ ID を使うため BP 章を再読込してください。	가져오기 후 새 캐릭터 ID를 쓰려면 BP 챕터를 다시 읽으세요.	Nach dem Import BP-Kapitel neu lesen, um die neuen Figuren-IDs zu nutzen.	Après l’import, relisez les chapitres BP pour utiliser les nouveaux ID.
+Armed · No output channels enabled	同步已啟用 · 未勾選可傳送通道	Готово · не выбраны каналы вывода	同期有効 · 出力チャンネル未選択	동기화 켜짐 · 활성화된 출력 채널 없음	Bereit · keine Ausgabekanäle aktiv	Armé · aucun canal de sortie activé
+Armed · Time scale is zero	同步已啟用 · 時間倍率為 0	Готово · масштаб времени равен 0	同期有効 · 時間倍率が 0	동기화 켜짐 · 시간 배율이 0	Bereit · Zeitskala ist null	Armé · échelle de temps nulle
+Armed · Waiting for Timeline playback	同步已啟用 · 等待 Timeline 播放	Готово · ожидание воспроизведения Timeline	同期有効 · Timeline 再生待ち	동기화 켜짐 · Timeline 재생 대기	Bereit · warte auf Timeline-Wiedergabe	Armé · en attente de lecture Timeline
+Armed · Waiting for valid pose	同步已啟用 · 等待有效姿態	Готово · ожидание корректной позы	同期有効 · 有効な姿勢待ち	동기화 켜짐 · 유효한 자세 대기	Bereit · warte auf gültige Pose	Armé · en attente d’une pose valide
+Armed · Waiting to send	同步已啟用 · 等待傳送	Готово · ожидание отправки	同期有効 · 送信待ち	동기화 켜짐 · 전송 대기	Bereit · warte auf Versand	Armé · en attente d’envoi
+Binding	綁定中	Привязка…	バインド中	바인딩 중	Bindung läuft	Liaison en cours
+Binding is invalid; bind the current actors again	綁定已失效，請重新綁定目前角色	Привязка недействительна; свяжите текущих персонажей заново	バインドが無効です。現在のキャラを再設定してください	바인딩이 무효화되었습니다. 현재 캐릭터를 다시 연결하세요	Bindung ungültig; aktuelle Figuren erneut binden	Liaison invalide ; liez de nouveau les personnages actuels
+Binding released	已解除綁定	Привязка снята	バインドを解除しました	바인딩이 해제되었습니다	Bindung gelöst	Liaison libérée
+Binding stopped: 	綁定讀取停止：	Привязка остановлена: 	バインド読取停止：	바인딩 읽기 중지: 	Bindung gestoppt: 	Liaison arrêtée : 
+Chapter actors unavailable; read the scene actors again	本章角色不可用，請重新讀取場景角色	Персонажи главы недоступны; прочитайте персонажей сцены снова	この章のキャラが利用できません。シーンのキャラを再読込してください	이 챕터의 캐릭터를 사용할 수 없습니다. 장면 캐릭터를 다시 읽으세요	Kapitelfiguren nicht verfügbar; Szenenfiguren neu einlesen	Personnages du chapitre indisponibles ; relisez les personnages de la scène
+Chapter binding assigned	本章計算對象已指定	Привязка главы назначена	この章の対象を指定しました	챕터 바인딩이 지정되었습니다	Kapitelbindung zugewiesen	Liaison du chapitre assignée
+Chapter metadata: 	章節中繼資料讀取：	Метаданные глав: 	章メタデータ：	챕터 메타데이터: 	Kapitel-Metadaten: 	Métadonnées des chapitres : 
+Chapter save: 	章節儲存：	Сохранение глав: 	章の保存：	챕터 저장: 	Kapitelspeicherung: 	Sauvegarde des chapitres : 
+Drag penis tip · 	拖曳陰莖末端 · 	Тяните конец пениса · 	ペニス先端をドラッグ · 	페니스 끝점 드래그 · 	Penisspitze ziehen · 	Glisser l’extrémité du pénis · 
+Enter 0 for auto length, or 1–500 mm	長度填 0 自動標定，或輸入 1–500 mm	Введите 0 для автодлины или 1–500 мм	自動校正は 0、または 1–500 mm を入力してください	자동 보정은 0, 또는 1–500 mm를 입력하세요	0 für automatische Länge oder 1–500 mm eingeben	Saisissez 0 pour la longueur auto, ou 1–500 mm
+Female	女性	Жен.	女性	여성	Weiblich	Femme
+Found 	找到 	Найдено: 	検出：	찾음: 	Gefunden: 	Trouvé : 
+Invalid connection settings	連線參數無效	Неверные параметры подключения	接続設定が無効です	연결 설정이 잘못되었습니다	Ungültige Verbindungseinstellungen	Paramètres de connexion invalides
+Invalid preview model length	預覽模型長度無效	Недопустимая длина модели предпросмотра	プレビューモデルの長さが無効です	미리보기 모델 길이가 잘못되었습니다	Ungültige Länge des Vorschaumodells	Longueur du modèle d’aperçu invalide
+KoiSync preview zipmod is missing	缺少 KoiSync 預覽 zipmod	Отсутствует zipmod предпросмотра KoiSync	KoiSync プレビュー zipmod が見つかりません	KoiSync 미리보기 zipmod가 없습니다	KoiSync-Vorschau-Zipmod fehlt	Le zipmod d’aperçu KoiSync est manquant
+Live preview · entry follows the game binding	即時預覽 · 入口跟隨遊戲綁定點	Живой предпросмотр · вход следует привязке игры	ライブプレビュー · 入口はゲームバインドに追従	실시간 미리보기 · 입구는 게임 바인딩을 따름	Live-Vorschau · Eingang folgt der Spielbindung	Aperçu en direct · l’entrée suit la liaison du jeu
+Local WebSocket / Device index · Intiface: L0 only	本機 WebSocket / 裝置索引 · Intiface 僅支援 L0	Локальный WebSocket / индекс · Intiface: только L0	ローカル WebSocket / デバイス番号 · Intiface は L0 のみ	로컬 WebSocket / 기기 인덱스 · Intiface는 L0만 지원	Lokaler WebSocket / Geräteindex · Intiface: nur L0	WebSocket local / indice d’appareil · Intiface : L0 uniquement
+Male	男性	Муж.	男性	남성	Männlich	Homme
+Manual calibration preview · Entry follows game binding	手動校準預覽 · 入口跟隨遊戲綁定點	Предпросмотр ручной калибровки · вход следует привязке игры	手動校正プレビュー · 入口はゲームバインドに追従	수동 보정 미리보기 · 입구는 게임 바인딩을 따름	Vorschau manuelle Kalibrierung · Eingang folgt Spielbindung	Aperçu calibrage manuel · l’entrée suit la liaison du jeu
+Multiple attachments · Assign chapter binding	多組吸附 · 請指定本章對象	Несколько привязок · назначьте пару главы	複数吸着 · この章の対象を指定してください	다중 흡착 · 이 챕터 대상을 지정하세요	Mehrere Bindungen · Kapitelbindung zuweisen	Fixations multiples · assignez la liaison du chapitre
+No attachment	無吸附對象	Нет привязки	吸着なし	흡착 없음	Keine Bindung	Aucune fixation
+No attachment changes; one chapter retained.	吸附對象未切換，保留一章。	Смены привязок не было; оставлена одна глава.	吸着の切り替わりがないため 1 章のまま保持しました。	흡착 전환이 없어 1개 챕터를 유지합니다.	Keine Bindungswechsel; ein Kapitel beibehalten.	Aucun changement de fixation ; un seul chapitre conservé.
+No attachment keys found; split manually or observe changes during playback.	沒有可讀取的吸附切換鍵；可手動分章，或在播放時自動記錄對象切換。	Ключи привязки не найдены; разделите вручную или воспроизведите для отслеживания.	吸着切替キーが見つかりません。手動分割するか、再生中に切替を記録してください。	흡착 전환 키를 찾지 못했습니다. 수동 분할하거나 재생 중 전환을 기록하세요.	Keine Bindungsschlüssel gefunden; manuell teilen oder während der Wiedergabe erfassen.	Aucune clé de fixation trouvée ; divisez manuellement ou observez pendant la lecture.
+No binding assigned to this chapter	本章沒有明確計算對象	Для этой главы не назначена привязка	この章には計算対象が指定されていません	이 챕터에 지정된 계산 대상이 없습니다	Diesem Kapitel ist keine Bindung zugewiesen	Aucune liaison assignée à ce chapitre
+No calculation target	無計算對象	Нет объекта расчёта	計算対象なし	계산 대상 없음	Kein Berechnungsziel	Aucune cible de calcul
+Penis 	陰莖 	Пенис 	ペニス 	페니스 	Penis 	Pénis 
+Penis length mm	陰莖長度 mm	Длина пениса, мм	ペニス長 mm	페니스 길이 mm	Penislänge mm	Longueur du pénis mm
+Penis length must be 1–500 mm	陰莖長度須為 1–500 mm	Длина пениса должна быть 1–500 мм	ペニス長は 1–500 mm にしてください	페니스 길이는 1–500 mm여야 합니다	Penislänge muss 1–500 mm betragen	La longueur du pénis doit être de 1 à 500 mm
+Penis length set to 	陰莖長度已設為 	Длина пениса задана: 	ペニス長を設定：	페니스 길이 설정됨: 	Penislänge gesetzt auf 	Longueur du pénis définie sur 
+Penis length uses automatic calibration	陰莖長度使用自動標定	Длина пениса калибруется автоматически	ペニス長は自動校正を使用します	페니스 길이에 자동 보정을 사용합니다	Penislänge nutzt automatische Kalibrierung	La longueur du pénis utilise le calibrage automatique
+Preview awaiting binding	預覽等待綁定	Предпросмотр ожидает привязки	プレビューはバインド待ち	미리보기 바인딩 대기 중	Vorschau wartet auf Bindung	Aperçu en attente de liaison
+Preview hidden	預覽已隱藏	Предпросмотр скрыт	プレビュー非表示	미리보기 숨김	Vorschau ausgeblendet	Aperçu masqué
+Preview material is unavailable	預覽材質不可用	Материал предпросмотра недоступен	プレビュー用マテリアルを利用できません	미리보기 재질을 사용할 수 없습니다	Vorschaumaterial nicht verfügbar	Matériau d’aperçu indisponible
+Preview model lacks anchors or mesh	預覽模型缺少錨點或網格	В модели предпросмотра нет якорей или сетки	プレビューモデルにアンカーまたはメッシュがありません	미리보기 모델에 앵커 또는 메시가 없습니다	Vorschaumodell fehlen Anker oder Mesh	Le modèle d’aperçu manque d’ancres ou de maillage
+Read 	已讀取 	Прочитано: 	読込完了：	읽음: 	Eingelesen: 	Lu : 
+Read and select actors in the main window	請在主視窗讀取並選擇角色	Прочитайте и выберите персонажей в главном окне	メイン画面でキャラを読み込み選択してください	메인 창에서 캐릭터를 읽고 선택하세요	Figuren im Hauptfenster einlesen und auswählen	Lisez et sélectionnez les personnages dans la fenêtre principale
+Read chapters: 	章節讀取：	Чтение глав: 	章の読込：	챕터 읽기: 	Kapitel lesen: 	Lecture des chapitres : 
+Read scene actors first	請先點擊讀取目前角色	Сначала прочитайте персонажей сцены	先に現在のキャラを読み込んでください	먼저 현재 캐릭터를 읽어주세요	Zuerst Szenenfiguren einlesen	Lisez d’abord les personnages de la scène
+Scene changed: read and bind the new actors.	場景已切換：就緒後重新讀取角色並綁定。	Сцена изменилась: прочитайте и свяжите новых персонажей.	シーンが切り替わりました。新しいキャラを読み込んで設定してください。	장면이 바뀌었습니다. 새 캐릭터를 읽고 연결하세요.	Szene gewechselt: neue Figuren einlesen und binden.	Scène modifiée : lisez et liez les nouveaux personnages.
+Script preview · sleeve follows recorded axes	腳本預覽 · 杯口隨錄製六軸驅動	Предпросмотр скрипта · стакан следует записанным осям	スクリプトプレビュー · カップは記録6軸に追従	스크립트 미리보기 · 컵이 녹화된 6축을 따름	Skriptvorschau · Hülse folgt aufgezeichneten Achsen	Aperçu script · la gaine suit les axes enregistrés
+Select two different actors	請選擇兩個不同角色	Выберите двух разных персонажей	異なる2人のキャラを選択してください	서로 다른 두 캐릭터를 선택하세요	Zwei verschiedene Figuren auswählen	Sélectionnez deux personnages différents
+Sleeve follows six-axis output · Channel matches penis length	杯口隨六軸輸出驅動 · 通道與陰莖等長	Стакан следует шести осям · канал соответствует длине пениса	カップは6軸出力に追従 · 内部長はペニス長に一致	컵이 6축 출력을 따름 · 내부 길이는 페니스 길이와 일치	Hülse folgt 6-Achsen-Ausgabe · Kanal entspricht Penislänge	La gaine suit les six axes · le canal correspond à la longueur du pénis
+Source has no valid penis bone chain	來源沒有有效陰莖骨骼鏈	У источника нет подходящей цепочки костей пениса	操作側に有効なペニス骨格チェーンがありません	소스에 유효한 페니스 뼈 체인이 없습니다	Quelle besitzt keine gültige Penisknochenkette	La source n’a pas de chaîne osseuse de pénis valide
+Split at 	已在 	Разделено на 	分割位置：	분할 위치: 	Geteilt bei 	Divisé à 
+Studio scene is not ready	Studio 場景尚未就緒	Сцена Studio не готова	Studio シーンの準備ができていません	Studio 장면이 아직 준비되지 않았습니다	Studio-Szene ist nicht bereit	La scène Studio n’est pas prête
+Target lacks the selected opening node	目標缺少對應入口節點	У цели отсутствует выбранный узел входа	対象先に選択した入口ノードがありません	대상에 선택한 입구 노드가 없습니다	Ziel fehlt der gewählte Öffnungsknoten	La cible ne possède pas le nœud d’ouverture choisi
+Timeline is not ready	Timeline 尚未就緒	Timeline не готов	Timeline の準備ができていません	Timeline이 아직 준비되지 않았습니다	Timeline ist nicht bereit	Timeline n’est pas prêt
+Timeline playback API is unavailable	Timeline 播放介面不可用	API воспроизведения Timeline недоступен	Timeline 再生 API が利用できません	Timeline 재생 API를 사용할 수 없습니다	Timeline-Wiedergabe-API nicht verfügbar	L’API de lecture Timeline est indisponible
+Two scene actors are required for binding	目前場景需要兩個角色才能綁定	Для привязки нужны два персонажа в сцене	バインドにはシーン内に2人のキャラが必要です	바인딩하려면 장면에 두 명의 캐릭터가 필요합니다	Zum Binden werden zwei Szenenfiguren benötigt	Deux personnages de scène sont nécessaires pour la liaison
+Unassigned	待指定對象	Не назначено	未指定	미지정	Nicht zugewiesen	Non assigné
+Unloaded	已卸載	Выгружено	アンロード済み	언로드됨	Entladen	Déchargé
+Scene is loading…	場景正在載入…	Загрузка сцены…	シーン読み込み中…	장면 불러오는 중…	Szene wird geladen…	Chargement de la scène…
+Enter a seek time in seconds	定位請輸入秒數	Введите время перехода в секундах	移動先の秒数を入力してください	이동할 시간을 초 단위로 입력하세요	Zielzeit in Sekunden eingeben	Saisissez un temps en secondes
+Connecting 	正在連線 	Подключение 	接続中 	연결 중 	Verbinde 	Connexion 
+Opened 	已開啟 	Открыто 	接続済み 	열림 	Geöffnet 	Ouvert 
+Connection error: 	連線錯誤：	Ошибка подключения: 	接続エラー：	연결 오류: 	Verbindungsfehler: 	Erreur de connexion : 
+Device worker error: 	通訊執行緒錯誤：	Ошибка потока устройства: 	通信スレッドエラー：	통신 스레드 오류: 	Geräte-Thread-Fehler: 	Erreur du thread appareil : 
+Connection timed out: 	連線逾時：	Тайм-аут подключения: 	接続タイムアウト：	연결 시간 초과: 	Zeitüberschreitung: 	Délai de connexion dépassé : 
+; check the port and device ownership	，請檢查連接埠及裝置佔用	; проверьте порт и занятость устройства	（ポートや機器の占有状態を確認してください）	 (포트 및 기기 점유 상태를 확인하세요)	; Port und Gerätebelegung prüfen	 ; vérifiez le port et l’occupation de l’appareil
+Intiface connected · L0 position	Intiface 已連線 · L0 位置通道	Intiface подключён · канал L0	Intiface 接続済み · L0 位置チャンネル	Intiface 연결됨 · L0 위치 채널	Intiface verbunden · L0-Position	Intiface connecté · position L0
+UDP has no device acknowledgement	UDP 無裝置應答	UDP без подтверждения устройства	UDP は機器応答なし	UDP 기기 응답 없음	UDP ohne Gerätebestätigung	UDP sans accusé de réception
+Intiface disconnected	Intiface 已斷開	Intiface отключён	Intiface が切断されました	Intiface 연결이 끊어졌습니다	Intiface getrennt	Intiface déconnecté
+Intiface transport error	Intiface 通訊錯誤	Ошибка связи Intiface	Intiface 通信エラー	Intiface 통신 오류	Intiface-Übertragungsfehler	Erreur de communication Intiface
+Intiface connection timed out	Intiface 連線逾時	Тайм-аут подключения Intiface	Intiface 接続タイムアウト	Intiface 연결 시간 초과	Intiface-Verbindung abgelaufen	Délai de connexion Intiface dépassé
+Device disconnected from Intiface	裝置已從 Intiface 斷開	Устройство отключено от Intiface	機器が Intiface から切断されました	기기가 Intiface에서 분리되었습니다	Gerät von Intiface getrennt	Appareil déconnecté d’Intiface
+Use Intiface Central for The Handy	Handy 請使用 Intiface Central	Для The Handy используйте Intiface Central	The Handy には Intiface Central を使用してください	The Handy는 Intiface Central을 사용하세요	Für The Handy Intiface Central verwenden	Utilisez Intiface Central pour The Handy
+
+Feel preset (MainGame-style · non-manual)	體感檔位（對齊本體三檔 · 非手動模式）	Профиль ощущений (как в основе · не ручной)	体感プリセット（本体3段階 · 非手動）	체감 프리셋 (본편 3단계 · 비수동)	Gefühlsprofil (wie Hauptspiel · nicht manuell)	Profil de ressenti (comme le jeu · hors manuel)
+Raw	絕對真實	Без обработки	リアル原値	절대 사실	Roh (1:1)	Brut (1:1)
+Balanced	平衡推薦	Сбалансированный	バランス推奨	균형 추천	Ausgewogen	Équilibré
+Intense	高刺激	Интенсивный	高刺激	고자극	Intensiv	Intense
+1:1 raw skeletal geometry with no chapter stroke amplification.	1:1 保留骨骼原始幾何幅度，不做章節行程放大。	Геометрия костей 1:1 без усиления хода по главам.	ボーンの元ジオメトリを1:1で維持し、章ごとの増幅は行いません。	본의 원본 기하 폭을 1:1로 유지하며 챕터 증폭을 하지 않습니다.	1:1-Skelettgeometrie ohne kapitelweise Hubverstärkung.	Géométrie osseuse 1:1 sans amplification de course par chapitre.
+Uses chapter range normalization onto the golden window with frequency-aware amplitude and gentle secondary axes.	結合預掃描章節行程自動歸一化到黃金區間，並疊加頻率幅值與柔和次軸增強。	Нормализует ход главы в золотой диапазон с учётом частоты и мягким усилением вторичных осей.	事前スキャン済みの章レンジを黄金域へ自動正規化し、周波数連動振幅と穏やかな副軸補正を加えます。	사전 스캔된 챕터 범위를 황금 구간으로 자동 정규화하고 주파수 진폭과 부드러운 보조축을 더합니다.	Normalisiert Kapitelbereiche auf das optimale Fenster mit frequenzabhängiger Amplitude und sanften Nebenachsen.	Normalise la course du chapitre sur la zone idéale avec amplitude adaptative et axes secondaires doux.
+Full dynamic expansion toward the deep end with stronger speed and secondary-axis response.	滿幅動態拉伸並向深端擴展，強化高速段節奏與次軸表現。	Полное динамическое расширение в глубину с усиленной реакцией скорости и вторичных осей.	深部側へフルレンジ拡張し、高速帯のリズムと副軸表現を強化します。	깊은 구간까지 풀레인지 확장하며 고속 리듬과 보조축 반응을 강화합니다.	Volle dynamische Erweiterung in die Tiefe mit stärkerer Geschwindigkeits- und Nebenachsenreaktion.	Expansion dynamique complète vers la profondeur avec réponse accrue en vitesse et axes secondaires.
+Raw geometry pass-through	原味幾何直出	Прямой вывод геометрии	元ジオメトリ直出力	원본 기하 직출력	Direkte Geometrieausgabe	Sortie géométrique brute
+Manual / script mode bypasses feel translation	手動／腳本模式不疊加體感翻譯	Ручной режим и скрипты обходят профиль ощущений	手動・スクリプトモードでは体感補正をバイパスします	수동/스크립트 모드에서는 체감 변환을 건너뜁니다	Manueller / Skript-Modus umgeht die Gefühlsübersetzung	Le mode manuel / script ignore la traduction de ressenti
+Cancel prescan 	取消預掃描 	Отменить скан 	事前スキャン中止 	사전 스캔 취소 	Vorscan abbrechen 	Annuler pré-scan 
+Auto prescan	一鍵高速預掃描	Авто-предскан	一括高速スキャン	원클릭 고속 스캔	Auto-Vorscan	Pré-scan auto
+Offline zero-AI fast prescan using real bones: chapter voting prevents vaginal/anal flips, calibrates chapter ranges & climax candidates, and writes .director.json.	離線零 AI 高速步進掃描真實骨骼：整章投票防陰道／肛門亂選、自動標定行程與高潮候選，並生成 .director.json。	Офлайн-предскан реальных костей без ИИ: голосование глав исключает скачки вагинально/анально, калибрует ход и кандидатов кульминации, сохраняет .director.json.	AI不要のオフライン高速ボーン事前スキャン：章単位投票で部位誤判定を防ぎ、行程補正・絶頂候補検出・.director.json出力を自動実行します。	AI 없는 오프라인 고속 본 사전 스캔: 챕터 투표로 부위 오판 방지, 챕터 범위 보정 및 절정 후보 감지, .director.json 자동 생성.	Offline-Schnellscan echter Knochen ohne KI: Kapitel-Abstimmung verhindert Vaginal/Anal-Sprünge, kalibriert Bereiche & Höhepunkte und schreibt .director.json.	Pré-scan rapide hors ligne sans IA sur les vrais os : vote par chapitre anti-bascule vaginal/anal, calibration, détection de climax et export .director.json.
+Scene duration is too short	目前場景時長過短	Длительность сцены слишком мала	シーンの長さが短すぎます	장면 길이가 너무 짧습니다	Szenendauer ist zu kurz	La durée de la scène est trop courte
+At least two actors are required	目前場景需要至少兩個角色	Требуется минимум два персонажа	少なくとも2人のキャラクターが必要です	최소 두 명의 캐릭터가 필요합니다	Mindestens zwei Charaktere erforderlich	Au moins deux personnages sont requis
+Fast prescan running…	正在高速預掃描…	Идёт быстрый предскан…	高速スキャン実行中…	고속 사전 스캔 중…	Schnell-Vorscan läuft…	Pré-scan rapide en cours…
+Prescan cancelled	已取消預掃描	Предскан отменён	事前スキャンを中止しました	사전 스캔이 취소되었습니다	Vorscan abgebrochen	Pré-scan annulé
+Fast prescan 	正在高速預掃描 	Быстрый предскан 	高速スキャン 	고속 스캔 	Schnell-Vorscan 	Pré-scan rapide 
+Prescan done · 	預掃描完成 · 	Предскан готов · 	事前スキャン完了 · 	사전 스캔 완료 · 	Vorscan fertig · 	Pré-scan terminé · 
+ ch	 章	 гл.	 章	 장	 Kap.	 ch.
+ review	 待覆核	 пров.	 要確認	 검토	 prüfen	 à vérifier
+ climax	 高潮	 кульм.	 絶頂	 절정	 Höhepunkt	 climax
+Prescan failed: 	預掃描失敗：	Ошибка предскана: 	事前スキャン失敗：	사전 스캔 실패: 	Vorscan fehlgeschlagen: 	Échec du pré-scan : 
+Baking 6-axis scripts…	正在高速烘焙 6 軸腳本…	Запекание 6-осевых скриптов…	6軸スクリプトを高速ベイク中…	6축 스크립트 고속 베이크 중…	6-Achsen-Skripte werden gebacken…	Cuisson rapide des scripts 6 axes…
+Baking scripts 	正在高速烘焙腳本 	Запекание скриптов 	スクリプトをベイク中 	스크립트 베이크 중 	Skripte backen 	Cuisson scripts 
+ frames)	 幀)	 кадров)	 フレーム)	 프레임)	 Bilder)	 images)
+Six-axis scripts baked · 	六軸腳本已烘焙保存 · 	6-осевые скрипты запечены · 	6軸スクリプトをベイク保存 · 	6축 스크립트 베이크 저장 · 	6-Achsen-Skripte gebacken · 	Scripts 6 axes cuits · 
+Too few baked frames; scripts not saved	烘焙幀數不足，未儲存腳本	Слишком мало кадров; скрипты не сохранены	ベイク済みフレームが少なすぎるため保存しませんでした	베이크된 프레임이 너무 적어 저장되지 않았습니다	Zu wenige gebackene Bilder; Skripte nicht gespeichert	Trop peu d’images cuites ; scripts non enregistrés
+Script bake failed: 	腳本烘焙失敗：	Ошибка запекания скрипта: 	スクリプトのベイクに失敗：	스크립트 베이크 실패: 	Skript-Backen fehlgeschlagen: 	Échec de la cuisson des scripts : 
+Cancel bake 	取消烘焙 	Отменить запекание 	ベイク中止 	베이크 취소 	Backen abbrechen 	Annuler cuisson 
+Fast bake 6-axis	一鍵高速烘焙 6 軸	Быстрое запекание 6 осей	6軸高速ベイク	6축 고속 베이크	6-Achsen-Schnellbacken	Cuisson rapide 6 axes
+Deterministically bakes 50Hz 6-axis .funscript from locked chapters & feel preset (no real-time wait, zero dropped frames).	按目前章節與三檔手感離線步進烘焙 50Hz 六軸 .funscript（無需即時等待、零掉幀）。	Детерминированно запекает 6-осевой .funscript (50 Гц) по главам и профилю ощущений без ожидания в реальном времени и пропусков кадров.	確定済み章と体感プリセットから50Hz 6軸.funscriptをオフライン高速ベイク（実時間待機・コマ落ちなし）。	확정된 챕터와 체감 프리셋으로 50Hz 6축 .funscript를 오프라인 고속 베이크(실시간 대기·프레임 누락 없음).	Backt deterministisch 50-Hz-6-Achsen-.funscript aus Kapiteln & Gefühlsprofil ohne Echtzeit-Warten oder Bildverlust.	Cuit de manière déterministe un .funscript 6 axes à 50 Hz selon les chapitres et le profil de ressenti (sans attente temps réel ni perte d’images).
+Climax sync mode	高潮同步模式	Режим синхр. кульминации	絶頂同期モード	절정 동기화 모드	Höhepunkt-Sync-Modus	Mode de synchro climax
+Keep live simulated motion during climax (no fixed vibe)	高潮保持即時計算/手感模擬，不覆寫定頻震動	Сохранять живую симуляцию во время кульминации (без фикс. вибрации)	絶頂中もリアルタイム計算/体感シミュレーションを維持（定周波振動なし）	절정 중 실시간 계산/체감 시뮬레이션 유지 (고정 진동 없음)	Live-Simulation beim Höhepunkt beibehalten (keine feste Vibration)	Conserver la simulation en direct durant le climax (sans vibration fixe)
+Script playback uses recorded values; mode applies to live & bake	腳本回放使用錄製值；模式設定用於即時與烘焙	Воспроизведение скрипта берёт запись; режим действует на live и запекание	スクリプト再生は記録値を使用；この設定はライブとベイクに適用	스크립트 재생은 녹화값 사용 · 모드는 실시간 및 베이크에 적용	Skriptwiedergabe nutzt aufgezeichnete Werte; Modus gilt für Live & Backen	La lecture script utilise les valeurs enregistrées ; le mode s’applique au direct et à la cuisson
+Smart: low scene motion → fixed climax vibration	智慧判定：本章抽插幅度/頻率較低 → 啟用定頻震動	Умный: слабое движение сцены → фикс. вибрация кульминации	自動判定：この章の動きが少ない → 定周波の絶頂振動を有効化	스마트 판정: 이 챕터의 움직임이 적음 → 고정 절정 진동 사용	Smart: wenig Szenenbewegung → feste Höhepunkt-Vibration	Intelligent : faible mouvement → vibration fixe de climax
+Smart: active thrusting → keep simulated motion	智慧判定：本章仍在積極抽插 → 保持計算模擬數據	Умный: активные фрикции → сохранить расчётное движение	自動判定：この章は活発に動作中 → シミュレーション動作を維持	스마트 판정: 활발한 왕복 중 → 계산 시뮬레이션 유지	Smart: aktive Bewegung → simulierte Bewegung beibehalten	Intelligent : mouvement actif → conserver la simulation
+Saved per chapter · switch freely between fixed or simulated	每章獨立儲存 · 可自由切換定頻或計算模擬	Сохраняется по главам · свободное переключение фикс./симуляция	章ごとに個別保存 · 定周波とシミュレーションを自由に切替	챕터별 개별 저장 · 고정 진동과 시뮬레이션 자유 전환	Pro Kapitel gespeichert · frei zwischen fest und simuliert wechseln	Enregistré par chapitre · bascule libre entre fixe et simulé
+✦ 6D Research Grinding & Skeleton Coupling (direct insertion)	✦ 科研 6D 研磨與骨架權重聯動（直插章節）	✦ 6D-грайнд и связка скелета (прямое введение)	✦ 6D 科研グラインド＆骨格ウェイト連動（直接挿入章）	✦ 6D 연구 그라인드 & 스켈레톤 연동 (직접 삽입 챕터)	✦ 6D-Grinding & Skelettkopplung (direktes Einführen)	✦ Grind 6D & couplage squelette (insertion directe)
+Select a chapter to configure 6D grinding and skeleton coupling.	請選擇一個章節以設定 6D 研磨增強與骨架物理權重。	Выберите главу для настройки 6D-грайнда и связки скелета.	6D グラインドと骨格連動を設定する章を選択してください。	6D 그라인드와 스켈레톤 연동을 설정할 챕터를 선택하세요.	Kapitel auswählen, um 6D-Grinding und Skelettkopplung einzustellen.	Sélectionnez un chapitre pour configurer le grind 6D et le couplage squelette.
+Current chapter is hand/chest interaction; 6D pelvic grinding & skeleton reverse-coupling applies to Vaginal, Anal and Oral insertion chapters.	目前章節為手部/胸部非直插互動；科研 6D 骨盆研磨與骨架反寫僅面向陰道、肛門、口部直接插入章節開放。	Текущая глава — контакт руками/грудью; 6D-грайнд таза и обратная связка скелета доступны только для вагинальных, анальных и оральных глав.	この章は手・胸の非挿入互動です。6D 骨盤グラインドと骨格逆連動は膣・アナル・口部の直接挿入章でのみ有効です。	현재 챕터는 손/가슴 상호작용입니다. 6D 골반 그라인드와 스켈레톤 역연동은 질·항문·구강 직접 삽입 챕터에만 적용됩니다.	Dieses Kapitel ist Hand-/Brust-Interaktion; 6D-Becken-Grinding & Skelett-Rückkopplung gelten nur für Vaginal-, Anal- und Oral-Kapitel.	Ce chapitre est une interaction main/poitrine ; le grind 6D pelvien et le couplage inverse s’appliquent aux chapitres vaginaux, anaux et oraux.
+Grind curve	研磨軌跡	Траектория	グラインド軌道	그라인드 궤적	Grind-Kurve	Courbe grind
+Intensity	研磨強度	Интенсивность	強度	강도	Intensität	Intensité
+Grind Hz	研磨頻率	Частота Гц	周波数 Hz	주파수 Hz	Grind-Hz	Fréq. grind
+Mover	主發力方	Ведущий	主動作側	주도측	Antrieb	Moteur
+Auto	自動	Авто	自動	자동	Auto	Auto
+Both	雙向	Оба	両方	양쪽	Beide	Les deux
+Depth-weighted (stronger deep, softer out)	按插入深度加權（深插漸強，拔出漸柔）	Вес по глубине (сильнее в глубине, мягче у выхода)	挿入深度で重み付け（奥ほど強く、浅いほど柔らかく）	삽입 깊이 가중 (깊을수록 강하게, 얕을수록 부드럽게)	Tiefengewichtet (tief stärker, flach sanfter)	Pondéré par profondeur (plus fort au fond, plus doux en sortie)
+Reverse-drive skeleton (3-tier pelvis + spine S-wave + IK)	反向聯動角色骨架（骨盆三段 + 脊柱S波 + 肢體IK）	Обратный привод скелета (3-уровн. таз + S-волна спины + IK)	キャラ骨格へ逆連動（3段骨盤 + 背骨S波 + 肢体IK）	캐릭터 스켈레톤 역구동 (3단 골반 + 척추 S파 + IK)	Skelett rückkoppeln (3-Stufen-Becken + Wirbelsäulen-S-Welle + IK)	Rétro-piloter le squelette (bassin 3 niveaux + onde S colonne + IK)
+Couple chest/butt DynamicBone soft-tissue weights	同步胸/臀軟組織物理權重（DynamicBone 慣性）	Связать физику мягких тканей груди/ягодиц (DynamicBone)	胸・尻の軟体物理ウェイト（DynamicBone 慣性）を連動	가슴/엉덩이 DynamicBone 연조직 물리 가중치 연동	Brust-/Po-DynamicBone-Weichgewebe koppeln	Coupler les poids souples poitrine/fesses (DynamicBone)
+✦ Live coupling: 	✦ 即時聯動中：	✦ Живая связка: 	✦ ライブ連動中：	✦ 실시간 연동: 	✦ Live-Kopplung: 	✦ Couplage direct : 
+ · Pelvis 	 · 骨盆 	 · Таз 	 · 骨盤 	 · 골반 	 · Becken 	 · Bassin 
+mm · Soft 	mm · 軟組織 	мм · Мягк. 	mm · 軟体 	mm · 연조직 	mm · Weich 	mm · Souple 
+ bones	 組	 кост.	 本	 본	 Knochen	 os
+✦ 6D grind armed: live playback drives skeleton & Fast Bake writes all 6 axes.	✦ 已啟用本章 6D 研磨：播放即時聯動骨架，「一鍵高速烘焙 6 軸」自動寫入全部六軸腳本。	✦ 6D-грайнд активен: воспроизведение двигает скелет, а быстрое запекание пишет все 6 осей.	✦ 6D グラインド待機中：再生時に骨格へ連動し、「6軸高速ベイク」で全6軸を書き出します。	✦ 6D 그라인드 준비됨: 재생 시 스켈레톤 연동 및 「6축 고속 베이크」가 전체 6축을 기록합니다.	✦ 6D-Grind bereit: Wiedergabe steuert Skelett & Schnellbacken schreibt alle 6 Achsen.	✦ Grind 6D armé : la lecture pilote le squelette et la cuisson rapide écrit les 6 axes.
+Pick any grind curve to layer 6D grinding & reverse skeleton motion onto this chapter.	選擇任意研磨軌跡即可在保留原抽插的同時疊加 6D 研磨與骨架聯動。	Выберите любую траекторию, чтобы наложить 6D-грайнд и обратную связку скелета на эту главу.	任意の軌道を選ぶと、元の動作を保ったまま 6D グラインドと骨格逆連動を重ね掛けできます。	원하는 그라인드 궤적을 선택하면 기존 동작 위에 6D 그라인드와 스켈레톤 연동을 중첩합니다.	Wähle eine Kurve, um 6D-Grinding & Skelett-Rückkopplung über dieses Kapitel zu legen.	Choisissez une courbe pour superposer le grind 6D et le mouvement squelette inverse sur ce chapitre.
+Circle orbit (360°)	圓周深磨 (360° 扭腰)	Круговая орбита (360°)	円周グラインド (360°)	원형 궤도 (360°)	Kreisbahn (360°)	Orbite circulaire (360°)
+Figure-8 sway	∞ 字八字研磨	Восьмёрка (∞)	8の字スウェイ (∞)	8자 스웨이 (∞)	Achter-Schwung (∞)	Balancement en 8 (∞)
+Corkscrew twist	螺旋鑽磨 (強 R0 旋擰)	Штопор (сильный R0)	コークスクリュー (強 R0)	코르크스크류 (강한 R0)	Korkenzieher (R0-Drall)	Vrille tire-bouchon (R0)
+Deep F/B pelvic rock	前後深頂碾磨 (G點俯仰)	Глубокое покачивание таза	前後ディープ骨盤ロッキング	전후 깊은 골반 록킹	Tiefes Becken-Kippen V/Z	Bascule pelvienne profonde AV/AR
+Straight F/B (L1+R2)	純前後直線推磨 (L1+R2)	Прямо вперёд/назад (L1+R2)	純前後直線 (L1+R2)	직선 전후 (L1+R2)	Gerade V/Z (L1+R2)	Ligne AV/AR (L1+R2)
+Straight L/R (L2+R1)	純左右直線橫磨 (L2+R1)	Прямо влево/вправо (L2+R1)	純左右直線 (L2+R1)	직선 좌우 (L2+R1)	Gerade L/R (L2+R1)	Ligne G/D (L2+R1)
+6D Golden Lissajous	6D 黃金比例李薩如 (科研流形)	6D Золотой Лиссажу	6D 黄金比リサジュー	6D 황금비 리사주	6D Goldener Lissajous	Lissajous doré 6D
+Off (scene motion only)	關閉（保持原場景動作）	Выкл. (только сцена)	オフ（元シーン動作のみ）	끔 (원본 장면 동작만)	Aus (nur Szenenbewegung)	Désactivé (scène seule)
+Chapter 6D grind disabled	本章 6D 研磨已關閉	6D-грайнд главы отключён	この章の 6D グラインドを無効化しました	이 챕터의 6D 그라인드를 껐습니다	Kapitel-6D-Grind deaktiviert	Grind 6D du chapitre désactivé
+Chapter 6D grind enabled: 	本章已啟用科研研磨：	6D-грайнд главы включён: 	この章の 6D グラインドを有効化：	이 챕터 6D 그라인드 활성화: 	Kapitel-6D-Grind aktiviert: 	Grind 6D du chapitre activé : 
+This chapter only; normal direct-insertion chapters support 6D grinding & skeleton coupling.	僅本章生效；普通章節可疊加 6D 科研研磨與骨架權重聯動。	Только для этой главы; обычные главы прямого введения поддерживают 6D-грайнд и связку скелета.	この章のみ適用；通常の直接挿入章では 6D グラインドと骨格連動を利用できます。	이 챕터에만 적용 · 일반 직접 삽입 챕터는 6D 그라인드 및 스켈레톤 연동을 지원합니다.	Nur für dieses Kapitel; normale Einführ-Kapitel unterstützen 6D-Grinding & Skelettkopplung.	Ce chapitre uniquement ; les chapitres normaux d’insertion directe prennent en charge le grind 6D et le couplage squelette.
+Smart (vibe if low motion)	智慧（低動頻震動 / 抽插模擬）	Умный (вибро при малом ходе)	スマート（低動作時は振動）	스마트 (저동작 시 진동)	Smart (Vib. bei wenig Hub)	Intelligent (vibe si faible)
+Always fixed frequency	始終固定頻率震動	Всегда фикс. частота	常に定周波振動	항상 고정 주파수 진동	Immer feste Frequenz	Toujours fréquence fixe
+Always simulated motion	始終計算模擬（不震動）	Всегда расчётное движение	常にシミュレーション動作	항상 시뮬레이션 동작	Immer simulierte Bewegung	Toujours mouvement simulé
+Follow actual L0 cycle	跟隨實際 L0 週期	По реальному циклу L0	実際の L0 周期に追従	실제 L0 주기를 따름	Echtem L0-Zyklus folgen	Suivre le cycle L0 réel
+Chapter set to Normal; 6D grinding & skeleton coupling available.	本章已設為普通；可疊加 6D 研磨與骨架聯動。	Глава переведена в обычный режим; доступны 6D-грайнд и связка скелета.	この章を通常に設定しました；6D グラインドと骨格連動が利用可能です。	챕터를 일반으로 설정했습니다 · 6D 그라인드 및 스켈레톤 연동 사용 가능.	Kapitel auf Normal gesetzt; 6D-Grinding & Skelettkopplung verfügbar.	Chapitre défini sur Normal ; grind 6D et couplage squelette disponibles.
+✦ Save all chapter data	✦ 儲存全部章節資訊	✦ Сохранить все главы	✦ 全チャプター情報を保存	✦ 모든 챕터 정보 저장	✦ Alle Kapiteldaten speichern	✦ Enregistrer tous les chapitres
+▤ Open save folder	▤ 開啟儲存目錄	▤ Открыть папку сохранения	▤ 保存フォルダーを開く	▤ 저장 폴더 열기	▤ Speicherordner öffnen	▤ Ouvrir le dossier
+● Record playback	● 開始隨播放錄製	● Запись при воспроизв.	● 再生に合わせて録画	● 재생 녹화 시작	● Wiedergabe aufnehmen	● Enregistrer la lecture
+■ Cancel 	■ 取消烘焙 	■ Отменить 	■ 中止 	■ 취소 	■ Abbrechen 	■ Annuler 
+✦ Fast bake 6-axis	✦ 一鍵高速烘焙 6 軸	✦ Быстрое запекание 6 осей	✦ 6軸高速ベイク	✦ 6축 고속 베이크	✦ 6-Achsen-Schnellbacken	✦ Cuisson rapide 6 axes
+◈ Choose L0 script…	◈ 選擇 L0 腳本…	◈ Выбрать скрипт L0…	◈ L0 スクリプト選択…	◈ L0 스크립트 선택…	◈ L0-Skript wählen…	◈ Choisir le script L0…
+L0 travel range (default 0–99)	L0 行程範圍（預設 0–99）	Диапазон хода L0 (по умолч. 0–99)	L0 ストローク範囲（初期値 0–99）	L0 스트로크 범위 (기본 0–99)	L0-Hubbereich (Standard 0–99)	Plage de course L0 (défaut 0–99)
+Manual span (distance between endpoints)	手動標尺（起點到末端的距離）	Ручной диапазон (расстояние между точками)	手動スパン（起点から末端までの距離）	수동 스팬 (시작점–끝점 거리)	Manuelle Spanne (Abstand der Endpunkte)	Portée manuelle (distance entre extrémités)
+L0: origin → 0, tip → 99; the endpoint span maps to full travel.	L0：起點 → 0，末端 → 99；兩點之間映射完整行程。	L0: начало → 0, конец → 99; отрезок между точками отображается на весь ход.	L0：起点 → 0、末端 → 99；両端間の距離が全ストロークへ対応します。	L0: 시작점 → 0, 끝점 → 99 · 양 끝점 구간이 전체 스트로크에 매핑됩니다.	L0: Ursprung → 0, Spitze → 99; die Endpunktspanne bildet den vollen Hub ab.	L0 : origine → 0, pointe → 99 ; l’intervalle entre extrémités couvre toute la course.
+Player-length clipping removed; full 0–99 travel is active by default. Feel presets map each chapter smoothly onto the full range.	已取消玩家長度底限截斷，預設使用完整 0–99 行程範圍。各檔手感會自動將章節動作映射到全幅黃金區間。	Обрезка по длине игрока снята; по умолчанию активен полный ход 0–99. Профили ощущений плавно отображают каждую главу на весь диапазон.	プレイヤー長による下限クリップを撤廃し、標準で 0–99 全幅を使用します。各体感プリセットが章の動きを全幅黄金域へ滑らかに割り当てます。	사용자 길이 하한 클리핑을 제거하여 기본 0–99 전체 범위를 사용합니다. 체감 프리셋이 각 챕터 동작을 전체 황금 구간으로 매핑합니다.	Spielerlängen-Begrenzung entfernt; voller Hub 0–99 ist standardmäßig aktiv. Gefühlsprofile bilden jedes Kapitel sanft auf den vollen Bereich ab.	Écrêtage de longueur du joueur supprimé ; la course 0–99 est active par défaut. Les profils de ressenti adaptent chaque chapitre sur toute la plage.
+Current L0 range: 	目前 L0 輸出範圍：	Текущий диапазон L0: 	現在の L0 出力範囲：	현재 L0 출력 범위: 	Aktueller L0-Bereich: 	Plage L0 actuelle : 
+Outer L0:	L0 外限：	Внешн. L0:	L0 外限：	L0 외한:	Äußeres L0:	L0 externe :
+Reset full 0–99 range	恢復預設 0–99 全幅	Сбросить на 0–99	標準 0–99 全幅に戻す	기본 0–99 전체 복원	Auf 0–99 zurücksetzen	Rétablir plage 0–99
+L0 restored to full 0–99 range	L0 已恢復 0–99 全幅行程	L0 сброшен на полный диапазон 0–99	L0 を 0–99 全幅に戻しました	L0를 0–99 전체 범위로 복원했습니다	L0 auf vollen Bereich 0–99 zurückgesetzt	L0 rétabli sur la plage 0–99
+❚❚ Pause	❚❚ 暫停	❚❚ Пауза	❚❚ 一時停止	❚❚ 일시정지	❚❚ Pause	❚❚ Pause
+▶ Play	▶ 播放	▶ Пуск	▶ 再生	▶ 재생	▶ Start	▶ Lire
+■ Stop / Start	■ 停止 / 起點	■ Стоп / Начало	■ 停止 / 起点	■ 정지 / 시작점	■ Stopp / Anfang	■ Stop / Début
+Six-axis travel · Pink: input / Gold: output	六軸行程 · 粉：輸入 / 金：輸出	Ход 6 осей · Розов.: вход / Золот.: выход	6軸ストローク · 桃：入力 / 金：出力	6축 스트로크 · 분홍: 입력 / 금색: 출력	6-Achsen-Hub · Rosa: Eingang / Gold: Ausgang	Course 6 axes · Rose : entrée / Or : sortie
+Climax chapter · L0 pink is scene input; gold is chapter output	高潮章節 · L0 粉色為畫面輸入，金色為章節輸出	Глава кульминации · розовый L0 — вход сцены, золотой — выход главы	絶頂章 · L0 桃色はシーン入力、金色は章出力	절정 챕터 · L0 분홍은 장면 입력, 금색은 챕터 출력	Höhepunkt-Kapitel · L0 Rosa ist Szeneneingang; Gold ist Kapitelausgang	Chapitre climax · L0 rose = entrée scène ; or = sortie chapitre
+◈ Device	◈ 裝置	◈ Устр.	◈ 機器	◈ 장치	◈ Gerät	◈ Appareil
+❖ Desk	❖ 工作台	❖ Пульт	❖ 作業台	❖ 작업대	❖ Pult	❖ Atelier
+◇ Setup	◇ 設定	◇ Настр.	◇ 設定	◇ 설정	◇ Setup	◇ Config
+6-Axis	六軸	6 осей	6軸	6축	6-Achsen	6 axes
+■ Stop synchronization	■ 停止裝置同步	■ Остановить синхронизацию	■ 同期を停止	■ 장치 동기화 중지	■ Synchronisierung stoppen	■ Arrêter la synchronisation
+▶ Enable synchronization	▶ 開啟裝置同步	▶ Включить синхронизацию	▶ 同期を開始	▶ 장치 동기화 시작	▶ Synchronisierung starten	▶ Activer la synchronisation
+Feel mode · 3-tier presets (default 0–99)	體感模式 · 全域三檔（預設 0–99 全幅）	Режим ощущений · 3 профиля (по умолч. 0–99)	体感モード · 3段階プリセット（初期値 0–99）	체감 모드 · 전역 3단계 (기본 0–99 전체)	Gefühlsmodus · 3 Stufen (Standard 0–99)	Mode ressenti · 3 profils (défaut 0–99)
+No bound playing chapter · applies globally and to script bake	未綁定播放中章節 · 選擇將作為全域與烘焙預設值	Нет привязанной текущей главы · действует глобально и при запекании	再生中のバインド章なし · 全体およびベイクの既定値として適用	바인딩된 재생 챕터 없음 · 전역 및 스크립트 베이크 기본값으로 적용	Kein gebundenes aktives Kapitel · gilt global und fürs Skript-Backen	Aucun chapitre lié en lecture · appliqué globalement et à la cuisson
+Raw (1:1)	絕對真實	Сырой (1:1)	リアル (1:1)	원본 (1:1)	Roh (1:1)	Brut (1:1)
+1:1 raw skeletal geometry across 0–99 with no stroke amplification.	1:1 保留骨骼原始幾何幅度，0–99 無底限截斷，不做行程放大。	Геометрия костей 1:1 на 0–99 без обрезки и усиления хода.	骨格の元ジオメトリを 0–99 で 1:1 維持し、下限クリップや増幅を行いません。	뼈대 원본 기하 폭을 0–99에서 1:1 유지하며 하한 클리핑이나 증폭을 하지 않습니다.	1:1-Skelettgeometrie über 0–99 ohne untere Begrenzung oder Hubverstärkung.	Géométrie osseuse brute 1:1 sur 0–99 sans écrêtage ni amplification de course.
+Normalizes chapter travel onto the 0–99 golden window with responsive sprint speed and gentle secondary axes.	結合預掃描章節行程自動歸一化到 0–99 黃金動態區間，高速衝刺自動拉滿節奏，並疊加柔和次軸增強。	Нормализует ход главы в золотое окно 0–99 с отзывчивыми ускорениями и мягкими вторичными осями.	事前スキャンした章の行程を 0–99 黄金域へ正規化し、高速スパート応答と穏やかな副軸補正を加えます。	사전 스캔된 챕터 이동을 0–99 황금 구간으로 정규화하고 고속 스퍼트 응답과 부드러운 보조축을 더합니다.	Normalisiert den Kapitelhub auf das 0–99-Fenster mit reaktionsschnellem Sprint-Tempo und sanften Nebenachsen.	Normalise la course du chapitre sur la fenêtre idéale 0–99 avec vitesse réactive et axes secondaires doux.
+Full 0–99 dynamic expansion biased toward deep strokes with maximum speed and secondary-axis drive.	0–99 全幅滿行程動態拉伸並向深端強化，最大化抽送衝擊感與次軸擺動。	Полное динамическое расширение 0–99 со смещением в глубину, максимальной скоростью и приводом вторичных осей.	0–99 フルレンジで深部側へ動的拡張し、最大スピードと副軸駆動を引き出します。	0–99 전체 범위를 깊은 쪽으로 동적 확장하여 최대 속도와 보조축 구동을 끌어올립니다.	Volle dynamische 0–99-Erweiterung mit Tiefenfokus, maximaler Geschwindigkeit und Nebenachsen-Antrieb.	Expansion dynamique complète 0–99 orientée vers la profondeur avec vitesse et axes secondaires maximaux.
+Playing back recorded scripts (uses final baked values).	目前正在播放已烘焙腳本（使用腳本最終數值）。	Воспроизводятся записанные скрипты (используются итоговые запечённые значения).	録画・ベイク済みスクリプトを再生中です（最終ベイク値を使用）。	녹화/베이크된 스크립트를 재생 중입니다 (최종 베이크 값 사용).	Aufgezeichnete Skripte werden abgespielt (nutzt finale gebackene Werte).	Lecture des scripts enregistrés (utilise les valeurs cuites finales).
+Current: Raw 1:1 geometry · L0 0–	目前：絕對真實 1:1 幾何直出 · L0 範圍 0–	Сейчас: сырая геометрия 1:1 · L0 0–	現在：リアル 1:1 ジオメトリ直出力 · L0 0–	현재: 원본 1:1 기하 직출력 · L0 0–	Aktuell: Rohgeometrie 1:1 · L0 0–	Actuel : géométrie brute 1:1 · L0 0–
+Manual span mode: origin-to-tip directly maps to 0–99 travel.	手動標尺模式：由起點到末端直接映射 0–99 行程。	Ручной диапазон: отрезок от начала до конца напрямую отображается на ход 0–99.	手動スパンモード：起点から末端までを 0–99 ストロークへ直接マッピングします。	수동 스팬 모드: 시작점부터 끝점까지 0–99 스트로크로 직접 매핑합니다.	Manueller Spannenmodus: Ursprung bis Spitze wird direkt auf 0–99 abgebildet.	Mode portée manuelle : d’origine à pointe mappé directement sur la course 0–99.
+L0 outer limit (default 0–99 full travel)	L0 行程外限（預設 0–99 全幅）	Внешний предел L0 (по умолч. 0–99)	L0 ストローク外限（初期値 0–99 全幅）	L0 스트로크 외한 (기본 0–99 전체)	Äußeres L0-Limit (Standard 0–99 voll)	Limite L0 externe (défaut 0–99 complet)
+Player-length bottom cap removed; adjust the slider or axis limits only if needed.	已移除玩家長度底限截斷；如需縮短深度請拖動滑塊或調整六軸限位。	Нижнее ограничение по длине игрока снято; при необходимости используйте ползунок или пределы осей.	プレイヤー長による下限制限を撤廃済み；深さを縮めたい場合のみスライダーか軸制限を調整してください。	사용자 길이 하한 제한을 제거했습니다. 깊이를 줄이려면 슬라이더나 6축 제한만 조정하세요.	Untere Spielerlängen-Kappung entfernt; bei Bedarf nur Regler oder Achslimits anpassen.	Plafond bas de longueur du joueur supprimé ; ajustez le curseur ou les limites d’axes seulement si besoin.
+Advanced manual override (optional)	進階手調（可選）	Расширенная ручная настройка (опц.)	高度な手動オーバーライド（任意）	고급 수동 재정의 (선택)	Erweiterte manuelle Steuerung (optional)	Réglage manuel avancé (optionnel)
+Exit manual span (return to 3-tier Feel)	退出直覺調節（返回三檔體感）	Выйти из ручного диапазона (вернуть 3 профиля)	手動スパンを終了（3段階体感へ戻る）	수동 스팬 종료 (3단계 체감으로 복귀)	Manuelle Spanne verlassen (zurück zu 3 Stufen)	Quitter la portée manuelle (retour aux 3 profils)
+Direct adjustment (manual endpoints)	直覺調節（手動拖動起末標尺）	Прямая настройка (ручные точки)	直感調整（起末スパンを手動ドラッグ）	직관 조절 (시작·끝점 수동 드래그)	Direkte Anpassung (manuelle Endpunkte)	Réglage direct (extrémités manuelles)

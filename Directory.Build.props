@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <GameRoot Condition="'$(GameRoot)' == ''">E:\Galgames\kk</GameRoot>
+    <BaseIntermediateOutputPath Condition="'$(GameFlavor)' == 'KKS'">obj-kks\</BaseIntermediateOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj\**;obj-kks\**</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>

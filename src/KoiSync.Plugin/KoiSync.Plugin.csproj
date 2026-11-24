@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>KoiSync.Plugin</AssemblyName>
+    <Version>0.1.38</Version>
+    <Nullable>disable</Nullable>
+    <GameManaged Condition="'$(GameManaged)' == ''">$(GameRoot)\Koikatu_Data\Managed</GameManaged>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Data\NativeAnimations.csv"><LogicalName>KoiSync.NativeAnimations.csv</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="..\Libraries\*.dll"><LogicalName>KoiSync.Dependencies.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="..\Libraries\*.txt"><LogicalName>KoiSync.Licenses.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <Reference Include="LitJSON"><HintPath>..\Libraries\LitJSON.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SuperSocket.ClientEngine"><HintPath>..\Libraries\SuperSocket.ClientEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="WebSocket4Net"><HintPath>..\Libraries\WebSocket4Net.dll</HintPath><Private>false</Private></Reference>
+    <Compile Include="..\Shared\*.cs" Link="Shared\%(Filename)%(Extension)" />
+    <Reference Include="BepInEx"><HintPath>$(GameRoot)\BepInEx\core\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameRoot)\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameManaged)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameManaged)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

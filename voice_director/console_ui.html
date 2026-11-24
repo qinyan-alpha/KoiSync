@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KoiSync v0.3.3 · 自由编舞、全协议 API 与语音导演台</title>
+<style>
+  :root {
+    --bg: #0f1018;
+    --panel: #171926;
+    --panel-2: #1e2133;
+    --panel-3: #121420;
+    --border: rgba(255, 255, 255, 0.09);
+    --text: #eef0f7;
+    --muted: #98a0bc;
+    --accent: #b784ff;
+    --accent-2: #ff6fa8;
+    --ok: #4ade80;
+    --warn: #fbbf24;
+    --danger: #fb7185;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    background: radial-gradient(circle at 18% 0%, #24193d 0%, var(--bg) 52%);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+  }
+  header {
+    padding: 11px 18px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(15, 16, 24, 0.90);
+    backdrop-filter: blur(12px);
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;
+    position: sticky; top: 0; z-index: 10;
+  }
+  .brand { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+  .brand h1 {
+    margin: 0; font-size: 16px; font-weight: 700; letter-spacing: 0.3px;
+    background: linear-gradient(90deg, #e7c6ff, #ff8ec7);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .badge-mode {
+    font-size: 11px; padding: 3px 9px; border-radius: 999px;
+    background: rgba(74, 222, 128, 0.14); border: 1px solid rgba(74, 222, 128, 0.35); color: #bbf7d0;
+  }
+  .badge-mode.silent { background: rgba(148, 163, 184, 0.18); border-color: rgba(148, 163, 184, 0.45); color: #e2e8f0; }
+  .badge-guard {
+    font-size: 11px; padding: 3px 9px; border-radius: 999px;
+    background: rgba(251, 191, 36, 0.14); border: 1px solid rgba(251, 191, 36, 0.35); color: #fde68a;
+  }
+  .badge-guard.inserted { background: rgba(236, 72, 153, 0.18); border-color: rgba(236, 72, 153, 0.48); color: #fbcfe8; }
+  .pills { display: flex; flex-wrap: wrap; gap: 7px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 10px; border-radius: 999px; font-size: 11.5px;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--muted);
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #64748b; }
+  .dot.ok { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
+  .dot.warn { background: var(--warn); box-shadow: 0 0 8px var(--warn); }
+
+  main {
+    flex: 1; display: grid;
+    grid-template-columns: minmax(0, 1.20fr) minmax(440px, 1.20fr);
+    gap: 15px; padding: 13px 18px 20px; max-width: 1600px; width: 100%; margin: 0 auto;
+  }
+  @media (max-width: 1060px) { main { grid-template-columns: 1fr; } }
+
+  .card {
+    background: rgba(23, 25, 38, 0.92);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 13px 15px;
+    display: flex; flex-direction: column; gap: 9px;
+  }
+  .card h2 {
+    margin: 0; font-size: 13.5px; font-weight: 600; color: #e6d7ff;
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  }
+  .chat-card { height: calc(100vh - 94px); min-height: 600px; }
+  .chat-log { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 9px; padding-right: 4px; }
+  .msg { max-width: 88%; padding: 9px 12px; border-radius: 12px; line-height: 1.55; font-size: 13.5px; word-break: break-word; }
+  .msg.user { align-self: flex-end; background: linear-gradient(135deg, #4b3275, #3a2b5c); border: 1px solid rgba(183, 132, 255, 0.34); }
+  .msg.ai { align-self: flex-start; background: var(--panel-2); border: 1px solid rgba(255, 111, 168, 0.28); }
+  .msg.sys { align-self: center; max-width: 96%; font-size: 12px; color: var(--muted); background: rgba(255, 255, 255, 0.03); border: 1px dashed var(--border); padding: 7px 12px; }
+  .meta { margin-top: 5px; font-size: 11px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { padding: 1px 6px; border-radius: 5px; background: rgba(183, 132, 255, 0.16); color: #dcc4ff; }
+  .quick-phrases { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip {
+    background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
+    color: #d7dcef; font-size: 11.5px; padding: 4px 9px; border-radius: 999px;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .chip:hover { background: rgba(183, 132, 255, 0.20); border-color: rgba(183, 132, 255, 0.45); }
+
+  .mic-bar { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+  .btn {
+    border: 1px solid var(--border); background: var(--panel-2); color: var(--text);
+    padding: 7px 11px; border-radius: 9px; font-size: 12.5px; font-weight: 600; cursor: pointer; transition: all 0.14s;
+  }
+  .btn:hover { background: #292d46; }
+  .btn:disabled { opacity: 0.42; cursor: not-allowed; }
+  .btn-sm { padding: 4px 8px; font-size: 11px; border-radius: 7px; }
+  .btn-primary { background: linear-gradient(135deg, #8b5cf6, #ec4899); border-color: transparent; color: #fff; }
+  .btn-ok { background: rgba(34, 197, 94, 0.22); border-color: rgba(74, 222, 128, 0.55); color: #bbf7d0; }
+  .btn-warn { background: rgba(251, 191, 36, 0.18); border-color: rgba(251, 191, 36, 0.45); color: #fde68a; }
+  .btn-active { background: linear-gradient(135deg, rgba(139,92,246,0.50), rgba(236,72,153,0.40)); border-color: var(--accent); color: #fff; }
+  .btn-mic {
+    flex: 1; min-width: 155px; padding: 9px 12px; font-size: 13px;
+    background: linear-gradient(135deg, rgba(139,92,246,0.30), rgba(236,72,153,0.30));
+    border: 1px solid rgba(255, 111, 168, 0.45);
+  }
+  .btn-mic.recording { background: linear-gradient(135deg, #e11d48, #be123c); border-color: #fda4af; box-shadow: 0 0 16px rgba(244, 63, 94, 0.55); }
+  .btn-freemic.on { background: linear-gradient(135deg, rgba(34, 197, 94, 0.42), rgba(16, 185, 129, 0.32)); border-color: #4ade80; color: #ecfdf5; }
+  .btn-silent.on { background: rgba(251, 113, 133, 0.28); border-color: #fb7185; color: #ffe4e6; }
+  .btn-danger { background: rgba(251, 113, 133, 0.16); border-color: rgba(251, 113, 133, 0.45); color: #fda4af; }
+  .input-row { display: flex; gap: 7px; align-items: center; }
+  input[type="text"], input[type="password"], input[type="number"], select, textarea {
+    background: #10121c; border: 1px solid var(--border); color: var(--text);
+    border-radius: 8px; padding: 7px 9px; font-size: 12.5px; outline: none; font-family: inherit;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+  .input-row input, .input-row select { flex: 1; min-width: 0; }
+  .mono { font-family: "Cascadia Code", "Consolas", monospace; font-size: 11.5px; }
+
+  .side-shell { display: flex; flex-direction: column; gap: 10px; height: calc(100vh - 94px); min-height: 600px; }
+  .tab-bar {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+    background: rgba(23, 25, 38, 0.92); padding: 5px; border-radius: 12px; border: 1px solid var(--border);
+  }
+  .tab-btn {
+    border: 1px solid transparent; background: transparent; color: var(--muted);
+    padding: 8px 4px; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer;
+  }
+  .tab-btn.active { background: linear-gradient(135deg, rgba(139,92,246,0.42), rgba(236,72,153,0.34)); border-color: rgba(183,132,255,0.55); color: #fff; }
+  .tab-pane { display: none; flex: 1; overflow-y: auto; flex-direction: column; gap: 10px; padding-right: 3px; }
+  .tab-pane.active { display: flex; }
+
+  .seg-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .seg-3 .btn.active { background: linear-gradient(135deg, rgba(139,92,246,0.44), rgba(236,72,153,0.36)); border-color: var(--accent); color: #fff; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; }
+  .slider-row { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+  .slider-row input[type="range"] { width: 100%; accent-color: var(--accent-2); }
+  .toggle-line { display: flex; align-items: flex-start; gap: 8px; font-size: 12px; cursor: pointer; }
+  .toggle-line input { margin-top: 2px; accent-color: var(--accent); width: 15px; height: 15px; }
+  .hint { font-size: 11px; color: var(--muted); line-height: 1.45; }
+  .lip-bar-wrap { height: 7px; border-radius: 999px; background: #10121c; overflow: hidden; border: 1px solid var(--border); }
+  .lip-bar { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width 0.08s linear; }
+
+  .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+  .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px; }
+  .span2 { grid-column: span 2; }
+  .notice-box { padding: 8px 10px; border-radius: 9px; font-size: 11.5px; line-height: 1.45; background: rgba(251, 191, 36, 0.10); border: 1px solid rgba(251, 191, 36, 0.35); color: #fde68a; }
+  .notice-box.ok { background: rgba(74, 222, 128, 0.10); border-color: rgba(74, 222, 128, 0.35); color: #bbf7d0; }
+  .mem-list { display: flex; flex-direction: column; gap: 5px; max-height: 110px; overflow-y: auto; }
+  .mem-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--panel-3); border: 1px solid var(--border); border-radius: 7px; padding: 5px 8px; font-size: 11.5px; color: #dbe2f6; }
+  .guest-item { display: flex; flex-direction: column; gap: 5px; background: var(--panel-3); border: 1px solid var(--border); border-radius: 8px; padding: 7px 9px; font-size: 12px; }
+  .guest-actions { display: flex; flex-wrap: wrap; gap: 4px; }
+  .form-col { display: flex; flex-direction: column; gap: 7px; }
+  .form-col label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+  .latency-strip { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; font-size: 11px; color: var(--muted); padding: 5px 9px; background: #10121c; border-radius: 8px; border: 1px solid var(--border); }
+  .preset-select { width: 100%; font-weight: 600; }
+  .path-box { padding: 6px 8px; border-radius: 7px; background: #0c0e17; border: 1px solid var(--border); font-size: 11px; color: #c4b5fd; word-break: break-all; }
+  .toast { position: fixed; right: 20px; bottom: 18px; z-index: 99; background: rgba(28, 31, 49, 0.96); border: 1px solid rgba(183, 132, 255, 0.55); color: #f3e8ff; padding: 8px 14px; border-radius: 10px; font-size: 12.5px; box-shadow: 0 8px 24px rgba(0,0,0,0.45); opacity: 0; pointer-events: none; transition: opacity 0.18s ease; }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>✨ KoiSync v0.3.3 · 自由编舞 & 全协议语音导演台</h1>
+    <span id="badgeMode" class="badge-mode">动作先行 · 混音共存</span>
+    <span id="badgeGuard" class="badge-guard">未连接游戏</span>
+  </div>
+  <div class="pills">
+    <div class="pill"><span id="dotGame" class="dot"></span><span id="txtGame">游戏检测中...</span></div>
+    <div class="pill"><span id="dotVoiceIn" class="dot ok"></span><span id="txtVoiceIn">语音输入开</span></div>
+    <div class="pill"><span id="dotBrain" class="dot warn"></span><span id="txtBrain">待填写API</span></div>
+    <div class="pill"><span id="dotAsr" class="dot"></span><span id="txtAsr">ASR...</span></div>
+    <div class="pill"><span id="dotTts" class="dot"></span><span id="txtTts">TTS...</span></div>
+  </div>
+</header>
+
+<main>
+  <!-- Left: Real-time Chat & Mic -->
+  <section class="card chat-card">
+    <h2>
+      <span>🎙️ 实时语音 / 文字互动控制台（先控设备再开口 · 说话秒打断）</span>
+      <span style="display:flex;align-items:center;gap:6px;">
+        <span id="speakingBadge" style="font-size:12px;color:var(--muted);">待机中</span>
+        <button id="btnProactiveNow" class="btn btn-sm">💬 主动问一句</button>
+        <button id="btnClearHist" class="btn btn-sm">🧹 清空对话</button>
+      </span>
+    </h2>
+
+    <div id="chatLog" class="chat-log">
+      <div class="msg sys">
+        <b>v0.3.3 天才体验全面升级</b>：<br/>
+        ① <b>动作先行再说话</b>：设备与游戏角色抢先在 ~300ms 内先动起来，随后再耳边回复；<br/>
+        ② <b>说话即时打断 AI（Barge-In）</b>：按键或自由麦一开口立刻截断 AI 播音，反馈零拖泥带水；<br/>
+        ③ <b>自由组合编舞</b>：任意 <b>1浅1深 / 3浅2深</b>、<b>定深只扭腰不画圈走 R1/R2 直线</b>、<b>乘骑位直切</b>、<b>原生无缝一体高潮射精</b>；<br/>
+        ④ <b>全协议充分自由</b>：支持 DeepSeek / OpenAI / Claude / Gemini / 中转站（自动拉取模型列表）、中/日/英三语、通用 ASR API、通用 TTS API 与自定义称呼/提示词！
+      </div>
+    </div>
+
+    <div class="latency-strip">
+      <span>ASR: <b id="latAsr">--</b> ms</span>
+      <span>大模型: <b id="latBrain">--</b> ms</span>
+      <span>声线首字: <b id="latTtfa">--</b> ms</span>
+      <span>缓存: <b id="latCache">--</b></span>
+      <span>估算: <b id="latCost">--</b></span>
+      <span>麦: <b id="latPeak">--</b> dB</span>
+      <span style="display:none"><b id="latLip">0.00</b></span>
+    </div>
+
+    <div class="quick-phrases">
+      <button class="chip" data-say="换乘骑位慢慢开始吧">切乘骑位开始</button>
+      <button class="chip" data-say="用1浅1深的节奏试试看">1浅1深组合</button>
+      <button class="chip" data-say="停在里面只前后摆腰，不画圈也别旋转，走前后直线">只前后直线摆腰</button>
+      <button class="chip" data-say="走R1和R2直线倾斜摆腰，不要画圈">R1+R2直线摆腰</button>
+      <button class="chip" data-say="把衣服脱了吧">脱掉衣服</button>
+      <button class="chip" data-say="要到了，一起高潮射精吧">原生无缝高潮</button>
+    </div>
+
+    <div class="mic-bar">
+      <button id="btnMic" class="btn btn-mic">🎙️ 点击说话（按住空格 · 秒打断）</button>
+      <button id="btnFreeMic" class="btn btn-freemic">⚪ 自由麦：关</button>
+      <button id="btnSilentQuick" class="btn btn-silent">🔊 发声中</button>
+      <select id="selMic" style="max-width:165px;"></select>
+      <button id="btnStop" class="btn btn-danger">⏹ 闭嘴</button>
+    </div>
+
+    <div class="input-row">
+      <input id="txtInput" type="text" placeholder="输入想说的话或任意自由组合编舞指令，回车立刻执行..." autocomplete="off" />
+      <button id="btnSend" class="btn btn-primary">发送</button>
+    </div>
+  </section>
+
+  <!-- Right: 4-Tab Settings, API/Models, Motion & Scene -->
+  <div class="side-shell">
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="settings">⚙️ 大脑/称呼/ASR</button>
+      <button class="tab-btn" data-tab="models">🔊 语音/TTS API</button>
+      <button class="tab-btn" data-tab="motion">🎛️ 自由编舞/六轴</button>
+      <button class="tab-btn" data-tab="scene">👗 服装/体位/kPlug</button>
+    </div>
+
+    <!-- TAB 1: Multi-Provider LLM + Auto Model List + Custom Prompts/Titles + ASR API -->
+    <div id="tab-settings" class="tab-pane active">
+      <section class="card">
+        <h2>
+          <span>🧠 大模型 API 配置（支持自动拉取模型列表）</span>
+          <span id="apiStatusTag" class="hint">检测中...</span>
+        </h2>
+        <div class="form-col">
+          <label>
+            模型服务商 Provider（支持全部主流与中转）
+            <select id="selProvider" class="preset-select">
+              <option value="deepseek">DeepSeek（官方或反代）</option>
+              <option value="openai">OpenAI（GPT-4.1 / GPT-4o / GPT-5 等）</option>
+              <option value="claude">Anthropic Claude（原生 Messages 流式协议）</option>
+              <option value="gemini">Google Gemini（支持自定义模型）</option>
+              <option value="openai_compat">自定义 OpenAI 兼容（OpenRouter / 硅基流动 / OneAPI / 本地 Ollama）</option>
+              <option value="builtin">本地免 Key 规则模式（离线听口令直控）</option>
+            </select>
+          </label>
+          <label>
+            API Base URL（官方服务商留空走默认；中转/Ollama 填完整 /v1 地址）
+            <input id="cfgBaseUrl" type="text" placeholder="留空走默认官方地址，或填 https://你的中转站/v1" />
+          </label>
+          <label>
+            API Key（由玩家自行填写，留空保存不会覆盖已保存 Key）
+            <input id="cfgApiKey" type="password" placeholder="在此粘贴对应服务商的 API Key..." autocomplete="off" />
+          </label>
+          <label>
+            从 API 自动拉取可调用模型列表（自动过滤并排序，点选即用）
+            <div class="input-row">
+              <select id="selFetchedModels"><option value="">点击右侧按钮拉取该 API 可用模型...</option></select>
+              <button id="btnFetchModels" class="btn btn-ok btn-sm">🔄 拉取模型列表</button>
+            </div>
+          </label>
+          <label>
+            当前启用模型 ID（自动同步上方选择，也可手动输入任意 ID）
+            <input id="cfgModel" type="text" placeholder="例如：deepseek-chat / gpt-4o-mini / claude-sonnet-4-20250514" />
+          </label>
+          <div class="grid-3">
+            <button id="btnSaveApi" class="btn btn-primary">💾 保存 API</button>
+            <button id="btnTestApi" class="btn btn-ok">🧪 测试连接</button>
+            <button id="btnClearKeys" class="btn btn-danger">🧹 清空Key</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>✨ 玩家自定义称呼 & 提示词（个人体验自由定制）</h2>
+        <div class="grid-2">
+          <label class="slider-row"><span>对玩家的称呼（如 主人/老公/哥哥/亲爱的）</span><input id="cfgUserTitle" type="text" placeholder="主人" /></label>
+          <label class="slider-row"><span>AI 自称（如 人家/我/小星/奴家）</span><input id="cfgAiSelfRef" type="text" placeholder="人家" /></label>
+        </div>
+        <label class="slider-row"><span>角色性格与说话风格（Persona）</span><textarea id="cfgPersona" rows="2"></textarea></label>
+        <label class="slider-row"><span>自定义补充提示词（背景故事、专属口癖、规则偏好，留空则默认）</span><textarea id="cfgCustomPrompt" rows="2" placeholder="例如：温柔体贴的青梅竹马，喜欢轻声撒娇，称呼我学长..."></textarea></label>
+        <div class="row">
+          <label class="toggle-line"><input id="cfgExecActions" type="checkbox" checked /><span>允许指令自动联动游戏动作</span></label>
+          <button id="btnSavePrompt" class="btn btn-primary btn-sm">💾 保存称呼与提示词</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>🎙️ 语音输入、打断(Barge-In)与 ASR API 配置</h2>
+        <div class="grid-2">
+          <label class="toggle-line"><input id="chkVoiceInput" type="checkbox" checked /><span><b>启用麦克风语音输入</b></span></label>
+          <label class="toggle-line"><input id="chkBargeIn" type="checkbox" checked /><span><b>说话立即打断 AI 播音</b></span></label>
+        </div>
+        <div class="grid-2">
+          <label class="toggle-line"><input id="chkSilentMode" type="checkbox" /><span><b>静音执行（只做动作不出声）</b></span></label>
+          <label class="toggle-line"><input id="chkProactive" type="checkbox" checked /><span><b>高潮结束/10分钟主动问</b></span></label>
+        </div>
+        <div class="slider-row">
+          <div class="row"><span>自由麦灵敏度阈值（越低越灵敏）</span><b id="valFreeThresh">-34 dB</b></div>
+          <input id="rngFreeThresh" type="range" min="-46" max="-18" step="1" value="-34" />
+        </div>
+        <label class="slider-row">
+          <span>语音识别 ASR 引擎（支持本地 GPU & 常见云端/自建 API）</span>
+          <select id="selAsrEngine" class="preset-select">
+            <option value="gpu_turbo">🎯 本地 GPU large-v3-turbo（推荐 · ~250ms · 免Key · 中日英）</option>
+            <option value="openai_asr">🌐 通用 OpenAI 兼容 ASR API（OpenAI / Groq / 硅基流动 / 本地 Speaches）</option>
+            <option value="gemini_direct">🎙️ Google Gemini 原生音频直听直答</option>
+            <option value="gemini_asr">📝 Google Gemini Transcribe + 上方大模型</option>
+          </select>
+        </label>
+        <div id="asrApiBox" class="form-col" style="display:none;padding:8px;border-radius:8px;background:var(--panel-3);border:1px solid var(--border);">
+          <div class="grid-2">
+            <label>ASR Base URL<input id="cfgAsrUrl" type="text" placeholder="https://api.openai.com/v1" /></label>
+            <label>ASR Model<input id="cfgAsrModel" type="text" placeholder="whisper-1 / gpt-4o-mini-transcribe" /></label>
+          </div>
+          <div class="input-row">
+            <input id="cfgAsrKey" type="password" placeholder="ASR API Key（留空自动复用 OpenAI/Custom Key）" />
+            <button id="btnSaveAsrApi" class="btn btn-ok btn-sm">保存 ASR API</button>
+          </div>
+        </div>
+        <div class="row" style="margin-top:2px;">
+          <span class="hint">AI 长期记忆 (<b id="memCount">0</b>)</span>
+          <button id="btnClearMem" class="btn btn-sm btn-danger">清空记忆</button>
+        </div>
+        <div id="memList" class="mem-list"></div>
+      </section>
+    </div>
+
+    <!-- TAB 2: ZH/JA/EN Local Trained Models + Universal TTS API + Raw Config Page -->
+    <div id="tab-models" class="tab-pane">
+      <section class="card">
+        <h2>🌍 对话与语音语言（中 / 日 / 英 三语全支持）</h2>
+        <div class="seg-3">
+          <button id="btnZh" class="btn active">🇨🇳 中文 · Serena</button>
+          <button id="btnJa" class="btn">🇯🇵 日语 · 04_JA</button>
+          <button id="btnEn" class="btn">🇺🇸 English · Serena</button>
+        </div>
+        <div class="slider-row"><div class="row"><span>AI 贴耳混音音量 (Voice)</span><b id="valVoice">0.88x</b></div><input id="rngVoice" type="range" min="0.3" max="1.6" step="0.04" value="0.88" /></div>
+        <div class="slider-row"><div class="row"><span>总输出增益 (Master)</span><b id="valMaster">0.92x</b></div><input id="rngMaster" type="range" min="0.2" max="1.5" step="0.05" value="0.92" /></div>
+        <div class="grid-2">
+          <label class="toggle-line"><input id="chkDuck" type="checkbox" /><span>AI说话暂避原生声</span></label>
+          <label class="toggle-line"><input id="chkBeds" type="checkbox" /><span>叠加KU100底轨</span></label>
+        </div>
+        <div>
+          <div class="row" style="font-size:11px;color:var(--muted);margin-bottom:3px;"><span>AI 口型同步脉冲</span><span id="txtGameDetail"></span></div>
+          <div class="lip-bar-wrap"><div id="lipBar" class="lip-bar"></div></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>
+          <span>🔊 TTS 语音合成引擎（本地训练模型 OR 常见 TTS API 充分自由）</span>
+          <button id="btnRefreshModels" class="btn btn-sm">🔄 刷新扫描</button>
+        </h2>
+        <label class="slider-row">
+          <span>TTS 合成方式（支持本地模型与 5 种通用 API 协议）</span>
+          <select id="selTtsProvider" class="preset-select">
+            <option value="local">💻 本地 Qwen3-TTS（内置中日英 + 用户放入的训练模型/音色）</option>
+            <option value="openai_tts">🌐 OpenAI 兼容 TTS API（OpenAI / OneAPI / Kokoro / CosyVoice / Edge-TTS-OpenAI）</option>
+            <option value="elevenlabs">🎙️ ElevenLabs API（超拟真多语种）</option>
+            <option value="gpt_sovits">🎵 GPT-SoVITS v2/v3/v4 API（本地或远程 /tts）</option>
+            <option value="fish_audio">🐟 Fish Audio / Fish Speech API（/v1/tts）</option>
+            <option value="custom_http">🔧 自定义 HTTP JSON TTS API（自由定义模板）</option>
+          </select>
+        </label>
+
+        <div id="localTtsBox" class="form-col">
+          <div id="modelsDirPath" class="path-box mono">加载中...</div>
+          <div class="grid-2">
+            <button id="btnOpenModelsDir" class="btn btn-primary btn-sm">📂 打开模型目录（放入训练模型）</button>
+            <button id="btnOpenConfigExplorer" class="btn btn-sm">🗂️ 定位本地配置文件</button>
+          </div>
+          <div class="input-row">
+            <select id="selVoiceModel" class="preset-select"></select>
+            <button id="btnApplyVoiceModel" class="btn btn-ok btn-sm">启用</button>
+          </div>
+        </div>
+
+        <div id="apiTtsBox" class="form-col" style="display:none;padding:8px;border-radius:8px;background:var(--panel-3);border:1px solid var(--border);">
+          <div class="grid-2">
+            <label>TTS Base URL<input id="cfgTtsUrl" type="text" placeholder="https://api.openai.com/v1 或 http://127.0.0.1:9880" /></label>
+            <label>TTS Model / Model ID<input id="cfgTtsModel" type="text" placeholder="gpt-4o-mini-tts / eleven_multilingual_v2" /></label>
+          </div>
+          <div class="grid-2">
+            <label>Voice / Ref Audio / Reference ID<input id="cfgTtsVoice" type="text" placeholder="shimmer / alloy / voice_id / ref.wav" /></label>
+            <label>语速 Speed (0.5~2.0)<input id="cfgTtsSpeed" type="number" step="0.05" min="0.5" max="2.0" value="1.0" /></label>
+          </div>
+          <label>TTS API Key（留空保存不覆盖；OpenAI TTS 留空自动复用 OpenAI Key）<input id="cfgTtsKey" type="password" placeholder="在此粘贴 TTS API Key..." /></label>
+          <label>可选：GPT-SoVITS 参考文本 / 自定义 JSON 模板（支持 {text} {lang} {voice}）<input id="cfgTtsExtra" type="text" placeholder='GPT-SoVITS 填参考台词；Custom 填 {"text":"{text}","voice":"{voice}"}' /></label>
+          <button id="btnSaveTtsApi" class="btn btn-primary btn-sm">💾 保存并启用 TTS API</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2><span>📄 模型配置文件页面（chat_config.json）</span><button id="btnReloadRawCfg" class="btn btn-sm">🔄 重载</button></h2>
+        <div id="configFilePath" class="path-box mono">加载中...</div>
+        <textarea id="txtRawConfig" class="mono" rows="8" spellcheck="false"></textarea>
+        <div class="grid-2">
+          <button id="btnSaveRawCfg" class="btn btn-primary btn-sm">💾 保存配置文件</button>
+          <button id="btnResetRawCfg" class="btn btn-danger btn-sm">🧹 恢复空白默认配置</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- TAB 3: Free Choreography, N-Shallow M-Deep, Straight R1/R2 Lines & 6-Axis -->
+    <div id="tab-motion" class="tab-pane">
+      <div id="insertNotice" class="notice-box">等待游戏连接中…</div>
+
+      <section class="card">
+        <h2>⚡ 启动、原生无缝高潮与释放</h2>
+        <div class="grid-3">
+          <button class="btn btn-ok" data-ga="start_insert">▶ 一键插入开始</button>
+          <button class="btn btn-warn" data-ga="seamless_climax">💦 原生无缝高潮</button>
+          <button class="btn btn-danger" id="btnManualRelease">🕊️ 释放接管</button>
+        </div>
+        <div class="row">
+          <span class="hint">原生速：</span>
+          <div style="display:flex;gap:5px;">
+            <button class="btn btn-sm" data-spd="0.25">25%</button>
+            <button class="btn btn-sm" data-spd="0.55">55%</button>
+            <button class="btn btn-sm" data-spd="0.85">85%</button>
+            <button class="btn btn-sm" data-spd="1.00">100%</button>
+            <button class="btn btn-sm" data-ga="aibu_attach">✋ 爱抚</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2><span>🧩 自由组合编舞（任意 N 浅 M 深 & 纯直线摆腰）</span><span id="txtTlState" class="hint">原生控制</span></h2>
+        <div class="input-row">
+          <span class="hint">自由浅深：</span>
+          <input id="numShallow" type="number" min="1" max="15" value="1" style="max-width:60px;" />
+          <span class="hint">浅</span>
+          <input id="numDeep" type="number" min="1" max="8" value="1" style="max-width:60px;" />
+          <span class="hint">深</span>
+          <button id="btnRunShallowDeep" class="btn btn-primary btn-sm tl-btn">▶ 立即执行</button>
+        </div>
+        <div class="grid-3">
+          <button class="btn btn-sm tl-btn" data-preset="organic">🎲 有机随机</button>
+          <button class="btn btn-sm tl-btn" data-preset="deep_grind">🌀 深埋画圈</button>
+          <button class="btn btn-sm tl-btn" data-preset="tip_rub">🌸 浅逗入口</button>
+          <button class="btn btn-sm tl-btn" data-waist="line_fb">↕ 定深前后直线(R2)</button>
+          <button class="btn btn-sm tl-btn" data-waist="line_lr">↔ 定深左右直线(R1)</button>
+          <button class="btn btn-sm tl-btn" data-waist="line_r1r2">⤢ 定深R1+R2直线</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2><span>🎚️ 实时节奏微调滑块 & 直线轨迹</span><button id="btnApplyTune" class="btn btn-sm btn-primary">应用微调</button></h2>
+        <div class="slider-row"><div class="row"><span>频率 (freqHz)</span><b id="valFreq">1.40 Hz</b></div><input id="rngFreq" type="range" min="0.30" max="3.50" step="0.05" value="1.40" /></div>
+        <div class="grid-2">
+          <div class="slider-row"><div class="row"><span>浅位</span><b id="valDMin">0.20</b></div><input id="rngDMin" type="range" min="0.00" max="0.85" step="0.02" value="0.20" /></div>
+          <div class="slider-row"><div class="row"><span>深位</span><b id="valDMax">0.85</b></div><input id="rngDMax" type="range" min="0.15" max="1.00" step="0.02" value="0.85" /></div>
+        </div>
+        <div class="grid-2">
+          <div class="slider-row"><div class="row"><span>摆腰幅度</span><b id="valGrind">0.38</b></div><input id="rngGrind" type="range" min="0.00" max="0.42" step="0.02" value="0.38" /></div>
+          <div class="slider-row"><div class="row"><span>旋转幅度</span><b id="valTwist">0.00</b></div><input id="rngTwist" type="range" min="0.00" max="0.45" step="0.02" value="0.00" /></div>
+        </div>
+        <div class="grid-4">
+          <button class="btn btn-sm" data-pattern="line_fb">前后直线</button>
+          <button class="btn btn-sm" data-pattern="line_lr">左右直线</button>
+          <button class="btn btn-sm" data-pattern="line_r1r2">R1+R2直线</button>
+          <button class="btn btn-sm" data-pattern="circle">圆周画圈</button>
+          <button class="btn btn-sm" data-pattern="figure8">8字扭腰</button>
+          <button class="btn btn-sm" data-pattern="pitch_only">纯R2前倾</button>
+          <button class="btn btn-sm" data-pattern="roll_only">纯R1侧倾</button>
+          <button class="btn btn-sm" data-pattern="corkscrew">螺旋深扭</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>🧭 六轴硬开关 & 平滑手感</h2>
+        <div class="grid-6">
+          <button class="btn btn-sm axis-btn" data-axis="L0">L0</button>
+          <button class="btn btn-sm axis-btn" data-axis="L1">L1</button>
+          <button class="btn btn-sm axis-btn" data-axis="L2">L2</button>
+          <button class="btn btn-sm axis-btn" data-axis="R0">R0</button>
+          <button class="btn btn-sm axis-btn" data-axis="R1">R1</button>
+          <button class="btn btn-sm axis-btn" data-axis="R2">R2</button>
+        </div>
+        <div class="slider-row"><div class="row"><span>平滑度 (smoothingMs)</span><b id="valSmooth">35 ms</b></div><input id="rngSmooth" type="range" min="0" max="200" step="5" value="35" /></div>
+      </section>
+
+      <section class="card">
+        <h2>🌌 SR6 六自由度数学极限实验台（仅直接插入态 · 同步双人骨骼与权重）</h2>
+        <div class="hint" id="mathLabStatusLine">仅直接性器官插入态解锁，内置 SR6 真实机械可达域投影 + C2 带宽护栏 + DynamicBone 胸臀惯性权重联动。</div>
+        <div class="grid-3">
+          <button class="btn btn-primary btn-sm" data-mathfam="virtual_pivot">1. 虚拟支点行波</button>
+          <button class="btn btn-sm" data-mathfam="variable_helix">2. 变螺距双螺旋</button>
+          <button class="btn btn-sm" data-mathfam="lissajous_6d">3. 6D利萨如纽结</button>
+          <button class="btn btn-sm" data-mathfam="beat_flutter">4. 拍频微颤共振</button>
+          <button class="btn btn-sm" data-mathfam="smooth_chaos">5. 平滑混沌流形</button>
+          <button id="btnStopMathLab" class="btn btn-danger btn-sm">停止实验台</button>
+        </div>
+        <div class="slider-row"><div class="row"><span>主频率 (FreqHz)</span><b id="valMathFreq">1.35 Hz</b></div><input id="rngMathFreq" type="range" min="0.25" max="3.0" step="0.05" value="1.35" /></div>
+        <div class="slider-row"><div class="row"><span>虚拟支点高度 PivotZ (0根部 .. 1顶端)</span><b id="valMathPivot">0.50</b></div><input id="rngMathPivot" type="range" min="0" max="1" step="0.02" value="0.50" /></div>
+        <div class="row"><label style="font-size:12px;"><input id="chkMathSweep" type="checkbox" checked /> 启用支点行波自动扫描 (0.22 Hz)</label></div>
+        <div class="slider-row"><div class="row"><span>R0 螺旋扭转度 (HelixTwist)</span><b id="valMathHelix">0.78</b></div><input id="rngMathHelix" type="range" min="0" max="1" step="0.02" value="0.78" /></div>
+        <div class="slider-row"><div class="row"><span>空间倾压幅度 (OrbitAmp)</span><b id="valMathOrbit">0.78</b></div><input id="rngMathOrbit" type="range" min="0" max="1" step="0.02" value="0.78" /></div>
+        <div class="slider-row"><div class="row"><span>双人骨骼权重比 α_F (女方占比 · 50%双人共舞)</span><b id="valMathShare">50%女 / 50%男</b></div><input id="rngMathShare" type="range" min="0" max="1" step="0.05" value="0.50" /></div>
+        <div class="slider-row"><div class="row"><span>软组织物理权重 (DynamicBone 胸臀惯性 + 臀压)</span><b id="valMathSoft">1.00</b></div><input id="rngMathSoft" type="range" min="0" max="1.5" step="0.05" value="1.00" /></div>
+      </section>
+    </div>
+
+    <!-- TAB 4: Clothes, Outfits, Poses, Expressions, kPlug -->
+    <div id="tab-scene" class="tab-pane">
+      <section class="card">
+        <h2>👑 纯女方主动模式 & kPlug 防冲突仲裁</h2>
+        <div class="grid-3">
+          <button class="btn btn-sm" data-autmode="player">听从主人主导</button>
+          <button class="btn btn-sm" data-autmode="copilot">协同提议模式</button>
+          <button class="btn btn-primary btn-sm" data-autmode="female_active">纯女方主动模式</button>
+        </div>
+        <div class="grid-2" style="margin-top:8px;font-size:12px;">
+          <label><input id="chkAutPose" type="checkbox" checked /> 自主换体位 / 插入</label>
+          <label><input id="chkAutClimax" type="checkbox" checked /> 自主控射与寸止</label>
+          <label><input id="chkAutClothes" type="checkbox" checked /> 自主脱衣与换装</label>
+          <label><input id="chkAutKPlug" type="checkbox" checked /> 自主拉人 / 轮换 kPlug 角色</label>
+        </div>
+        <div class="row" style="margin-top:8px;">
+          <span class="hint" id="autonomyStatusLine">模式：听从主人主导（开启 AI MCP 时默认关闭 kPlug 原生主动模式；4 项权限独立不互斥，也可语音口头授权）</span>
+          <button id="btnTriggerAutBeat" class="btn btn-sm">✨ 立即触发女方决策</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>👗 角色服装脱穿 & 换装槽位</h2>
+        <div class="grid-3">
+          <button class="btn" data-cloth-mode="dressed">👔 全穿</button>
+          <button class="btn btn-warn" data-cloth-mode="half">👙 半脱</button>
+          <button class="btn btn-danger" data-cloth-mode="nude">✨ 全脱</button>
+        </div>
+        <div class="grid-4">
+          <button class="btn btn-sm" data-cloth-part="top">切上衣</button>
+          <button class="btn btn-sm" data-cloth-part="bot">切下装</button>
+          <button class="btn btn-sm" data-cloth-part="bra">切胸罩</button>
+          <button class="btn btn-sm" data-cloth-part="shorts">切内裤</button>
+          <button class="btn btn-sm" data-cloth-part="gloves">切手套</button>
+          <button class="btn btn-sm" data-cloth-part="panst">切丝袜</button>
+          <button class="btn btn-sm" data-cloth-part="socks">切袜子</button>
+          <button class="btn btn-sm" data-cloth-part="shoes">切鞋子</button>
+        </div>
+        <div class="grid-4">
+          <button class="btn btn-sm" data-outfit="0">0 校服</button>
+          <button class="btn btn-sm" data-outfit="1">1 二套</button>
+          <button class="btn btn-sm" data-outfit="2">2 体操</button>
+          <button class="btn btn-sm" data-outfit="3">3 泳装</button>
+          <button class="btn btn-sm" data-outfit="4">4 社团</button>
+          <button class="btn btn-sm" data-outfit="5">5 私服</button>
+          <button class="btn btn-sm" data-outfit="6">6 睡衣</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>💃 体位直切（含乘骑位/自动插入开动）& 表情</h2>
+        <div class="grid-4">
+          <button class="btn btn-sm" data-pose="正常位">正常位</button>
+          <button class="btn btn-sm" data-pose="騎乗位">乘骑/骑乘位</button>
+          <button class="btn btn-sm" data-pose="後背位">后背位</button>
+          <button class="btn btn-sm" data-pose="対面">面对面</button>
+          <button class="btn btn-sm" data-pose="側位">侧卧位</button>
+          <button class="btn btn-sm" data-pose="立位">立位</button>
+          <button class="btn btn-sm" data-pose="爱抚">爱抚</button>
+          <button class="btn btn-sm" data-pose="侍奉">侍奉</button>
+        </div>
+        <div class="input-row">
+          <select id="selPoseList"><option value="">等待同步游戏内可用体位列表...</option></select>
+          <button id="btnGoPose" class="btn btn-primary btn-sm">切换并开始</button>
+        </div>
+        <div class="grid-3">
+          <button class="btn btn-sm" data-expr="shy_tease">😊 害羞</button>
+          <button class="btn btn-sm" data-expr="happy_trance">💗 享受</button>
+          <button class="btn btn-sm" data-expr="climax">💫 高潮</button>
+          <button class="btn btn-sm" data-expr="heart_trance">🌙 爱心</button>
+          <button class="btn btn-sm" data-expr="sweet_smile">🌿 甜笑</button>
+          <button class="btn btn-sm" data-expr="auto">🔄 恢复自动</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2><span>👯 kPlug 多人邀请 & 副角色行为</span><button id="btnRefreshChars" class="btn btn-sm">🔄 刷新</button></h2>
+        <div class="grid-2">
+          <button class="btn btn-sm btn-primary" data-chara-act="open_invite_panel">📋 打开换人/邀请面板</button>
+          <button class="btn btn-sm" data-chara-act="close_invite_panel">✖ 关闭面板</button>
+        </div>
+        <div class="input-row">
+          <input id="txtCharaName" type="text" placeholder="输入角色名..." />
+          <button id="btnInviteChara" class="btn btn-sm btn-ok">邀请进场</button>
+          <button id="btnReplaceBody" class="btn btn-sm btn-warn">替换女主</button>
+        </div>
+        <div id="charaInfo" class="hint">等待同步在场角色...</div>
+        <div id="guestList" style="display:flex;flex-direction:column;gap:6px;"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let currentLang = "zh";
+let isRecording = false;
+let voiceInputEnabled = true;
+let silentMode = false;
+let freeMicEnabled = false;
+let spaceHeld = false;
+let busy = false;
+let liveIsInserted = false;
+let lastSeenAnyReply = "";
+let lastSeenProactive = "";
+let axisStates = { L0: true, L1: true, L2: true, R0: true, R1: true, R2: true };
+let toastTimer = null;
+
+function showToast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 2800);
+}
+function addMsg(role, text, metaHtml = "") {
+  const el = document.createElement("div"); el.className = "msg " + role; el.textContent = text;
+  if (metaHtml) { const m = document.createElement("div"); m.className = "meta"; m.innerHTML = metaHtml; el.appendChild(m); }
+  const log = $("chatLog"); log.appendChild(el); log.scrollTop = log.scrollHeight;
+}
+async function api(path, method = "GET", body = null) {
+  const opts = { method, headers: {} };
+  if (body !== null) { opts.headers["Content-Type"] = "application/json"; opts.body = JSON.stringify(body); }
+  const r = await fetch(path, opts);
+  return await r.json();
+}
+function switchTab(tabName) {
+  document.querySelectorAll(".tab-btn").forEach((b) => b.classList.toggle("active", b.dataset.tab === tabName));
+  document.querySelectorAll(".tab-pane").forEach((p) => p.classList.toggle("active", p.id === "tab-" + tabName));
+  if (tabName === "models") { refreshVoiceModels(); loadRawConfig(); }
+  if (tabName === "motion" || tabName === "scene") pollManualState();
+}
+document.querySelectorAll(".tab-btn").forEach((btn) => btn.addEventListener("click", () => switchTab(btn.dataset.tab)));
+if (location.hash === "#models") switchTab("models");
+
+function updateApiVisibility() {
+  $("asrApiBox").style.display = $("selAsrEngine").value === "openai_asr" ? "flex" : "none";
+  const tp = $("selTtsProvider").value;
+  $("localTtsBox").style.display = tp === "local" ? "flex" : "none";
+  $("apiTtsBox").style.display = tp !== "local" ? "flex" : "none";
+}
+
+async function refreshMics() {
+  try {
+    const res = await api("/mics");
+    const sel = $("selMic"); sel.innerHTML = "";
+    (res.devices || []).forEach((d) => {
+      const o = document.createElement("option"); o.value = d.index; o.textContent = `[${d.index}] ${d.name}`;
+      if (d.index === res.activeIndex) o.selected = true; sel.appendChild(o);
+    });
+  } catch (e) {}
+}
+
+async function loadBrainConfig() {
+  try {
+    const res = await api("/chat/config");
+    const c = res.config || {};
+    $("selProvider").value = c.provider || "deepseek";
+    $("cfgModel").value = c.model || "";
+    $("cfgBaseUrl").value = c.baseUrl || "";
+    $("cfgUserTitle").value = c.userTitle || "主人";
+    $("cfgAiSelfRef").value = c.aiSelfRef || "人家";
+    $("cfgPersona").value = c.persona || "";
+    $("cfgCustomPrompt").value = c.customPrompt || "";
+    $("cfgExecActions").checked = c.executeActions !== false;
+    $("selAsrEngine").value = c.asrEngine || "gpu_turbo";
+    $("cfgAsrUrl").value = c.asrBaseUrl || "";
+    $("cfgAsrModel").value = c.asrModel || "whisper-1";
+    $("selTtsProvider").value = c.ttsProvider || "local";
+    $("cfgTtsUrl").value = c.ttsBaseUrl || "";
+    $("cfgTtsModel").value = c.ttsModel || "gpt-4o-mini-tts";
+    $("cfgTtsVoice").value = c.ttsVoice || "shimmer";
+    $("cfgTtsSpeed").value = c.ttsSpeed || 1.0;
+    $("cfgTtsExtra").value = (c.ttsProvider === "custom_http" ? c.ttsCustomJson : c.ttsPromptText) || "";
+    updateApiVisibility();
+  } catch (e) {}
+}
+
+async function refreshVoiceModels() {
+  try {
+    const r = await api("/models/list"); if (!r || !r.ok) return;
+    $("modelsDirPath").textContent = "自定义模型目录：" + (r.modelsDir || "");
+    $("configFilePath").textContent = "配置文件路径：" + (r.configPath || "");
+    const sel = $("selVoiceModel"); sel.innerHTML = "";
+    (r.models || []).forEach((m) => {
+      const o = document.createElement("option"); o.value = m.id;
+      o.textContent = `${m.name} [${m.language || "zh"}]`;
+      if (m.id === r.activeVoiceModel) o.selected = true; sel.appendChild(o);
+    });
+  } catch (e) {}
+}
+
+async function loadRawConfig() {
+  try {
+    const r = await api("/config/raw");
+    if (r && r.ok) { $("txtRawConfig").value = r.jsonText || ""; $("configFilePath").textContent = "配置文件路径：" + (r.configPath || ""); }
+  } catch (e) {}
+}
+
+function renderMemories(mems) {
+  const arr = Array.isArray(mems) ? mems : [];
+  $("memCount").textContent = String(arr.length);
+  const box = $("memList");
+  if (!arr.length) { box.innerHTML = `<div class="hint">暂无长期偏好记录。</div>`; return; }
+  box.innerHTML = "";
+  arr.forEach((m, i) => {
+    const row = document.createElement("div"); row.className = "mem-item";
+    const span = document.createElement("span"); span.textContent = `${i + 1}. ${m}`;
+    const del = document.createElement("button"); del.className = "btn btn-sm btn-danger"; del.textContent = "删";
+    del.onclick = async () => { const r = await api("/memory", "POST", { action: "delete", index: i }); renderMemories(r.memories || []); };
+    row.append(span, del); box.appendChild(row);
+  });
+}
+
+async function pollStatus() {
+  try {
+    const s = await api("/status");
+    currentLang = s.language || "zh";
+    voiceInputEnabled = s.voiceInputEnabled !== false;
+    silentMode = !!s.silentMode;
+    freeMicEnabled = !!s.freeMicEnabled;
+
+    $("btnZh").classList.toggle("active", currentLang === "zh");
+    $("btnJa").classList.toggle("active", currentLang === "ja");
+    $("btnEn").classList.toggle("active", currentLang === "en");
+    $("chkVoiceInput").checked = voiceInputEnabled;
+    $("chkSilentMode").checked = silentMode;
+    $("chkBargeIn").checked = s.bargeInEnabled !== false;
+    $("chkProactive").checked = s.proactiveEnabled !== false;
+
+    const bm = $("badgeMode");
+    if (silentMode) { bm.textContent = "🔇 静音执行（只做动作不出声）"; bm.className = "badge-mode silent"; }
+    else { bm.textContent = `⚡ 动作先行 · ${s.ttsProvider === "local" ? "混音共存" : ("TTS API:" + s.ttsProvider)}`; bm.className = "badge-mode"; }
+
+    $("dotVoiceIn").className = voiceInputEnabled ? "dot ok" : "dot warn";
+    $("txtVoiceIn").textContent = !voiceInputEnabled ? "语音输入已关" : (freeMicEnabled ? `自由麦 ${Math.round(s.freeMicThresholdDb ?? -34)}dB` : "按键麦");
+    $("btnMic").disabled = !voiceInputEnabled;
+    $("btnFreeMic").disabled = !voiceInputEnabled;
+    if (!voiceInputEnabled && !isRecording) $("btnMic").textContent = "🚫 语音输入已关闭";
+    else if (!isRecording) $("btnMic").textContent = "🎙️ 点击说话（按住空格 · 秒打断）";
+    $("btnFreeMic").classList.toggle("on", voiceInputEnabled && freeMicEnabled);
+    $("btnFreeMic").textContent = (voiceInputEnabled && freeMicEnabled) ? "🟢 自由麦：监听中" : "⚪ 自由麦：关";
+    $("btnSilentQuick").classList.toggle("on", silentMode);
+    $("btnSilentQuick").textContent = silentMode ? "🔇 静音执行中" : "🔊 发声中";
+
+    if (document.activeElement !== $("rngFreeThresh") && s.freeMicThresholdDb !== undefined) {
+      $("rngFreeThresh").value = Math.round(s.freeMicThresholdDb);
+      $("valFreeThresh").textContent = Math.round(s.freeMicThresholdDb) + " dB";
+    }
+
+    liveIsInserted = !!s.liveIsInserted;
+    const guard = $("badgeGuard");
+    if (!s.gameConnected) { guard.textContent = "未连游戏"; guard.className = "badge-guard"; }
+    else if (!s.inHScene) { guard.textContent = "已连游戏 · 非H"; guard.className = "badge-guard"; }
+    else if (liveIsInserted) { guard.textContent = "● 已插入 · 全自由编舞"; guard.className = "badge-guard inserted"; }
+    else { guard.textContent = "🛡️ 未插入 · 节奏保护中"; guard.className = "badge-guard"; }
+
+    document.querySelectorAll(".tl-btn").forEach((b) => { b.disabled = !!(s.gameConnected && s.inHScene && !liveIsInserted); });
+    const notice = $("insertNotice");
+    if (!s.gameConnected) { notice.className = "notice-box"; notice.textContent = "游戏尚未连接（127.0.0.1:41289）。"; }
+    else if (!s.inHScene) { notice.className = "notice-box"; notice.textContent = "已连接恋活本体，当前不在 H 场景。"; }
+    else if (!liveIsInserted) { notice.className = "notice-box"; notice.textContent = `🛡️ 当前未插入（${s.livePoseName || "爱抚/待机"}）：点「一键插入开始」或切体位即可自动开动！`; }
+    else { notice.className = "notice-box ok"; notice.textContent = `✅ 已插入（${s.livePoseName || "H场景"} · 兴奋 ${Math.round(s.liveGaugeFemale || 0)}%）：支持任意 N浅M深、纯直线摆腰与原生无缝高潮！`; }
+
+    if (s.gameConnected) {
+      $("dotGame").className = "dot ok";
+      $("txtGame").textContent = s.inHScene ? `H · ${s.livePoseName || "运行中"}` : "游戏已连接";
+      $("txtGameDetail").textContent = s.inHScene ? `${liveIsInserted ? "已插入" : "未插入"} · 兴奋 ${Math.round(s.liveGaugeFemale || 0)}%` : "待机中";
+    } else { $("dotGame").className = "dot warn"; $("txtGame").textContent = "未连游戏"; $("txtGameDetail").textContent = "单机模式"; }
+
+    const cc = s.chatConfig || {};
+    const hasKey = !!cc.hasActiveKey;
+    $("dotBrain").className = hasKey ? "dot ok" : "dot warn";
+    $("txtBrain").textContent = hasKey ? `${cc.provider}:${cc.model}` : `${cc.provider}(未填Key)`;
+    $("apiStatusTag").textContent = hasKey ? `已配置 (${cc.activeKeyMasked || "OK"})` : "空白 · 请填写 API Key";
+    $("apiStatusTag").style.color = hasKey ? "var(--ok)" : "var(--warn)";
+
+    if (!voiceInputEnabled) { $("dotAsr").className = "dot"; $("txtAsr").textContent = "ASR: 关"; }
+    else if (s.asrEngine === "openai_asr") { $("dotAsr").className = "dot ok"; $("txtAsr").textContent = "ASR: API"; }
+    else if (s.asrEngine === "gemini_direct") { $("dotAsr").className = "dot ok"; $("txtAsr").textContent = "ASR: Gemini直听"; }
+    else if (s.asrReady) { $("dotAsr").className = "dot ok"; $("txtAsr").textContent = `ASR: ${s.asrModel || "turbo"}`; }
+    else { $("dotAsr").className = "dot warn"; $("txtAsr").textContent = "ASR 待命"; }
+
+    if (silentMode) { $("dotTts").className = "dot"; $("txtTts").textContent = "TTS: 静音"; }
+    else if (s.ttsProvider && s.ttsProvider !== "local") { $("dotTts").className = "dot ok"; $("txtTts").textContent = `TTS API: ${s.ttsProvider}`; }
+    else if (s.ttsReady) { $("dotTts").className = "dot ok"; $("txtTts").textContent = `TTS: ${s.activeVoiceModel || currentLang}`; }
+    else { $("dotTts").className = "dot warn"; $("txtTts").textContent = "TTS 按需加载"; }
+
+    if (document.activeElement !== $("rngVoice") && s.gains) { $("rngVoice").value = s.gains.voice; $("valVoice").textContent = Number(s.gains.voice).toFixed(2) + "x"; }
+    if (document.activeElement !== $("rngMaster") && s.gains) { $("rngMaster").value = s.gains.master; $("valMaster").textContent = Number(s.gains.master).toFixed(2) + "x"; }
+    $("chkDuck").checked = !!s.duckNativeVoiceOnSpeak;
+    $("chkBeds").checked = !!s.bgBedsEnabled;
+    if (s.lastPeakDb !== undefined) $("latPeak").textContent = s.lastPeakDb;
+    const lip = Number(s.lipRms || 0); $("lipBar").style.width = Math.min(100, Math.round(lip * 100)) + "%";
+    $("speakingBadge").textContent = silentMode ? "🔇 静音执行模式" : (s.isSpeaking ? "🔊 播音中（开口即打断）" : (isRecording ? "🔴 聆听中..." : (voiceInputEnabled && freeMicEnabled ? "🟢 自由麦待命" : "待机中")));
+
+    if (s.lastProactiveReply && s.lastProactiveReply !== lastSeenProactive) {
+      lastSeenProactive = s.lastProactiveReply; lastSeenAnyReply = s.lastProactiveReply;
+      addMsg("ai", s.lastProactiveReply, `<span class="tag">✨ 主动询问</span>`);
+    } else if (s.lastReply && s.lastReply !== lastSeenAnyReply && !busy) {
+      lastSeenAnyReply = s.lastReply;
+      if (s.lastUserText) addMsg("user", s.lastUserText, `<span class="tag">🎙️ 语音 / 游戏内</span>`);
+      addMsg("ai", s.lastReply, s.lastActionSummary ? `<span class="tag">⚡ ${s.lastActionSummary}</span>` : `<span class="tag">回复</span>`);
+    }
+    renderMemories(s.memories);
+  } catch (e) {}
+}
+
+async function pollManualState() {
+  try {
+    const m = await api("/manual/state"); if (!m || !m.ok) return;
+    const st = m.state || {}; const tl = st.timeline || {};
+    $("txtTlState").textContent = tl.active ? `运行中: ${tl.preset || "custom"}` : "原生控制";
+    const cfg = m.config || {};
+    if (cfg.axes) {
+      Object.keys(axisStates).forEach((ax) => { if (cfg.axes[ax] && cfg.axes[ax].enabled !== undefined) axisStates[ax] = !!cfg.axes[ax].enabled; });
+      document.querySelectorAll(".axis-btn").forEach((b) => b.classList.toggle("btn-active", !!axisStates[b.dataset.axis]));
+    }
+    if (document.activeElement !== $("rngSmooth") && cfg.smoothingMs !== undefined) { $("rngSmooth").value = Math.round(cfg.smoothingMs); $("valSmooth").textContent = Math.round(cfg.smoothingMs) + " ms"; }
+    const poses = Array.isArray(m.poses) ? m.poses : [];
+    const selPose = $("selPoseList");
+    if (poses.length && selPose.options.length !== poses.length) {
+      const prev = selPose.value; selPose.innerHTML = "";
+      poses.forEach((p) => { const o = document.createElement("option"); o.value = p.key; o.textContent = `[${p.mode || "H"}] ${p.name || p.key}`; selPose.appendChild(o); });
+      if (prev) selPose.value = prev;
+    }
+    const ch = m.characters || {};
+    const guests = Array.isArray(ch.haremGuests || ch.guests) ? (ch.haremGuests || ch.guests) : [];
+    $("charaInfo").textContent = `主女主：${st.femaleName || "(未检测)"} · ${ch.kPlugLoaded ? "kPlug 就绪" : "原生"} · 副角色 ${guests.length} 位`;
+    const gBox = $("guestList"); gBox.innerHTML = "";
+    if (!guests.length) { gBox.innerHTML = `<div class="hint">暂无副角色在场。</div>`; }
+    else {
+      guests.forEach((g) => {
+        const nm = g.name || "角色";
+        const card = document.createElement("div"); card.className = "guest-item";
+        card.innerHTML = `<div><b>${nm}</b></div>`;
+        const acts = document.createElement("div"); acts.className = "guest-actions";
+        [["定位", { action: "focus", name: nm }], ["切主角", { action: "swap_main_guest", name: nm }], ["躺自慰", { action: "behavior", name: nm, behavior: "masturbate", style: "Lay" }], ["停自慰", { action: "behavior", name: nm, behavior: "stop_masturbate" }], ["脱衣舞", { action: "behavior", name: nm, behavior: "striptease" }], ["请离", { action: "behavior", name: nm, behavior: "dismiss" }]]
+          .forEach(([label, payload]) => { const b = document.createElement("button"); b.className = "btn btn-sm"; b.textContent = label; b.onclick = () => manualCall("/manual/characters", payload, `${label} ${nm}`); acts.appendChild(b); });
+        card.appendChild(acts); gBox.appendChild(card);
+      });
+    }
+  } catch (e) {}
+}
+
+async function manualCall(path, body, okLabel) {
+  try {
+    const r = await api(path, "POST", body);
+    if (r && r.ok) { showToast("✅ " + (okLabel || r.detail || "已执行")); setTimeout(() => { pollStatus(); pollManualState(); }, 250); }
+    else { showToast("⚠️ " + ((r && r.error) || "执行失败")); }
+  } catch (e) { showToast("❌ 请求异常: " + e); }
+}
+
+async function sendChat(text) {
+  text = (text || "").trim(); if (!text || busy) return;
+  busy = true; $("btnSend").disabled = true;
+  addMsg("user", text, `<span class="tag">⌨️ 文字</span>`);
+  try {
+    const res = await api("/chat", "POST", { text, language: currentLang });
+    if (res.ok) {
+      lastSeenAnyReply = res.reply || lastSeenAnyReply;
+      $("latBrain").textContent = res.brainMs ?? "--";
+      $("latTtfa").textContent = silentMode ? "静音" : (res.ttfaMs ?? "--");
+      if (res.usage) { $("latCache").textContent = `${res.usage.cacheHitRate ?? 0}%`; $("latCost").textContent = `¥${Number(res.usage.estCostRmb || 0).toFixed(4)}`; }
+      let tags = [`<span class="tag">${res.provider || "LLM"}</span>`];
+      if (silentMode) tags.push(`<span class="tag">🔇 静音执行</span>`);
+      if (res.actionSummary) tags.push(`<span class="tag">⚡ 先行控制: ${res.actionSummary}</span>`);
+      addMsg("ai", res.reply || "(已执行)", tags.join(""));
+      if (res.memories) renderMemories(res.memories);
+    } else { addMsg("sys", "回复失败：" + (res.error || "未知错误")); }
+  } catch (e) { addMsg("sys", "请求异常：" + e); }
+  finally { busy = false; $("btnSend").disabled = false; }
+}
+
+async function startMic() {
+  if (!voiceInputEnabled) return showToast("语音输入已在设置中关闭");
+  if (isRecording || busy) return;
+  const devIdx = $("selMic").value !== "" ? Number($("selMic").value) : null;
+  const res = await api("/mic/start", "POST", { deviceIndex: devIdx });
+  if (res.ok) { isRecording = true; $("btnMic").classList.add("recording"); $("btnMic").textContent = "🔴 聆听中（已打断AI）... 再点/松空格发送"; }
+  else { addMsg("sys", "麦克风启动失败：" + (res.error || "请检查设置")); }
+}
+
+async function stopMicAndTalk() {
+  if (!isRecording) return;
+  isRecording = false; $("btnMic").classList.remove("recording"); $("btnMic").textContent = "⏳ 识别并执行中..."; $("btnMic").disabled = true;
+  try {
+    const res = await api("/mic/stop", "POST", { language: currentLang });
+    if (res.peakDb !== undefined) $("latPeak").textContent = res.peakDb;
+    if (res.ok && res.userText) {
+      lastSeenAnyReply = res.reply || lastSeenAnyReply;
+      $("latAsr").textContent = res.asrMs ?? "--"; $("latBrain").textContent = res.brainMs ?? "--";
+      $("latTtfa").textContent = silentMode ? "静音" : (res.ttfaMs ?? "--");
+      addMsg("user", res.userText, `<span class="tag">🎙️ ${res.asrEngine || "ASR"} ${res.asrMs ?? 0}ms</span>`);
+      let tags = [`<span class="tag">${res.provider || "LLM"}</span>`];
+      if (silentMode) tags.push(`<span class="tag">🔇 静音执行</span>`);
+      if (res.actionSummary) tags.push(`<span class="tag">⚡ 先行控制: ${res.actionSummary}</span>`);
+      addMsg("ai", res.reply || "(已执行)", tags.join(""));
+    } else if (res.ok && !res.userText) { addMsg("sys", `未听清人声（当前麦电平 ${res.peakDb ?? "--"} dB）。`); }
+    else { addMsg("sys", "语音识别失败：" + (res.error || "未知错误")); }
+  } catch (e) { addMsg("sys", "麦克风异常：" + e); }
+  finally { $("btnMic").disabled = !voiceInputEnabled; $("btnMic").textContent = voiceInputEnabled ? "🎙️ 点击说话（按住空格 · 秒打断）" : "🚫 语音输入已关闭"; }
+}
+
+// Chat & Mic bindings
+$("btnMic").addEventListener("click", () => (isRecording ? stopMicAndTalk() : startMic()));
+$("btnFreeMic").addEventListener("click", async () => {
+  if (!voiceInputEnabled) return showToast("请先开启语音输入");
+  const devIdx = $("selMic").value !== "" ? Number($("selMic").value) : null;
+  const s = await api("/config", "POST", { freeMicEnabled: !freeMicEnabled, deviceIndex: devIdx });
+  showToast(s.freeMicEnabled ? "🟢 自由麦克风已开启（说话可随时打断 AI）" : "⚪ 已切回按键麦"); pollStatus();
+});
+$("btnSilentQuick").addEventListener("click", async () => { await api("/config", "POST", { silentMode: !silentMode }); showToast(!silentMode ? "🔇 已进入静音执行模式" : "🔊 已恢复发声"); pollStatus(); });
+$("chkVoiceInput").addEventListener("change", async () => { await api("/config", "POST", { voiceInputEnabled: $("chkVoiceInput").checked }); showToast($("chkVoiceInput").checked ? "🎙️ 已开启语音输入" : "🚫 已关闭语音输入"); pollStatus(); });
+$("chkBargeIn").addEventListener("change", async () => { await api("/config", "POST", { bargeInEnabled: $("chkBargeIn").checked }); showToast($("chkBargeIn").checked ? "⚡ 已开启说话立即打断 AI 播音" : "已关闭抢话打断"); pollStatus(); });
+$("chkSilentMode").addEventListener("change", async () => { await api("/config", "POST", { silentMode: $("chkSilentMode").checked }); pollStatus(); });
+$("rngFreeThresh").addEventListener("input", () => { $("valFreeThresh").textContent = $("rngFreeThresh").value + " dB"; });
+$("rngFreeThresh").addEventListener("change", () => api("/config", "POST", { freeMicThresholdDb: Number($("rngFreeThresh").value) }));
+$("chkProactive").addEventListener("change", () => api("/config", "POST", { proactiveEnabled: $("chkProactive").checked }));
+
+window.addEventListener("keydown", (e) => {
+  if (voiceInputEnabled && e.code === "Space" && !e.repeat && !["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement.tagName)) {
+    e.preventDefault(); spaceHeld = true; startMic();
+  }
+});
+window.addEventListener("keyup", (e) => { if (e.code === "Space" && spaceHeld) { e.preventDefault(); spaceHeld = false; stopMicAndTalk(); } });
+$("btnSend").addEventListener("click", () => { const v = $("txtInput").value; $("txtInput").value = ""; sendChat(v); });
+$("txtInput").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); const v = $("txtInput").value; $("txtInput").value = ""; sendChat(v); } });
+$("btnStop").addEventListener("click", () => api("/stop", "POST", {}));
+$("btnProactiveNow").addEventListener("click", async () => {
+  const r = await api("/proactive", "POST", { reason: "主动轻声问候" });
+  if (r && r.ok && r.reply) { lastSeenProactive = r.reply; lastSeenAnyReply = r.reply; addMsg("ai", r.reply, `<span class="tag">✨ 主动询问</span>`); }
+});
+$("btnClearHist").addEventListener("click", async () => { await api("/chat/clear", "POST", {}); addMsg("sys", "已清空对话上下文。"); pollStatus(); });
+$("btnClearMem").addEventListener("click", async () => { const r = await api("/memory", "POST", { action: "clear" }); renderMemories(r.memories || []); showToast("🧹 已清空长期记忆"); });
+document.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => sendChat(b.dataset.say)));
+
+// LLM Provider + Dynamic Model Discovery + Custom Prompts/Titles
+$("btnFetchModels").addEventListener("click", async () => {
+  showToast("🔄 正在从当前 API 拉取可调用模型列表...");
+  const payload = { provider: $("selProvider").value, baseUrl: $("cfgBaseUrl").value.trim() };
+  if ($("cfgApiKey").value.trim()) payload.apiKey = $("cfgApiKey").value.trim();
+  const r = await api("/chat/models", "POST", payload);
+  const sel = $("selFetchedModels");
+  if (r && r.ok && Array.isArray(r.models) && r.models.length) {
+    sel.innerHTML = "";
+    r.models.forEach((m) => { const o = document.createElement("option"); o.value = m; o.textContent = m; if (m === $("cfgModel").value.trim()) o.selected = true; sel.appendChild(o); });
+    if (!$("cfgModel").value.trim()) $("cfgModel").value = r.models[0];
+    showToast(`✅ 已拉取 ${r.models.length} 个可用模型并自动排列，自由选择！`);
+  } else {
+    showToast("⚠️ 拉取失败：" + ((r && r.error) || "请先填写对应服务商的 API Key 或 Base URL"));
+  }
+});
+$("selFetchedModels").addEventListener("change", () => {
+  if ($("selFetchedModels").value) $("cfgModel").value = $("selFetchedModels").value;
+});
+$("btnSaveApi").addEventListener("click", async () => {
+  const prov = $("selProvider").value;
+  const payload = { provider: prov, model: $("cfgModel").value.trim(), baseUrl: $("cfgBaseUrl").value.trim(), thinkingDisabled: true };
+  const key = $("cfgApiKey").value.trim();
+  if (key) {
+    const kmap = { deepseek: "deepseekApiKey", openai: "openaiApiKey", claude: "claudeApiKey", gemini: "googleApiKey" };
+    payload[kmap[prov] || "customApiKey"] = key;
+  }
+  const r = await api("/chat/config", "POST", payload);
+  if (r && r.ok) { $("cfgApiKey").value = ""; showToast("✅ 大模型 API 配置已保存"); loadBrainConfig(); loadRawConfig(); pollStatus(); }
+  else showToast("❌ 保存失败");
+});
+$("btnTestApi").addEventListener("click", async () => {
+  showToast("🧪 正在测试模型连接...");
+  const r = await api("/chat/test", "POST", {});
+  showToast(r && r.ok ? `✅ 连接成功！${r.provider} (${r.ms ?? 0}ms)` : ("⚠️ 连接失败：" + ((r && r.error) || "请检查 Key/地址")));
+});
+$("btnClearKeys").addEventListener("click", async () => {
+  await api("/chat/config", "POST", { clearKeys: true, baseUrl: "" });
+  $("cfgApiKey").value = ""; $("cfgBaseUrl").value = "";
+  showToast("🧹 已清空全部 API Key"); loadBrainConfig(); loadRawConfig(); pollStatus();
+});
+$("btnSavePrompt").addEventListener("click", async () => {
+  const r = await api("/chat/config", "POST", {
+    userTitle: $("cfgUserTitle").value.trim() || "主人",
+    aiSelfRef: $("cfgAiSelfRef").value.trim() || "人家",
+    persona: $("cfgPersona").value.trim(),
+    customPrompt: $("cfgCustomPrompt").value.trim(),
+    executeActions: $("cfgExecActions").checked,
+  });
+  if (r && r.ok) { showToast("✅ 称呼与自定义提示词已保存并立即生效（已刷新对话上下文）"); loadRawConfig(); pollStatus(); }
+});
+
+// ASR API
+$("selAsrEngine").addEventListener("change", async () => {
+  updateApiVisibility();
+  await api("/config", "POST", { asrEngine: $("selAsrEngine").value });
+  showToast("🎙️ 已切换 ASR 引擎：" + $("selAsrEngine").value); pollStatus();
+});
+$("btnSaveAsrApi").addEventListener("click", async () => {
+  const payload = { asrEngine: $("selAsrEngine").value, asrBaseUrl: $("cfgAsrUrl").value.trim(), asrModel: $("cfgAsrModel").value.trim() || "whisper-1" };
+  if ($("cfgAsrKey").value.trim()) payload.asrApiKey = $("cfgAsrKey").value.trim();
+  await api("/chat/config", "POST", payload);
+  $("cfgAsrKey").value = ""; showToast("✅ ASR API 配置已保存"); pollStatus();
+});
+
+// Languages & TTS API / Local Models
+$("btnZh").addEventListener("click", async () => { await api("/config", "POST", { activeVoiceModel: "builtin:zh_serena", language: "zh" }); refreshVoiceModels(); pollStatus(); });
+$("btnJa").addEventListener("click", async () => { await api("/config", "POST", { activeVoiceModel: "builtin:ja_falafel", language: "ja" }); refreshVoiceModels(); pollStatus(); });
+$("btnEn").addEventListener("click", async () => { await api("/config", "POST", { activeVoiceModel: "builtin:en_serena", language: "en" }); refreshVoiceModels(); pollStatus(); });
+$("selTtsProvider").addEventListener("change", async () => {
+  updateApiVisibility();
+  await api("/chat/config", "POST", { ttsProvider: $("selTtsProvider").value });
+  showToast("🔊 已切换 TTS 引擎：" + $("selTtsProvider").value); pollStatus();
+});
+$("btnSaveTtsApi").addEventListener("click", async () => {
+  const tp = $("selTtsProvider").value;
+  const payload = {
+    ttsProvider: tp,
+    ttsBaseUrl: $("cfgTtsUrl").value.trim(),
+    ttsModel: $("cfgTtsModel").value.trim(),
+    ttsVoice: $("cfgTtsVoice").value.trim(),
+    ttsSpeed: Number($("cfgTtsSpeed").value || 1.0),
+  };
+  if (tp === "custom_http") payload.ttsCustomJson = $("cfgTtsExtra").value.trim();
+  else payload.ttsPromptText = $("cfgTtsExtra").value.trim();
+  if ($("cfgTtsKey").value.trim()) payload.ttsApiKey = $("cfgTtsKey").value.trim();
+  await api("/chat/config", "POST", payload);
+  $("cfgTtsKey").value = ""; showToast("✅ TTS API 配置已保存并生效"); loadRawConfig(); pollStatus();
+});
+$("btnRefreshModels").addEventListener("click", async () => { await refreshVoiceModels(); showToast("🔄 已重新扫描模型目录"); });
+$("btnOpenModelsDir").addEventListener("click", async () => { const r = await api("/models/open_dir", "POST", {}); showToast(r.ok ? "📂 已打开自定义模型目录" : r.error); });
+$("btnOpenConfigExplorer").addEventListener("click", async () => { const r = await api("/models/open_config", "POST", {}); showToast(r.ok ? "🗂️ 已定位 chat_config.json" : r.error); });
+$("btnApplyVoiceModel").addEventListener("click", async () => { const id = $("selVoiceModel").value; if (!id) return; await api("/models/select", "POST", { id }); showToast("✅ 已切换语音模型：" + id); pollStatus(); });
+$("rngVoice").addEventListener("input", () => { $("valVoice").textContent = Number($("rngVoice").value).toFixed(2) + "x"; });
+$("rngVoice").addEventListener("change", () => api("/config", "POST", { voiceGain: Number($("rngVoice").value) }));
+$("rngMaster").addEventListener("input", () => { $("valMaster").textContent = Number($("rngMaster").value).toFixed(2) + "x"; });
+$("rngMaster").addEventListener("change", () => api("/config", "POST", { masterGain: Number($("rngMaster").value) }));
+$("chkDuck").addEventListener("change", () => api("/config", "POST", { duckNativeVoiceOnSpeak: $("chkDuck").checked }));
+$("chkBeds").addEventListener("change", () => api("/config", "POST", { bgBedsEnabled: $("chkBeds").checked }));
+$("btnReloadRawCfg").addEventListener("click", async () => { await loadRawConfig(); showToast("🔄 已重载配置"); });
+$("btnSaveRawCfg").addEventListener("click", async () => {
+  const r = await api("/config/raw", "POST", { jsonText: $("txtRawConfig").value });
+  if (r && r.ok) { showToast("✅ " + (r.detail || "已保存")); loadBrainConfig(); loadRawConfig(); pollStatus(); }
+  else showToast("❌ " + (r && r.error));
+});
+$("btnResetRawCfg").addEventListener("click", async () => {
+  const r = await api("/config/raw", "POST", { resetEmpty: true });
+  if (r && r.ok) { showToast("🧹 已恢复空白默认配置"); loadBrainConfig(); loadRawConfig(); refreshVoiceModels(); pollStatus(); }
+});
+
+// Tab 3 & Tab 4 Manual Choreography Controls
+document.querySelectorAll("[data-ga]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/game_action", { action: b.dataset.ga }, b.textContent.trim())));
+$("btnManualRelease").addEventListener("click", () => manualCall("/manual/release", { fadeSeconds: 0.6 }, "释放接管"));
+document.querySelectorAll("[data-spd]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/speed", { speed: Number(b.dataset.spd), holdSeconds: 30.0 }, `原生速 ${Math.round(Number(b.dataset.spd)*100)}%`)));
+$("btnRunShallowDeep").addEventListener("click", () => {
+  const sc = Math.max(1, Number($("numShallow").value || 1));
+  const dc = Math.max(1, Number($("numDeep").value || 1));
+  manualCall("/manual/timeline", { preset: "shallow_deep", shallowCount: sc, deepCount: dc, freqHz: Number($("rngFreq").value || 1.65), shallowDepthMax: 0.42, depthMax: 0.98, deepHoldSeconds: 0.45, durationSeconds: 45.0, loop: true }, `${sc}浅${dc}深自由组合`);
+});
+document.querySelectorAll("[data-waist]").forEach((b) => b.addEventListener("click", () => {
+  const pat = b.dataset.waist;
+  manualCall("/manual/config", { axes: { R0: { enabled: false } }, save: false }, "关闭 R0");
+  manualCall("/manual/timeline", { preset: "waist_only", holdDepth: 0.85, grindPattern: pat, grindAmp: 0.38, grindHz: 1.3, twistAmp: 0.0, durationSeconds: 45.0, loop: true }, b.textContent.trim());
+}));
+
+// Phase 3: SR6 6-DOF Math Lab handlers
+function gatherMathLabPayload(family, tuneOnly) {
+  const payload = {
+    freqHz: Number($("rngMathFreq").value || 1.35),
+    pivotZ: Number($("rngMathPivot").value || 0.50),
+    pivotSweepHz: $("chkMathSweep").checked ? 0.22 : 0.0,
+    helixTwist: Number($("rngMathHelix").value || 0.78),
+    orbitAmp: Number($("rngMathOrbit").value || 0.78),
+    femaleWeightShare: Number($("rngMathShare").value || 0.50),
+    softTissueWeight: Number($("rngMathSoft").value || 1.0),
+    tuneOnly: !!tuneOnly,
+  };
+  if (family) payload.family = family;
+  return payload;
+}
+document.querySelectorAll("[data-mathfam]").forEach((b) => b.addEventListener("click", () => {
+  manualCall("/manual/math_lab", gatherMathLabPayload(b.dataset.mathfam, false), "SR6数学:" + b.textContent.trim());
+}));
+$("btnStopMathLab").addEventListener("click", () => manualCall("/manual/math_lab", { stop: true }, "停止SR6数学实验台"));
+[["rngMathFreq", "valMathFreq", (v) => v.toFixed(2) + " Hz"],
+ ["rngMathPivot", "valMathPivot", (v) => v.toFixed(2)],
+ ["rngMathHelix", "valMathHelix", (v) => v.toFixed(2)],
+ ["rngMathOrbit", "valMathOrbit", (v) => v.toFixed(2)],
+ ["rngMathShare", "valMathShare", (v) => `${Math.round(v*100)}%女 / ${Math.round((1-v)*100)}%男`],
+ ["rngMathSoft", "valMathSoft", (v) => v.toFixed(2)]
+].forEach(([rid, vid, fmt]) => {
+  $(rid).addEventListener("input", () => { $(vid).textContent = fmt(Number($(rid).value)); });
+  $(rid).addEventListener("change", () => manualCall("/manual/math_lab", gatherMathLabPayload(null, true), "微调SR6数学参数"));
+});
+$("chkMathSweep").addEventListener("change", () => manualCall("/manual/math_lab", gatherMathLabPayload(null, true), "切换支点行波扫描"));
+
+// Phase 2: Pure Female-Initiative Mode & 4 Independent Non-Mutually-Exclusive Permissions
+let curAutMode = "player";
+async function pushAutonomy(modeOverride) {
+  if (modeOverride) curAutMode = modeOverride;
+  const r = await api("/autonomy", "POST", {
+    autonomyMode: curAutMode,
+    allowAutoPose: $("chkAutPose").checked,
+    allowAutoClimaxEdge: $("chkAutClimax").checked,
+    allowAutoClothes: $("chkAutClothes").checked,
+    allowAutoKPlugSwap: $("chkAutKPlug").checked,
+  });
+  if (r && r.ok) {
+    const a = r.autonomy || {};
+    $("autonomyStatusLine").textContent = `当前模式：${a.mode} · 弧线=${a.arcPhase || 'Warmup'} · kPlug防脑裂=${a.kPlugGirlThinkPaused ? '已暂停girlThink' : '待机'}`;
+    showToast("✅ 女方主动模式与独立权限已更新");
+  }
+}
+document.querySelectorAll("[data-autmode]").forEach((b) => b.addEventListener("click", () => pushAutonomy(b.dataset.autmode)));
+["chkAutPose", "chkAutClimax", "chkAutClothes", "chkAutKPlug"].forEach((id) => $(id).addEventListener("change", () => pushAutonomy(null)));
+$("btnTriggerAutBeat").addEventListener("click", async () => {
+  showToast("✨ 正在触发一次女方主动决策...");
+  const r = await api("/autonomy/beat", "POST", {});
+  if (r && r.ok && r.reply) addMsg("ai", r.reply, `<span class="tag">👑 女方主动</span>${r.actionSummary ? `<span class="tag">⚡ ${r.actionSummary}</span>` : ""}`);
+});
+document.querySelectorAll("[data-preset]").forEach((b) => b.addEventListener("click", () => {
+  manualCall("/manual/timeline", { preset: b.dataset.preset, durationSeconds: 45.0, loop: true }, `节奏：${b.textContent.trim()}`);
+}));
+["rngFreq", "rngDMin", "rngDMax", "rngGrind", "rngTwist"].forEach((id) => $(id).addEventListener("input", () => {
+  $("valFreq").textContent = Number($("rngFreq").value).toFixed(2) + " Hz";
+  $("valDMin").textContent = Number($("rngDMin").value).toFixed(2);
+  $("valDMax").textContent = Number($("rngDMax").value).toFixed(2);
+  $("valGrind").textContent = Number($("rngGrind").value).toFixed(2);
+  $("valTwist").textContent = Number($("rngTwist").value).toFixed(2);
+}));
+$("btnApplyTune").addEventListener("click", () => {
+  const dMin = Number($("rngDMin").value); const dMax = Math.max(dMin + 0.06, Number($("rngDMax").value));
+  manualCall("/manual/timeline_tune", { freqHz: Number($("rngFreq").value), depthMin: dMin, depthMax: Math.min(1.0, dMax), grindAmp: Number($("rngGrind").value), twistAmp: Number($("rngTwist").value) }, "微调已生效");
+});
+document.querySelectorAll("[data-pattern]").forEach((b) => b.addEventListener("click", () => {
+  const pat = b.dataset.pattern;
+  const isLinear = pat.startsWith("line_") || pat.endsWith("_only");
+  manualCall("/manual/timeline_tune", isLinear ? { grindPattern: pat, twistAmp: 0.0 } : { grindPattern: pat }, `轨迹：${b.textContent}`);
+}));
+document.querySelectorAll(".axis-btn").forEach((b) => b.addEventListener("click", () => {
+  const ax = b.dataset.axis; const next = !axisStates[ax]; axisStates[ax] = next; b.classList.toggle("btn-active", next);
+  manualCall("/manual/config", { axes: { [ax]: { enabled: next } }, save: true }, `${next ? "开" : "关"} ${ax}`);
+}));
+$("rngSmooth").addEventListener("input", () => { $("valSmooth").textContent = $("rngSmooth").value + " ms"; });
+$("rngSmooth").addEventListener("change", () => manualCall("/manual/config", { smoothingMs: Number($("rngSmooth").value), save: true }, `平滑 ${$("rngSmooth").value}ms`));
+document.querySelectorAll("[data-cloth-mode]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/clothes", { mode: b.dataset.clothMode }, `服装：${b.textContent}`)));
+document.querySelectorAll("[data-cloth-part]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/clothes", { part: b.dataset.clothPart, state: "toggle" }, b.textContent)));
+document.querySelectorAll("[data-outfit]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/outfit", { slot: Number(b.dataset.outfit) }, `换装：${b.textContent}`)));
+document.querySelectorAll("[data-pose]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/pose", { key: b.dataset.pose, autoInsert: true, startMotion: true }, `切体位并开始：${b.textContent}`)));
+$("btnGoPose").addEventListener("click", () => { const key = $("selPoseList").value; if (!key) return showToast("等待体位列表同步"); manualCall("/manual/pose", { key, autoInsert: true, startMotion: true }, `切体位：${key}`); });
+document.querySelectorAll("[data-expr]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/expression", { target: "both", preset: b.dataset.expr }, `表情：${b.textContent}`)));
+document.querySelectorAll("[data-chara-act]").forEach((b) => b.addEventListener("click", () => manualCall("/manual/characters", { action: b.dataset.charaAct }, b.textContent)));
+$("btnRefreshChars").addEventListener("click", () => { pollManualState(); showToast("🔄 已刷新角色"); });
+$("btnInviteChara").addEventListener("click", () => { const nm = $("txtCharaName").value.trim(); if (!nm) return showToast("请输入角色名"); manualCall("/manual/characters", { action: "invite", name: nm }, `邀请 ${nm}`); });
+$("btnReplaceBody").addEventListener("click", () => { const nm = $("txtCharaName").value.trim(); if (!nm) return showToast("请输入角色名"); manualCall("/manual/characters", { action: "replace_body", name: nm }, `替换女主 ${nm}`); });
+
+// Boot
+refreshMics();
+loadBrainConfig();
+refreshVoiceModels();
+loadRawConfig();
+pollStatus();
+pollManualState();
+setInterval(pollStatus, 950);
+setInterval(pollManualState, 2200);
+</script>
+</body>
+</html>

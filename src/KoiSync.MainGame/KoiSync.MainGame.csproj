@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GameFlavor Condition="'$(GameFlavor)' == ''">KK</GameFlavor>
+    <TargetFramework Condition="'$(GameFlavor)' != 'KKS'">net35</TargetFramework>
+    <TargetFramework Condition="'$(GameFlavor)' == 'KKS'">net46</TargetFramework>
+    <DefineConstants Condition="'$(GameFlavor)' == 'KKS'">$(DefineConstants);KKS</DefineConstants>
+    <AssemblyName>KoiSync.MainGame</AssemblyName>
+    <Version>1.0.0</Version>
+    <Nullable>disable</Nullable>
+    <KksGameRoot Condition="'$(KksGameRoot)' == ''">E:\Galgames\kks</KksGameRoot>
+    <ActiveGameRoot Condition="'$(GameFlavor)' != 'KKS'">$(GameRoot)</ActiveGameRoot>
+    <ActiveGameRoot Condition="'$(GameFlavor)' == 'KKS'">$(KksGameRoot)</ActiveGameRoot>
+    <GameManaged Condition="'$(GameFlavor)' != 'KKS'">$(ActiveGameRoot)\Koikatu_Data\Managed</GameManaged>
+    <GameManaged Condition="'$(GameFlavor)' == 'KKS'">$(ActiveGameRoot)\KoikatsuSunshine_Data\Managed</GameManaged>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\*.cs" Link="Core\%(Filename)%(Extension)" />
+    <Compile Include="..\SharedUnity\*.cs" Link="Unity\%(Filename)%(Extension)" />
+    <Compile Include="..\KoiSync.Plugin\Devices.cs" Link="Transport\Devices.cs" />
+    <Compile Include="..\KoiSync.Plugin\SerialTransport.cs" Link="Transport\SerialTransport.cs" />
+    <Compile Include="..\KoiSync.Plugin\FunscriptPlayback.cs" Link="Transport\FunscriptPlayback.cs" />
+    <EmbeddedResource Include="Actions.tsv" LogicalName="KoiSync.MainGame.Actions.tsv" />
+    <EmbeddedResource Include="Locale.tsv" LogicalName="KoiSync.MainGame.Locale.tsv" />
+    <EmbeddedResource Include="NativeResources.tsv" LogicalName="KoiSync.MainGame.NativeResources.tsv" />
+    <EmbeddedResource Include="KPlugActions.tsv" LogicalName="KoiSync.MainGame.KPlugActions.tsv" />
+    <EmbeddedResource Include="NativeAnimations.csv" LogicalName="KoiSync.NativeAnimations.csv" />
+    <EmbeddedResource Include="..\Libraries\*.dll" LogicalName="KoiSync.Dependencies.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\Libraries\*.txt" LogicalName="KoiSync.Licenses.%(Filename)%(Extension)" />
+    <Reference Include="LitJSON"><HintPath>..\Libraries\LitJSON.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SuperSocket.ClientEngine"><HintPath>..\Libraries\SuperSocket.ClientEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="WebSocket4Net"><HintPath>..\Libraries\WebSocket4Net.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepInEx"><HintPath>$(ActiveGameRoot)\BepInEx\core\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(ActiveGameRoot)\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameManaged)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameManaged)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(GameFlavor)' == 'KKS'">
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(GameManaged)\Assembly-CSharp-firstpass.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManaged)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameManaged)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(GameManaged)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameManaged)\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(GameManaged)\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(GameManaged)\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>$(GameManaged)\UnityEngine.ParticleSystemModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(GameManaged)\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(GameManaged)\UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(GameManaged)\UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(GameManaged)\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameManaged)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(GameManaged)\UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(GameManaged)\UnityEngine.UnityWebRequestModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

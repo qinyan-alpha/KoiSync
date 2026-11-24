@@ -1,0 +1,677 @@
+# English key, Traditional Chinese, Russian, Japanese, Korean, German, French
+   ·   Coordinates & distances in mm	   ·   座標與距離以 mm 顯示	   ·   Координаты и расстояния в мм	   ·   座標と距離は mm 表示	   ·   좌표와 거리는 mm 단위	   ·   Koordinaten & Abstände in mm	   ·   Coordonnées et distances en mm
+  ·  Offline	  ·  未連線	  ·  Не в сети	  ·  未接続	  ·  오프라인	  ·  Offline	  ·  Hors ligne
+ (Inserted)	（已插入）	 (Введено)	（挿入中）	 (삽입됨)	 (Eingeführt)	 (Inséré)
+ (Not inserted)	（未插入）	 (Не введено)	（未挿入）	 (미삽입)	 (Nicht eingeführt)	 (Non inséré)
+ (triggered 	 (已觸發 	 (сработало 	 (発動 	 (작동 	 (ausgelöst 	 (déclenché 
+ Auto climax / edging	 允許自主控射與寸止	 Авто-оргазм / эджинг	 絶頂・寸止めを自動許可	 자동 절정 / 엣징 허용	 Auto-Orgasmus / Edging	 Auto orgasme / edging
+ Auto clothes / outfits	 允許自主脫衣與換裝	 Авто-одежда / костюмы	 脱衣・着替えを自動許可	 자동 탈의 / 의상 변경	 Auto-Kleidung / Outfits	 Auto vêtements / tenues
+ Auto kPlug invite / swap	 允許自主拉人/輪換角色	 Авто-приглашение / смена kPlug	 kPlug 招待・交代を自動許可	 자동 kPlug 초대 / 교체	 Auto-kPlug-Einladung / Tausch	 Auto invitation / échange kPlug
+ Auto pose / insert	 允許自主換體位 / 插入	 Авто-поза / введение	 体位変更・挿入を自動許可	 자동 체위 / 삽입 허용	 Auto-Pose / Einführen	 Auto pose / insertion
+ OFF	關	 ВЫКЛ	 オフ	 꺼짐	 AUS	 OFF
+ ON	開	 ВКЛ	 オン	 켜짐	 EIN	 ON
+ actions · select from the game menu	 個動作 · 使用遊戲選單選擇	 действий · выбор в меню игры	 個のアクション · ゲームメニューで選択	개 동작 · 게임 메뉴에서 선택	 Aktionen · im Spielmenü wählen	 actions · choisir dans le menu du jeu
+ and 	 至 	 и 	 ～ 	 ~ 	 und 	 et 
+ frames · 	 幀 · 	 кадр. · 	 フレーム · 	 프레임 · 	 Bilder · 	 images · 
+ mm	 mm 之間的數值	 мм	 mm の範囲	 mm 사이 값	 mm	 mm
+ mm  ·  Active span 	 mm  ·  求解標尺 	 мм  ·  Активная длина 	 mm  ·  計算スパン 	 mm  ·  활성 기준 	 mm  ·  Aktive Spanne 	 mm  ·  Course active 
+ mm  ·  To entry 	 mm  ·  到入口 	 мм  ·  До входа 	 mm  ·  入口まで 	 mm  ·  입구까지 	 mm  ·  Zum Eingang 	 mm  ·  À l’entrée 
+ · Autonomy=	 · 自主=	 · Автономия=	 · 自律=	 · 자율=	 · Autonomie=	 · Autonomie=
+ · Idle (drag)	 · 未插入(拖動可移)	 · Ожидание (перетащ.)	 · 未挿入(ドラッグ可)	 · 대기(드래그 이동)	 · Bereit (ziehen)	 · Repos (glisser)
+ · Inserted	 · 已插入	 · Введено	 · 挿入中	 · 삽입됨	 · Eingeführt	 · Inséré
+ · Transitioning	 · 過渡中	 · Переход	 · 遷移中	 · 전환 중	 · Übergang	 · Transition
+ · default body ref	 · 預設人物參考	 · базовая модель	 · 既定ボディ基準	 · 기본 체형 기준	 · Standard-Körperref.	 · réf. corps par défaut
+ · kPlug girlThink paused	 · kPlug 主動思考已自動關閉	 · kPlug girlThink на паузе	 · kPlug 自動思考を一時停止	 · kPlug 자동 사고 일시중지	 · kPlug girlThink pausiert	 · kPlug girlThink en pause
+%  ·  Depth 	%  ·  深度 	%  ·  Глубина 	%  ·  深度 	%  ·  깊이 	%  ·  Tiefe 	%  ·  Profondeur 
+(looping)	(循環中)	(цикл)	(ループ中)	(반복 중)	(Schleife)	(en boucle)
+(rem 	(剩 	(ост. 	(残 	(남음 	(Rest 	(reste 
+0 · Off	0 · 關閉	0 · Выкл.	0 · オフ	0 · 끔	0 · Aus	0 · Désactivé
+1 Sch	1校服	1 Шк.	1制服	1교복	1 Sch	1 Écol
+1 Shallow 1 Deep	1淺1深	1 мелк. 1 глуб.	1浅1深	1얕 1깊	1 flach 1 tief	1 court 1 profond
+1.Pivot Wave	1.虛擬支點行波	1.Волна опоры	1.仮想支点波	1.가상지점파	1.Drehpunktwelle	1.Onde pivot
+1S 1D	1淺1深	1М 1Г	1浅1深	1얕1깊	1F 1T	1C 1P
+2 Home	2二套	2 Дом	2帰宅	2귀가	2 Heim	2 Mais
+2.Dual Helix	2.變螺距雙螺旋	2.Двойн. спираль	2.二重らせん	2.이중나선	2.Doppelhelix	2.Double hélice
+3 Gym	3體操	3 Физ.	3体操	3체육	3 Sport	3 Gym
+3.6D Lissajous	3.6D利薩如紐結	3.6D Лиссажу	3.6Dリサージュ	3.6D리사주	3.6D-Lissajous	3.Lissajous 6D
+4 Swim	4泳裝	4 Куп.	4水着	4수영	4 Bad	4 Bain
+4 independent permissions (can also be granted verbally):	4 項獨立權限開關（互不互斥，也可在聊天中口頭授權）：	4 независимых разрешения (можно выдать голосом):	4 つの独立権限（チャットや音声でも許可可能）：	4가지 독립 권한 (대화나 음성으로도 허용 가능):	4 unabhängige Freigaben (auch per Sprache erteilbar):	4 permissions indépendantes (accordables aussi à la voix) :
+4.Beat Flutter	4.拍頻微顫共振	4.Биения-дрожь	4.うなり微振動	4.맥놀이진동	4.Schwebung	4.Battement
+5 Club	5社團	5 Клуб	5部活	5동아리	5 Klub	5 Club
+5.Smooth Chaos	5.平滑混沌流形	5.Плавн. хаос	5.平滑カオス	5.부드런카오스	5.Sanftes Chaos	5.Chaos lisse
+50/50	50/50共舞	50/50	50/50連動	50/50	50/50	50/50
+6 Cas	6私服	6 Повс.	6私服	6사복	6 Frei	6 Ville
+6D Golden Lissajous Knot	6D黃金比例利薩如紐結	6D золотой узел Лиссажу	6D黄金比リサージュ結び目	6D 황금비 리사주 매듭	6D-Goldener-Lissajous-Knoten	Nœud de Lissajous 6D d’or
+7 Sleep	7睡衣	7 Сон	7寝間着	7잠옷	7 Nacht	7 Nuit
+85% F	85%女主動	85% Ж	85%女性	85% 여	85% F	85% F
+85% M	85%男主動	85% М	85%男性	85% 남	85% M	85% H
+9S 1D	九淺一深	9 мелк. 1 глуб.	九浅一深	9얕 1깊	9 flach 1 tief	9C 1P
+9S1D	九淺	9М1Г	九浅	9얕1깊	9F1T	9C1P
+; check the port and device ownership	，請檢查連接埠及裝置佔用	; проверьте порт и занятость устройства	（ポートや機器の占有状態を確認してください）	 (포트 및 기기 점유 상태를 확인하세요)	; Port und Gerätebelegung prüfen	 ; vérifiez le port et l’occupation de l’appareil
+AI Director API · Local MCP	AI 導演介面 · 本機 MCP	API ИИ-директора · Локальный MCP	AI ディレクター API · ローカル MCP	AI 디렉터 API · 로컬 MCP	KI-Regie-API · Lokales MCP	API Réalisateur IA · MCP local
+AI Hub	AI 互動	ИИ-центр	AI ハブ	AI 허브	KI-Hub	Hub IA
+AI Voice Director (Quick controls · open Web Console for API / models / prompts)	AI 語音導演（精簡控制 · 詳細 API / 模型 / 提示詞請開啟網頁主控台）	ИИ-голос (быстрое управление · API/модели/промпты в веб-консоли)	AI 音声ディレクター（簡易操作 · API / モデル / プロンプトは Web コンソールへ）	AI 음성 디렉터 (간편 제어 · API / 모델 / 프롬프트는 웹 콘솔)	KI-Sprachregie (Schnellsteuerung · API / Modelle / Prompts in der Webkonsole)	Réalisateur vocal IA (Commandes rapides · Console web pour API / modèles / prompts)
+AI hold tease · 	AI 懸停挑逗 · 	ИИ-дразнилка · 	AI 焦らし停止 · 	AI 멈춤 애태우기 · 	KI-Haltereiz · 	Pause taquine IA · 
+AI initiative	純女方主動模式	Инициатива ИИ	完全AI主導	AI 완전 주도	KI-Initiative	Initiative IA
+AI stroke override · 	AI 行程接管 · 	ИИ-перехват хода · 	AI ストローク制御 · 	AI 스트로크 제어 · 	KI-Hubübernahme · 	Contrôle course IA · 
+AI takeover cut; restored normal game sync	已立刻切斷 AI 接管，恢復正常遊戲同步	Перехват ИИ отключён; возвращена синхронизация игры	AI 制御を解除し通常同期に戻しました	AI 제어를 해제하고 일반 동기화로 복귀했습니다	KI-Übernahme getrennt; normale Spiel-Sync wiederhergestellt	Prise en main IA coupée ; synchronisation normale rétablie
+AI takeover cut; returned control to game	已一鍵斷開 AI 接管並交還遊戲控制	Перехват ИИ отключён; управление возвращено игре	AI 制御を切断しゲーム操作へ戻しました	AI 제어를 차단하고 게임 제어로 반환했습니다	KI-Übernahme getrennt; Kontrolle ans Spiel zurückgegeben	Prise en main IA coupée ; contrôle rendu au jeu
+AI takeover re-enabled	已恢復允許 AI 接管	Перехват ИИ снова разрешён	AI 制御を再許可しました	AI 제어가 다시 허용되었습니다	KI-Übernahme wieder aktiviert	Prise en main IA réactivée
+AI voice disabled; background AI takeover cut	已關閉 AI 語音互動並徹底切斷背景 AI 接管	ИИ-голос выключен; фоновый перехват ИИ остановлен	AI 音声連携をオフにしバックグラウンド制御を切断しました	AI 음성 연동을 끄고 백그라운드 제어를 차단했습니다	KI-Sprache deaktiviert; Hintergrund-KI getrennt	Voix IA désactivée ; contrôle IA en arrière-plan coupé
+AI voice interaction enabled	已開啟 AI 語音互動連線	ИИ-голосовое взаимодействие включено	AI 音声連携を有効にしました	AI 음성 연동을 켰습니다	KI-Sprachinteraktion aktiviert	Interaction vocale IA activée
+AI voice interaction is off. Click below to enable and connect to the local sidecar.	目前語音互動處於關閉狀態。點擊下方按鈕開啟即可連線本機背景服務（防多開單實例保護）。	Голосовое взаимодействие отключено. Нажмите ниже, чтобы подключиться к локальному сервису.	AI 音声連携はオフです。下のボタンで有効化しローカルサービスへ接続できます。	AI 음성 연동이 꺼져 있습니다. 아래 버튼으로 켜고 로컬 백엔드에 연결하세요.	KI-Sprachinteraktion ist aus. Unten klicken, um den lokalen Dienst zu verbinden.	L’interaction vocale IA est désactivée. Cliquez ci-dessous pour activer et connecter le service local.
+AI voice speech restored	已恢復 AI 語音發聲	Озвучка ИИ восстановлена	AI 音声の発話を再開しました	AI 음성 출력을 복구했습니다	KI-Sprachausgabe wiederhergestellt	Synthèse vocale IA rétablie
+AI voice volume	AI 貼耳混音音量	Громкость голоса ИИ	AI 音声ボリューム	AI 음성 볼륨	KI-Stimmlautstärke	Volume voix IA
+AI: 	她：	Она: 	AI：	AI: 	KI: 	IA : 
+API, model, and address settings saved	API、模型與稱呼設定已儲存	Настройки API, модели и обращений сохранены	API・モデル・呼称設定を保存しました	API, 모델 및 호칭 설정이 저장되었습니다	API-, Modell- und Anrede-Einstellungen gespeichert	Paramètres API, modèle et adresse enregistrés
+ASR / Silent / Voice	辨識 / 靜音 / 聲線	Распозн. / Тихо / Голос	音声認識 / 静音 / 声質	인식 / 무음 / 음성	ASR / Stumm / Stimme	ASR / Silence / Voix
+ASR error: 	語音辨識異常：	Ошибка распознавания: 	音声認識エラー：	음성 인식 오류: 	ASR-Fehler: 	Erreur ASR : 
+Action and stage follow the game	動作和階段由遊戲控制	Действие и стадия следуют за игрой	アクションと段階はゲームに追従します	동작과 단계는 게임을 따릅니다	Aktion und Phase folgen dem Spiel	L’action et la phase suivent le jeu
+Action binding	本動作綁定	Привязка действия	このアクションのバインド	현재 동작 바인딩	Aktionsbindung	Liaison de l’action
+Action binding is switching	目前動作綁定正在切換	Привязка действия переключается	アクションバインドを切り替え中	동작 바인딩 전환 중	Aktionsbindung wechselt	Liaison de l’action en cours de changement
+Action binding saved	已儲存本動作綁定	Привязка действия сохранена	アクションのバインドを保存しました	동작 바인딩이 저장되었습니다	Aktionsbindung gespeichert	Liaison de l’action enregistrée
+Action calibration saved	目前動作校準已儲存	Калибровка действия сохранена	このアクションの校正を保存しました	현재 동작 보정이 저장되었습니다	Aktionskalibrierung gespeichert	Calibrage de l’action enregistré
+Action catalogue	動作目錄	Каталог действий	アクション一覧	동작 목록	Aktionskatalog	Catalogue d’actions
+Action changed; stopped SR6 Math Lab	動作切換，自動結束 SR6 數學實驗台	Действие сменилось; SR6 Math Lab остановлен	アクション切替により SR6 実験台を停止しました	동작 변경으로 SR6 수학 실험실 종료됨	Aktion gewechselt; SR6-Mathelabor gestoppt	Action modifiée ; Labo Math SR6 arrêté
+Action changed; stopped Timeline variant	動作切換，自動結束時間軸變式	Действие сменилось; вариант Timeline остановлен	アクション切替によりタイムライン変式を停止しました	동작 변경으로 타임라인 변형 종료됨	Aktion gewechselt; Timeline-Variante gestoppt	Action modifiée ; variante Timeline arrêtée
+Action interaction mm	本動作交互長度 mm	Длина контакта, мм	この動作の交互長 mm	현재 동작 상호작용 mm	Aktions-Interaktion mm	Interaction de l’action mm
+Action profile & recording	動作設定與錄製	Профиль действия и запись	アクション設定と録画	동작 프로필 및 녹화	Aktionsprofil & Aufnahme	Profil d’action et enregistrement
+Action unclassified: assign a motion source in Workbench	動作未分類：請在工作台指定驅動來源	Действие не классифицировано: выберите источник в редакторе	未分類アクション：作業台で駆動ソースを指定してください	미분류 동작: 작업대에서 구동 소스를 지정하세요	Aktion unklassifiziert: Quelle im Arbeitsbereich zuweisen	Action non classée : assignez une source dans l’Atelier
+Action unclassified; assign source and target zone	動作尚未分類，請指定來源和部位	Действие не классифицировано; задайте источник и зону	アクション未分類：ソースと部位を指定してください	미분류 동작입니다. 소스와 부위를 지정하세요	Aktion unklassifiziert; Quelle und Zone zuweisen	Action non classée ; assignez source et zone
+Active span   	有效標尺   	Активная длина   	有効スパン   	유효 기준   	Aktive Spanne   	Course active   
+Active: {0}  ·  Reach={1:0.00}  ·  Pivot z_p={2:0.00}\nRig: {3} (F {4:0}% / M {5:0}%)  ·  Soft bones={6}\nSafety: Entry drift={7:0.1}mm  ·  Foot IK={8:0.1}mm  ·  Yaw={9:0.0}°\n6-DOF: L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	執行中：{0}  ·  SR6可達域={1:0.00}  ·  支點 z_p={2:0.00}\n雙人骨骼：{3} (女{4:0}% / 男{5:0}%)  ·  軟體同步骨={6}\n安全指標：插口漂移={7:0.1}mm  ·  腳IK漂移={8:0.1}mm  ·  腰扭={9:0.0}°\n6軸：L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	Активно: {0}  ·  Зона={1:0.00}  ·  Опора z_p={2:0.00}\nКости: {3} (Ж {4:0}% / М {5:0}%)  ·  Мягк. кости={6}\nКонтроль: вход={7:0.1}мм  ·  стопы IK={8:0.1}мм  ·  поворот={9:0.0}°\n6 осей: L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	実行中：{0}  ·  可動域={1:0.00}  ·  支点 z_p={2:0.00}\n骨格：{3} (女{4:0}% / 男{5:0}%)  ·  軟体同期={6}\n安全指標：入口ズレ={7:0.1}mm  ·  足IK={8:0.1}mm  ·  腰捻り={9:0.0}°\n6軸：L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	실행 중: {0}  ·  가동률={1:0.00}  ·  지점 z_p={2:0.00}\n뼈대: {3} (여{4:0}% / 남{5:0}%)  ·  소프트본={6}\n안전: 입구오차={7:0.1}mm  ·  발IK={8:0.1}mm  ·  허리={9:0.0}°\n6축: L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	Aktiv: {0}  ·  Bereich={1:0.00}  ·  Pivot z_p={2:0.00}\nRig: {3} (F {4:0}% / M {5:0}%)  ·  Softbones={6}\nSicherheit: Drift={7:0.1}mm  ·  Fuß-IK={8:0.1}mm  ·  Gier={9:0.0}°\n6-DOF: L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}	Actif : {0}  ·  Portée={1:0.00}  ·  Pivot z_p={2:0.00}\nRig : {3} (F {4:0}% / H {5:0}%)  ·  Os souples={6}\nSécurité : Dérive={7:0.1}mm  ·  IK pied={8:0.1}mm  ·  Lacet={9:0.0}°\n6-DOF : L0={10:0} L1={11:0} L2={12:0} R0={13:0} R1={14:0} R2={15:0}
+Actor split α_F (Auto)	雙人骨骼權重 α_F (目前: 自動分攤)	Доля костей α_F (авто)	骨格配分 α_F（自動）	뼈대 비중 α_F (자동)	Aktor-Anteil α_F (Auto)	Partage rig α_F (Auto)
+Actor split α_F (F {0:0}% / M {1:0}%)	雙人骨骼權重 α_F (女{0:0}% / 男{1:0}%)	Доля костей α_F (Ж {0:0}% / М {1:0}%)	骨格配分 α_F（女{0:0}% / 男{1:0}%）	뼈대 비중 α_F (여 {0:0}% / 남 {1:0}%)	Aktor-Anteil α_F (F {0:0}% / M {1:0}%)	Partage rig α_F (F {0:0}% / H {1:0}%)
+Adapt player, interaction, and device travel	獨立適配玩家長度、交互長度與裝置行程	Адаптировать длину игрока, сцены и хода устройства	プレイヤー長・交互長・機器ストロークを個別調整	사용자 길이, 상호작용 길이, 기기 이동 개별 맞춤	Spieler-, Interaktions- und Geräteweg anpassen	Adapter longueurs joueur, action et course appareil
+All API keys cleared; restored blank defaults	已清空全部 API Key 恢復空白預設設定	Все API-ключи очищены; настройки сброшены	全 API キーを消去し既定値に戻しました	모든 API 키를 지우고 기본값으로 복원했습니다	Alle API-Schlüssel gelöscht; Standard wiederhergestellt	Toutes les clés API effacées ; valeurs par défaut rétablies
+Allow local AI Director API (127.0.0.1:	允許本機 AI 導演接入 (127.0.0.1:	Разрешить локальный API ИИ (127.0.0.1:	ローカル AI ディレクター API を許可 (127.0.0.1:	로컬 AI 디렉터 API 허용 (127.0.0.1:	Lokale KI-Regie-API erlauben (127.0.0.1:	Autoriser l’API Réalisateur IA locale (127.0.0.1:
+Anal	肛門	Анус	肛門	항문	Anal	Anal
+Anchor-to-landmark gap 	動作錨點與解剖點相差 	Разница якоря и точки 	アンカーと基準点の差 	앵커-해부점 간격 	Anker-zu-Referenz-Abstand 	Écart ancre / repère 
+Animated prop	原生動畫道具	Анимированный предмет	アニメ付き小物	애니메이션 소품	Animierte Requisite	Accessoire animé
+Animation resource unclassified; assign source and target zone	動畫資源尚未分類，請指定來源和部位	Ресурс анимации не классифицирован; задайте источник и зону	アニメ資源が未分類です。ソースと部位を指定してください	애니메이션 리소스 미분류. 소스와 부위를 지정하세요	Animationsressource unklassifiziert; Quelle und Zone zuweisen	Ressource d’animation non classée ; assignez source et zone
+Applied: 	已調：	Применено: 	適用：	적용됨: 	Angewendet: 	Appliqué : 
+Apply	套用	Применить	適用	적용	Anwenden	Appliquer
+Apply length	套用長度	Применить длину	長さを適用	길이 적용	Länge anwenden	Appliquer la longueur
+Apply lengths	套用長度參數	Применить длины	長さ設定を適用	길이 설정 적용	Längen anwenden	Appliquer les longueurs
+Auto	自動權重	Авто	自動	자동	Auto	Auto
+Auto span & response	自動模式標尺與響應	Автодлина и отклик	自動スパンと応答	자동 기준 및 응답	Auto-Spanne & Antwort	Course auto & réponse
+Autonomy & SR6 Lab	主動模式 & SR6實驗	Автономия и SR6 Lab	自律モード & SR6実験	자율 모드 & SR6 실험	Autonomie & SR6-Labor	Autonomie & Labo SR6
+Autonomy Mode & kPlug Conflict Arbitration	純女方主動模式 & kPlug 防衝突仲裁	Режим автономии и арбитраж kPlug	自律主導モード & kPlug 競合調停	자율 주도 모드 & kPlug 충돌 조정	Autonomiemodus & kPlug-Konfliktschlichtung	Mode autonomie & arbitrage kPlug
+Available ports   	可用序列埠   	Доступные порты   	利用可能なポート   	사용 가능한 포트   	Verfügbare Ports   	Ports disponibles   
+Axes	六軸	Оси	6軸	6축	Achsen	Axes
+Axial / L1 / L2   	軸向 / L1 / L2   	Ось / L1 / L2   	軸 / L1 / L2   	축 / L1 / L2   	Axial / L1 / L2   	Axial / L1 / L2   
+Back to calibration	返回入口校準	Назад к калибровке	校正へ戻る	보정으로 돌아가기	Zurück zur Kalibrierung	Retour au calibrage
+Balanced (Rec.)	均衡體感 (推薦)	Баланс (рек.)	バランス (推奨)	균형 (추천)	Ausgewogen (Empf.)	Équilibré (Rec.)
+Balanced feel	均衡體感	Сбалансированный	バランス体感	균형 체감	Ausgewogen	Sensation équilibrée
+Base	鎖根部	Корень	根元固定	뿌리 고정	Basis	Base
+Base freq (FreqHz)	主頻率 FreqHz	Базовая частота (FreqHz)	基本周波数 (FreqHz)	기본 주파수 (FreqHz)	Grundfrequenz (FreqHz)	Fréquence de base (FreqHz)
+Baud rate	鮑率	Скорость (бод)	ボーレート	보드레이트	Baudrate	Débit (bauds)
+Blending back to game sync…	正在平滑交還遊戲同步…	Плавный возврат к игре…	ゲーム同期へ滑らかに復帰中…	게임 동기화로 부드럽게 복귀 중…	Blende zurück zur Spiel-Sync…	Retour en douceur à la sync…
+Blue(	藍區(	Синий(	青(	파랑(	Blau(	Bleu(
+Both feet	雙腳	Обе ноги	両足	양발	Beide Füße	Deux pieds
+Bounded Smooth Chaos	有界平滑混沌吸引子	Ограниченный плавный хаос	有界平滑カオスアトラクタ	유계 평활 카오스 어트랙터	Begrenztes sanftes Chaos	Chaos lisse borné
+Breasts	胸部	Грудь	胸	가슴	Brust	Poitrine
+Brisk foreplay	前戲偏強	Активная прелюдия	強めの前戯	강한 전희	Kräftiges Vorspiel	Préliminaires vifs
+Busy	思考中	Занят	処理中	처리 중	Läuft	Occupé
+Busy...	思考中...	Думаю...	処理中...	처리 중...	Läuft...	Occupé...
+Buttocks	臀部表面	Ягодицы	尻	엉덩이	Gesäß	Fesses
+Calibrated	校準入口	Калибр.	校正入口	보정 입구	Kalibriert	Calibré
+Calibrated entry XYZ   	校準入口 XYZ   	Калибр. вход XYZ   	校正入口 XYZ   	보정 입구 XYZ   	Kalibr. Eingang XYZ   	Entrée calibrée XYZ   
+Calibration	校準	Калибровка	調整	보정	Kalibrierung	Calibrage
+Cam	定位	Камера	注目	카메라	Kam	Cam
+Cancel	取消	Отмена	キャンセル	취소	Abbrechen	Annuler
+Cancelled voice hotkey rebind	已取消修改語音快捷鍵	Смена клавиши речи отменена	音声キーの変更をキャンセルしました	음성 단축키 변경을 취소했습니다	Tastenzuweisung abgebrochen	Changement de raccourci annulé
+Captures rotation ref automatically on full contact	充分接觸時自動擷取本動作旋轉基準	Автозахват базы вращения при контакте	十分な接触時に回転基準を自動取得	충분한 접촉 시 회전 기준 자동 캡처	Erfasst Rotationsreferenz bei vollem Kontakt	Capture la référence de rotation au plein contact
+Change PTT key (Current: 	修改按住說話鍵（目前：	Клавиша речи (сейчас: 	プッシュトーク変更（現在：	음성 키 변경 (현재: 	PTT-Taste ändern (Aktuell: 	Changer touche PTT (Actuel : 
+Chat	對話頁	Чат	チャット	대화창	Chat	Chat
+Chat request failed: 	對話請求失敗：	Ошибка запроса чата: 	チャット送信エラー：	대화 요청 실패: 	Chat-Anfrage fehlgeschlagen: 	Échec requête chat : 
+Check device address and connection parameters	請檢查裝置位址與連線參數	Проверьте адрес и параметры подключения	機器アドレスと接続パラメータを確認してください	기기 주소와 연결 설정을 확인하세요	Geräteadresse und Verbindungsparameter prüfen	Vérifiez l’adresse et les paramètres de connexion
+Circle	畫圈	Круг	円	원형	Kreis	Cercle
+Clear history	清空對話上下文	Очистить чат	履歴を消去	대화 기록 삭제	Verlauf leeren	Effacer l’historique
+Clear memories	清空長期記憶	Очистить память	記憶を消去	장기 기억 삭제	Erinnerungen löschen	Effacer la mémoire
+Climax	原生高潮	Оргазм	絶頂	절정	Orgasmus	Orgasme
+Close catalogue	關閉動作目錄	Закрыть каталог	一覧を閉じる	목록 닫기	Katalog schließen	Fermer le catalogue
+Close invite	關閉邀請面板	Закрыть панель	招待を閉じる	초대창 닫기	Einladung zu	Fermer invit.
+Clothing (full / half / individual pieces)	脫穿衣（全身半脫 / 精準單件半脫與全脫）	Одежда (вся / полуснята / отдельные части)	着脱（全身半脱ぎ / 部位別の半脱ぎ・全脱ぎ）	탈의/착의 (전체 반탈의 / 부위별 정밀 제어)	Kleidung (voll / halb / einzelne Teile)	Vêtements (complet / mi-enlevé / par pièce)
+Co-pilot	協同提議模式	Совместный	協調提案	협업 제안	Ko-Pilot	Copilote
+Connect	連線	Подключить	接続	연결	Verbinden	Connecter
+Connecting 	正在連線 	Подключение 	接続中 	연결 중 	Verbinde 	Connexion 
+Connection cancelled	已取消連線	Подключение отменено	接続をキャンセル	연결 취소됨	Verbindung abgebrochen	Connexion annulée
+Connection error: 	連線錯誤：	Ошибка подключения: 	接続エラー：	연결 오류: 	Verbindungsfehler: 	Erreur de connexion : 
+Connection timed out: 	連線逾時：	Тайм-аут подключения: 	接続タイムアウト：	연결 시간 초과: 	Zeitüberschreitung: 	Délai de connexion dépassé : 
+Control mode (pauses kPlug girlThink while AI MCP is active):	互動主權模式（開啟 AI MCP 時預設關閉 kPlug 原生主動）：	Режим управления (ставит kPlug girlThink на паузу при ИИ MCP):	主導モード（AI MCP 有効時は kPlug 自動思考を一時停止）：	주도권 모드 (AI MCP 활성 시 kPlug 자동 사고 일시중지):	Steuermodus (pausiert kPlug girlThink bei aktivem KI-MCP):	Mode de contrôle (met kPlug girlThink en pause avec MCP IA) :
+Cowgirl	騎乘位	Наездница	騎乗位	기승위	Reiter	Cavalière
+Crimson(	深紅(	Алый(	深紅(	진홍(	Karmesin(	Cramoisi(
+Ctrl	手控	Упр.	手動	수동	Strg	Ctrl
+Current action	目前動作	Текущее действие	現在のアクション	현재 동작	Aktuelle Aktion	Action actuelle
+Current action profile saved	目前動作設定已儲存	Профиль действия сохранён	現在のアクション設定を保存しました	현재 동작 프로필이 저장되었습니다	Aktuelles Aktionsprofil gespeichert	Profil d’action actuel enregistré
+Cut AI	斷開 AI	Стоп ИИ	AI 切断	AI 차단	KI stoppen	Couper IA
+Cut AI takeover	斷開 AI 接管	Прервать ИИ	AI 制御切断	AI 제어 차단	KI trennen	Couper l’IA
+Cut AI takeover now	立刻切斷 AI 接管	Прервать ИИ сейчас	今すぐ AI 制御を切断	지금 즉시 AI 차단	KI sofort trennen	Couper l’IA maintenant
+Cut manually by user	使用者手動切斷	Отключено вручную	ユーザーによる手動切断	사용자 수동 차단	Manuell vom Nutzer getrennt	Coupé manuellement
+DS-Chat (Rec.)	DS-Chat (推薦)	DS-Chat (рек.)	DS-Chat (推奨)	DS-Chat (추천)	DS-Chat (Empf.)	DS-Chat (Rec.)
+Deep	深埋	Глуб.	深腰	깊게	Tief	Profond
+Deep grind	深埋扭腰	Глуб. вращ.	深掘り腰振り	깊은 허리	Tiefkreisen	Moulin profond
+Delay applies only to device output. Smoothing and rate limits apply only to live calculation; recording uses pre-delay final values. Set 0 to disable a stage.	延遲僅作用於傳送。平滑與速度上限僅作用於即時計算；錄製使用延遲前的最終值。數值為 0 時關閉對應處理。	Задержка влияет только на отправку. Сглаживание и предел скорости — на расчёт в реальном времени; запись сохраняет значения до задержки. 0 отключает этап.	遅延は送信のみに適用されます。平滑化と速度上限はリアルタイム計算のみに作用し、録画は遅延前の最終値を使用します。0 で無効化します。	지연은 기기 전송에만 적용됩니다. 평활과 속도 상한은 실시간 계산에만 적용되며 녹화는 지연 전 최종값을 저장합니다. 0은 해당 단계를 끕니다.	Verzögerung gilt nur für den Geräteversand. Glättung und Ratenlimit gelten für Live-Berechnung; Aufnahme nutzt Werte vor der Verzögerung. 0 deaktiviert die Stufe.	Le délai ne s’applique qu’à l’envoi. Le lissage et la limite de vitesse s’appliquent au calcul en direct ; l’enregistrement utilise les valeurs avant délai. 0 désactive l’étape.
+Device	裝置	Устройство	デバイス	장치	Gerät	Appareil
+Device IP / host	裝置 IP / 主機	IP / хост устройства	機器 IP / ホスト	기기 IP / 호스트	Geräte-IP / Host	IP / hôte de l’appareil
+Device L0 travel mm	設備 L0 全程 mm	Полный ход L0, мм	機器 L0 全ストローク mm	기기 L0 전체 이동 mm	Geräte-L0-Hub mm	Course totale L0 mm
+Device connection	裝置連線	Подключение	デバイス接続	장치 연결	Geräteverbindung	Connexion de l’appareil
+Device disconnected from Intiface	裝置已從 Intiface 斷開	Устройство отключено от Intiface	機器が Intiface から切断されました	기기가 Intiface에서 분리되었습니다	Gerät von Intiface getrennt	Appareil déconnecté d’Intiface
+Device index	裝置索引	Индекс устр.	機器番号	기기 번호	Geräteindex	Indice appareil
+Device send delay (ms)	裝置傳送延遲（ms）	Задержка отправки (мс)	デバイス送信遅延 (ms)	장치 전송 지연 (ms)	Sendeverzögerung (ms)	Délai d’envoi (ms)
+Device sync	裝置同步	Синхронизация	デバイス同期	장치 동기화	Gerätesynchronisierung	Synchronisation
+Device sync off	裝置同步關閉	Синхронизация выкл.	デバイス同期オフ	장치 동기화 꺼짐	Geräte-Sync aus	Sync appareil désactivée
+Device worker error: 	通訊執行緒錯誤：	Ошибка потока устройства: 	通信スレッドエラー：	통신 스레드 오류: 	Geräte-Thread-Fehler: 	Erreur du thread appareil : 
+Director	展開導演	Директор	ディレクター	디렉터 열기	Regie	Directeur
+Director released; restored native control	已釋放導演接管，交還遊戲原生	Режиссура снята; возвращён нативный режим	ディレクター制御を解除しゲームへ戻しました	디렉터 제어를 해제하고 게임으로 반환했습니다	Regie freigegeben; Spielsteuerung wiederhergestellt	Réalisateur relâché ; contrôle natif rétabli
+Disable edge guard	關閉防射守護	Откл. защиту от финиша	寸止めガードをオフ	사정 방지 끄기	Edging-Schutz aus	Désactiver garde
+Disabled	已關閉	Отключено	無効	꺼짐	Deaktiviert	Désactivé
+Disconnect	中斷連線	Отключить	切断	연결 해제	Trennen	Déconnecter
+Disconnected	已中斷連線	Отключено	切断済み	연결 해제됨	Getrennt	Déconnecté
+Display & shortcuts	顯示與快捷鍵	Отображение и клавиши	表示とショートカット	표시 및 단축키	Anzeige & Kürzel	Affichage & raccourcis
+Doggy	後背位	Сзади	後背位	후배위	Von hinten	Levrette
+Drag origin or tip in scene  ·  	拖動場景中的起點或末端  ·  	Тяните начало или конец в сцене  ·  	シーン上で原点または先端をドラッグ  ·  	장면에서 시작점이나 끝점을 드래그  ·  	Ursprung oder Spitze in der Szene ziehen  ·  	Glissez l’origine ou la pointe en scène  ·  
+Dress all	全穿	Одеть всё	全着衣	모두 입기	Anziehen	Tout mettre
+Driver	驅動	Привод	駆動	구동	Antrieb	Source
+Driver · 	驅動 · 	Привод · 	駆動 · 	구동 · 	Antrieb · 	Moteur · 
+Dual-Scale Beat Flutter	雙尺度拍頻微顫共振	Двухмасштабные биения	二層うなり微振動共振	이중 스케일 맥놀이 공명	Zweiskalen-Schwebungszittern	Battement résonant double échelle
+Edge brake active · 	寸止制動中 · 剩 	Тормоз эджинга · ост. 	寸止めブレーキ中 · 残 	엣징 제동 중 · 남음 	Edging-Bremse aktiv · 	Frein edging actif · 
+Edge guard disabled	防射守護已關閉	Защита от финиша отключена	寸止めガードをオフにしました	사정 방지 보호가 꺼졌습니다	Edging-Schutz deaktiviert	Garde anti-orgasme désactivée
+Edit origin and tip on the Calibration tab. L0 normalizes to their distance; six-axis limits still apply.	在入口校準頁編輯起末點。L0 以兩點距離歸一化，六軸行程與響應仍可調整。	Задайте начало и конец во вкладке калибровки. L0 нормируется по их расстоянию; ограничения шести осей сохраняются.	原点と先端は校正タブで編集します。L0 は両点距離で正規化され、6軸制限と応答も有効です。	입구 보정 탭에서 시작점과 끝점을 편집하세요. L0는 두 점 거리로 정규화되며 6축 제한도 유지됩니다.	Ursprung und Spitze unter Kalibrierung bearbeiten. L0 normiert sich am Abstand; 6-Achsen-Limits gelten weiterhin.	Modifiez l’origine et la pointe dans Calibrage. L0 se normalise sur leur distance ; les limites 6 axes s’appliquent.
+Enable AI voice	開啟 AI 語音互動	Вкл. голос ИИ	AI 音声連携をオン	AI 음성 연동 켜기	KI-Sprache aktivieren	Activer voix IA
+Enable synchronization	開啟裝置同步	Включить синхронизацию	同期を開始	장치 동기화 시작	Synchronisierung starten	Activer la synchronisation
+Endpoint span 	端點距離 	Дистанция концов 	端点距離 	끝점 거리 	Endpunktabstand 	Écart extrémités 
+Enter a Main Game H-scene first	請先進入本體 H 場景	Сначала войдите в H-сцену	先に本編の H シーンへ入ってください	먼저 본편 H 장면에 진입하세요	Zuerst eine H-Szene im Hauptspiel öffnen	Entrez d’abord dans une scène H du jeu
+Enter a value between 	請輸入 	Введите значение от 	入力範囲：	입력 범위: 	Wert eingeben zwischen 	Saisissez une valeur entre 
+Entry	入場	Вход	入場	입장	Eintritt	Entrée
+Entry & output	入口與輸出	Вход и вывод	入口と出力	입구 및 출력	Eingang & Ausgabe	Entrée et sortie
+Exit	離場	Выход	退場	퇴장	Austritt	Sortie
+Expression control	表情手控	Выражение лица	表情コントロール	표정 제어	Mimik-Steuerung	Contrôle d’expression
+Extension action table	固定擴充動作表	Таблица расширений	拡張アクション表	확장 동작 테이블	Erweiterungs-Aktionstabelle	Table d’actions étendue
+F/B line	前後直線	Вперёд-назад	前後直線	앞뒤 직선	Vor/Zur.	Av./Arr.
+F/B sway	定深直擺	Прям. ход	前後揺らし	앞뒤 흔들	Vor/Zur.	Balanc.
+Face-to-face	面對面	Лицом к лицу	対面座位	대면좌위	Gegenüber	Face à face
+Failed to launch voice sidecar: 	拉起語音服務失敗：	Не удалось запустить сервис: 	音声サービスの起動に失敗：	음성 서비스 실행 실패: 	Start des Sprachdienstes fehlgeschlagen: 	Échec lancement service vocal : 
+Failed to open web console: 	開啟網頁主控台失敗：	Не удалось открыть веб-консоль: 	Web コンソールを開けませんでした：	웹 콘솔 열기 실패: 	Webkonsole konnte nicht geöffnet werden: 	Impossible d’ouvrir la console web : 
+Failed to stop sidecar: 	停止背景服務失敗：	Не удалось остановить сервис: 	バックグラウンド停止に失敗：	백엔드 중지 실패: 	Dienst konnte nicht gestoppt werden: 	Échec arrêt du service : 
+Fast 85%	快 85%	Быстр. 85%	速 85%	빠름 85%	Schn. 85%	Rap. 85%
+Fast branch loop	快速分支循環	Быстрый цикл (ветвь)	高速分岐ループ	고속 분기 루프	Schnelle Zweigschleife	Boucle rapide (branche)
+Fast loop	快速循環	Быстрый цикл	高速ループ	고속 루프	Schnelle Schleife	Boucle rapide
+Feel Layer below manages L0 travel; lengths above apply only in Raw Geometry mode.	目前由下方體感翻譯層接管 L0 黃金行程；上方長度參數僅在「原味幾何」生效。	Слой ощущений ниже управляет ходом L0; длины выше работают только в режиме «Исходн. 1:1».	下の体感翻訳レイヤーが L0 行程を管理しています。上の長さは「生ジオメトリ」時のみ有効です。	아래 체감 변환 레이어가 L0 이동을 제어합니다. 위 길이 설정은 '원본 기하' 모드에서만 적용됩니다.	Die Gefühlsebene unten steuert den L0-Hub; obige Längen gelten nur im Modus „Roh (1:1)“.	La couche ressenti ci-dessous gère L0 ; les longueurs ci-dessus ne s’appliquent qu’en mode Brut (1:1).
+Feel Translation Layer · Rhythmic Mapping (Global)	體感翻譯層 · MultiFunPlayer 節拍映射（全域）	Слой ощущений · Ритмическое отображение (глобально)	体感翻訳レイヤー · リズムマッピング（全体）	체감 변환 레이어 · 리듬 매핑 (전역)	Gefühlsebene · Rhythmische Abbildung (Global)	Couche de ressenti · Mappage rythmique (Global)
+Feel preset switched: 	已切換體感檔位：	Режим ощущений: 	体感プリセット変更：	체감 프리셋 전환: 	Gefühlsmodus gewechselt: 	Mode de ressenti : 
+Female 1	女方 1	Жен. 1	女性 1	여성 1	Weiblich 1	Femme 1
+Female 2	女方 2	Жен. 2	女性 2	여성 2	Weiblich 2	Femme 2
+Fig-8	8字	8-ка	8の字	8자	Acht	Huit
+Finish in	原生內射	Внутрь	中出し	질내 사정	Innen	Intérieur
+Finish out	原生外射	Наружу	外出し	질외 사정	Außen	Extérieur
+Fixed-depth F/B Sway	定深前後直線擺腰	Прямое качание на глубине	定深度の前後直線揺らし	고정 깊이 앞뒤 직선	Vor/Zurück auf fester Tiefe	Balancement av./arr. à profondeur fixe
+Focus main	定位主角鏡頭	Фокус на гл.	主役へ注目	주역 포커스	Hauptfokus	Focus princ.
+Following native game rhythm; pick any variant:	目前由遊戲原生節奏驅動，可隨時切換變式：	Следует ритму игры; выберите любой вариант:	ゲーム本来のリズムで動作中。任意の変式を選択できます：	게임 기본 리듬 추종 중. 아래 변형을 바로 선택하세요:	Folgt dem nativen Spielrhythmus; Variante wählen:	Suit le rythme natif du jeu ; choisissez une variante :
+Foreplay	愛撫上手	Прелюдия	愛撫開始	애무 시작	Vorspiel	Caresses
+Foreplay (Def.)	柔和前戲 (預設)	Прелюдия (ст.)	柔和前戯 (既定)	부드런 전희(기본)	Vorspiel (Std.)	Prélim. (Déf.)
+Free	釋放	Сброс	解除	해제	Frei	Libre
+Frequency (freqHz)	動作頻率 freqHz	Частота (freqHz)	動作周波数 (freqHz)	동작 주파수 (freqHz)	Frequenz (freqHz)	Fréquence (freqHz)
+Full loop saved	完整循環已儲存	Полный цикл сохранён	完全ループを保存しました	완전 루프가 저장되었습니다	Volle Schleife gespeichert	Boucle complète enregistrée
+Full non-shaft	非插入全幅	Полный не-ввод	非挿入フル幅	비삽입 전폭	Voller Nicht-Schaft	Hors insertion complet
+Full sync	全幅同步	Полн. синхр.	フル同期	전폭 동기화	Vollsync	Sync complète
+GPU ASR	GPU高精	GPU ASR	GPU認識	GPU인식	GPU-ASR	ASR GPU
+Game penetration metadata	遊戲插入類型中繼資料	Метаданные введения игры	ゲームの挿入メタデータ	게임 삽입 메타데이터	Spiel-Penetrationsdaten	Métadonnées de pénétration
+Gemini ASR	Gemini直聽	Gemini ASR	Gemini認識	Gemini인식	Gemini-ASR	ASR Gemini
+Gentle foreplay	前戲柔撫	Мягкая прелюдия	ソフト前戯	부드러운 전희	Sanftes Vorspiel	Préliminaires doux
+Geometry	幾何模型	Геометрия	幾何モデル	기하 모델	Geometrie	Géométrie
+Geometry pose · calibrated entry	幾何模型 · 目前校準入口	Геометрия · калиброванный вход	幾何モデル · 現在の校正入口	기하 모델 · 현재 보정 입구	Geometriepose · kalibrierter Eingang	Pose géométrique · entrée calibrée
+Green(	綠區(	Зелён.(	緑(	초록(	Grün(	Vert(
+Grind amp (grindAmp)	扭腰擺幅 grindAmp	Амплитуда таза (grindAmp)	腰振り振幅 (grindAmp)	허리 진폭 (grindAmp)	Kreisamplitude (grindAmp)	Amplitude bassin (grindAmp)
+Guest 	角色 	Гость 	ゲスト 	게스트 	Gast 	Invité 
+Half all	全半脫	Полуснять	全半脱ぎ	전체 반탈의	Halb aus	Mi-nu
+Half bra	半脫胸罩	Полу-бюст	ブラ半脱	브라 반탈	BH halb	Soutien ½
+Half pty	半脫內褲	Полу-трус	パンツ半脱	팬티 반탈	Slip halb	Culotte ½
+Half top	半脫上衣	Полу-верх	上着半脱	상의 반탈	Oberteil ½	Haut ½
+Handles	手柄	Ручки	ハンドル	핸들	Griffe	Poignées
+Head	頭部	Голова	頭部	머리	Kopf	Tête
+Hearts	愛心	Сердца	ハート	하트	Herzen	Cœurs
+Hide	收起	Скрыть	閉じる	접기	Zu	Masq.
+Hide entry markers	隱藏場景入口標記	Скрыть метки входа	入口マーカーを隠す	입구 마커 숨기기	Eingangsmarker ausblenden	Masquer repères d’entrée
+Hide six-axis monitor	隱藏六軸監控	Скрыть монитор 6 осей	6軸モニターを隠す	6축 모니터 숨기기	6-Achsen-Monitor ausblenden	Masquer moniteur 6 axes
+Idle	待機	Ожидание	待機	대기	Leerlauf	Repos
+Idle phase · holding raw geometry	靜止階段 · 保持幾何原值	Статика · удержание исходной геометрии	静止段階 · 幾何原値を保持	정지 단계 · 원본 기하 유지	Ruhephase · Rohgeometrie halten	Phase repos · géométrie brute
+Idle(	靜止(	Покой(	静止(	정지(	Ruhe(	Repos(
+Info: 	提示：	Инфо: 	情報：	안내: 	Info: 	Info : 
+Insert	一鍵插入	Ввести	挿入	삽입	Einführen	Insérer
+Insert now	一鍵插入開始	Начать ввод	挿入開始	삽입 시작	Jetzt einführen	Insérer
+Inserted idle	停留	Внутри (пауза)	挿入待機	삽입 대기	Eingeführt (Ruhe)	Inséré (repos)
+Insertion 	材料跨面 	Погружение 	挿入率 	삽입률 	Eindringung 	Insertion 
+Intense	強爽激進 (高潮感)	Интенсивно	強刺激 (絶頂感)	강렬함	Intensiv	Intense
+Intense feel	強爽激進	Интенсивный	強刺激体感	강렬 체감	Intensiv	Sensation intense
+Intense non-shaft	非插入強爽	Интенс. не-ввод	非挿入強刺激	비삽입 강렬	Intensiv Nicht-Schaft	Hors insertion intense
+Intercrural	腿間	Между бёдер	太もも	허벅지	Schenkel	Intercrural
+Interrupt	打斷說話	Прервать	発話を中断	말 끊기	Unterbrechen	Interrompre
+Intiface connected · L0 position	Intiface 已連線 · L0 位置通道	Intiface подключён · канал L0	Intiface 接続済み · L0 位置チャンネル	Intiface 연결됨 · L0 위치 채널	Intiface verbunden · L0-Position	Intiface connecté · position L0
+Intiface connection timed out	Intiface 連線逾時	Тайм-аут подключения Intiface	Intiface 接続タイムアウト	Intiface 연결 시간 초과	Intiface-Verbindung abgelaufen	Délai de connexion Intiface dépassé
+Intiface disconnected	Intiface 已斷開	Intiface отключён	Intiface が切断されました	Intiface 연결이 끊어졌습니다	Intiface getrennt	Intiface déconnecté
+Intiface sends L0 only. Six-axis monitor still shows full calculation.	Intiface 僅傳送 L0。六軸監控仍會顯示完整即時計算。	Intiface передаёт только L0. Монитор 6 осей по-прежнему показывает полный расчёт.	Intiface は L0 のみ送信します。6軸モニターは引き続き全軸の計算結果を表示します。	Intiface는 L0만 전송합니다. 6축 모니터는 전체 계산값을 계속 표시합니다.	Intiface sendet nur L0. Der 6-Achsen-Monitor zeigt weiterhin die volle Berechnung.	Intiface n’envoie que L0. Le moniteur 6 axes affiche toujours le calcul complet.
+Intiface transport error	Intiface 通訊錯誤	Ошибка связи Intiface	Intiface 通信エラー	Intiface 통신 오류	Intiface-Übertragungsfehler	Erreur de communication Intiface
+Invalid preview model length	預覽模型長度無效	Недопустимая длина модели предпросмотра	プレビューモデルの長さが無効です	미리보기 모델 길이가 잘못되었습니다	Ungültige Länge des Vorschaumodells	Longueur du modèle d’aperçu invalide
+JA 04_JA	日語 04_JA	JA 04_JA	日本語 04_JA	일본어 04_JA	JA 04_JA	JA 04_JA
+KoiSync Main	KoiSync 本體	KoiSync Осн.	KoiSync 本編	KoiSync 본편	KoiSync Haupt	KoiSync Jeu
+KoiSync preview zipmod is missing	缺少 KoiSync 預覽 zipmod	Отсутствует zipmod предпросмотра KoiSync	KoiSync プレビュー zipmod が見つかりません	KoiSync 미리보기 zipmod가 없습니다	KoiSync-Vorschau-Zipmod fehlt	Le zipmod d’aperçu KoiSync est manquant
+L/R line	左右直線	Влево-вправо	左右直線	좌우 직선	Li./Re.	G./D.
+L0 length adaptation	L0 長度適配	Адаптация длины L0	L0 長さ調整	L0 길이 맞춤	L0-Längenanpassung	Adaptation de longueur L0
+L1 / L2 response	L1 / L2 響應	Отклик L1 / L2	L1 / L2 応答	L1 / L2 응답	L1 / L2-Antwort	Réponse L1 / L2
+LLM (Cache 	大模型（快取 	LLM (кэш 	LLM（キャッシュ 	LLM (캐시 	LLM (Cache 	LLM (Cache 
+Last saved	最近儲存	Последнее сохранение	最近の保存	최근 저장	Zuletzt gespeichert	Dernier enregistrement
+Launch script not found: 	未找到啟動腳本：	Скрипт запуска не найден: 	起動スクリプトが見つかりません：	실행 스크립트를 찾을 수 없음: 	Startskript nicht gefunden: 	Script de lancement introuvable : 
+Launching sidecar (connects in ~5–12s; single-instance protected)	正在單實例拉起背景服務（約 5~12 秒自動連上，已加防多開保護）	Запуск фонового сервиса (~5–12 с; защита от дублей активна)	バックグラウンドを起動中（5〜12秒で自動接続・多重起動防止付き）	백엔드 실행 중 (약 5~12초 내 자동 연결, 중복 실행 방지)	Starte Hintergrunddienst (verbindet in ~5–12 s; Einzelinstanz)	Lancement du service (connexion en ~5–12 s ; instance unique)
+Leave	請離	Уйти	退出	퇴장	Weg	Partir
+Left armpit	左腋下	Левая подмышка	左脇	왼쪽 겨드랑이	Linke Achsel	Aisselle gauche
+Left finger chain	左手指鏈	Пальцы левой руки	左指チェーン	왼손가락 체인	Linke Fingerkette	Doigts main gauche
+Left foot	左腳	Левая стопа	左足	왼발	Linker Fuß	Pied gauche
+Left hand	左手	Левая рука	左手	왼손	Linke Hand	Main gauche
+Left hand span	左手持物標尺	Длина левой руки	左手スパン	왼손 기준	Linke Handspanne	Main gauche (portée)
+Length settings saved	長度參數已儲存	Параметры длины сохранены	長さ設定を保存しました	길이 설정이 저장되었습니다	Längeneinstellungen gespeichert	Paramètres de longueur enregistrés
+Link L1 / L2 ranges to endpoint span	端點距離聯動 L1 / L2 單側範圍	Связать диапазон L1 / L2 с длиной концов	端点距離と L1 / L2 範囲を連動	끝점 거리와 L1 / L2 범위 연동	L1/L2-Bereiche an Endpunktabstand koppeln	Lier plages L1 / L2 à l’écart des extrémités
+Listening · sequences / organic / climax ready	監聽就緒 · 支援連招/有機隨機/高潮射精	Слушает · сценарии / органика / финал готовы	待機完了 · 連撃/有機ランダム/絶頂対応	수신 대기 · 시퀀스/오가닉/절정 준비됨	Bereit · Sequenzen / Organisch / Höhepunkt aktiv	À l’écoute · séquences / organique / climax prêts
+Live Chat	即時對話	Живой чат	ライブ会話	실시간 대화	Live-Chat	Chat en direct
+Live Voice / Text Chat	即時語音 / 文字調情對話	Голосовой / текстовый чат	リアルタイム音声・テキスト会話	실시간 음성 / 텍스트 대화	Live-Sprach- / Textchat	Chat vocal / texte en direct
+Live calculation	即時計算	Расчёт в реальном времени	リアルタイム計算	실시간 계산	Live-Berechnung	Calcul en direct
+Live calculation · final output	即時計算 · 最終輸出	Расчёт в реальном времени · итог	リアルタイム計算 · 最終出力	실시간 계산 · 최종 출력	Live-Berechnung · Endausgabe	Calcul en direct · sortie finale
+Live smoothing (ms)	即時輸出平滑（ms）	Сглаживание вывода (мс)	ライブ平滑化 (ms)	실시간 평활 (ms)	Live-Glättung (ms)	Lissage en direct (ms)
+Local offset · Inward / L1 / L2 (mm)	目標局部偏移 · 入內 / L1 / L2（mm）	Локальное смещение · Внутрь / L1 / L2 (мм)	ローカルオフセット · 奥行 / L1 / L2 (mm)	로컬 오프셋 · 안쪽 / L1 / L2 (mm)	Lokaler Versatz · Innen / L1 / L2 (mm)	Décalage local · Intérieur / L1 / L2 (mm)
+Long-term memories (	長期偏好記憶 (	Долгая память (	長期メモリ (	장기 기억 (	Langzeiterinnerungen (	Mémoire longue (
+Looking for a full take of the current stage	尋找目前動作階段的完整錄製	Поиск полной записи текущей стадии	現在段階の完全録画を検索中	현재 단계의 완전 녹화를 찾는 중	Suche vollständige Aufnahme dieser Phase	Recherche d’une prise complète pour cette phase
+Loop	循環	Цикл	ループ	루프	Schleife	Boucle
+Male 1	男方 1	Муж. 1	男性 1	남성 1	Männlich 1	Homme 1
+Male 2	男方 2	Муж. 2	男性 2	남성 2	Männlich 2	Homme 2
+Manual Director	手控導演	Ручная режиссура	手動ディレクター	수동 디렉터	Manuelle Regie	Réalisateur manuel
+Manual span	啟用手動標尺	Ручной отрезок	手動スパン	수동 기준	Manuelle Spanne	Course manuelle
+Manual span & entry plane	手動標尺與入口平面	Ручной отрезок и плоскость	手動スパンと入口平面	수동 기준 및 입구 평면	Manuelle Spanne & Ebene	Course manuelle & plan
+Manual span is currently active on the Calibration tab	目前在「入口校準」頁啟用了手動標尺	Включён ручной отрезок во вкладке калибровки	現在「校正」タブで手動スパンが有効です	현재 '입구 보정' 탭에서 수동 기준이 켜져 있습니다	Manuelle Spanne ist unter Kalibrierung aktiv	La course manuelle est active dans l’onglet Calibrage
+Manual tune	手控微調	Ручная правка	手動微調整	수동 미세조정	Manuell fein	Réglage manuel
+Math Lab standby. Enter any direct insertion pose and insert, then pick one of the 5 manifolds above for live SR6 trajectories + dual-actor skeleton & soft-bone sync.	實驗台待機中。進入任意直接插入體位並完成插入後，點擊上方 5 大數學流形即可無縫切換體驗 SR6 極限軌跡與雙人骨骼/軟體物理同步。	Лаборатория в ожидании. Войдите в позу прямого введения, затем выберите одно из 5 многообразий выше для живых 6-DOF траекторий SR6 и синхронизации костей.	実験台待機中。任意の直接挿入体位で挿入後、上の5つの数学多様体を選ぶと SR6 6-DOF 軌道と両キャラ骨格・軟体物理がリアルタイム同期します。	실험실 대기 중. 직접 삽입 체위에서 삽입한 뒤 위 5가지 수학 다양체를 선택하면 SR6 6축 궤적과 양측 뼈대·소프트본 물리가 실시간 동기화됩니다.	Mathelabor bereit. Nach direktem Einführen oben eine der 5 Mannigfaltigkeiten wählen für SR6-Trajektorien + Doppel-Rig- & Softbone-Sync.	Labo en attente. Après une insertion directe, choisissez l’une des 5 variétés ci-dessus pour les trajectoires SR6 + sync squelette et physique.
+Max depth (depthMax)	最深深度 depthMax	Макс. глубина (depthMax)	最大深度 (depthMax)	최대 깊이 (depthMax)	Max. Tiefe (depthMax)	Profondeur max (depthMax)
+Melt	融化	Таять	とろけ	녹음	Schmelz	Fondre
+Mic off	麥已關閉	Микр. выкл	マイクオフ	마이크 끔	Mikro aus	Micro off
+Microphone failed to start	麥克風啟動失敗	Не удалось запустить микрофон	マイクの起動に失敗しました	마이크 시작 실패	Mikrofonstart fehlgeschlagen	Échec du démarrage du micro
+Microphone failed to start: 	麥克風啟動失敗：	Ошибка запуска микрофона: 	マイクの起動に失敗：	마이크 시작 실패: 	Mikrofonstart fehlgeschlagen: 	Échec micro : 
+Microphone mode	麥克風模式	Режим микрофона	マイクモード	마이크 모드	Mikrofonmodus	Mode microphone
+Mid	鎖中段	Серед.	中段固定	중간 고정	Mitte	Milieu
+Mid 55%	中 55%	Сред. 55%	中 55%	중간 55%	Mitte 55%	Moy. 55%
+Min depth (depthMin)	最淺深度 depthMin	Мин. глубина (depthMin)	最小深度 (depthMin)	최소 깊이 (depthMin)	Min. Tiefe (depthMin)	Profondeur min (depthMin)
+Missionary	正常位	Классика	正常位	정상위	Missionar	Missionn.
+Model	預覽	Модель	モデル	모델	Modell	Modèle
+Model length mm · 0 auto	模型長度 mm · 0 自動	Длина модели, мм · 0 авто	モデル長 mm · 0 自動	모델 길이 mm · 0 자동	Modelllänge mm · 0 Auto	Longueur modèle mm · 0 auto
+Model length must be 0 or 1–500 mm	模型長度須為 0 或 1–500 mm	Длина модели: 0 или 1–500 мм	モデル長は 0 または 1–500 mm にしてください	모델 길이는 0 또는 1–500 mm여야 합니다	Modelllänge muss 0 oder 1–500 mm sein	La longueur modèle doit être 0 ou 1–500 mm
+Model preview hidden	模型預覽已隱藏	Предпросмотр модели скрыт	モデルプレビュー非表示	모델 미리보기 숨김	Modellvorschau ausgeblendet	Aperçu du modèle masqué
+Model ref 	模型參考 	Модель 	モデル基準 	모델 기준 	Modellref. 	Réf. modèle 
+Model, Mic & Voice	模型、麥克風與聲線	Модель, микрофон и голос	モデル・マイク・声質	모델, 마이크 및 음성	Modell, Mikro & Stimme	Modèle, micro & voix
+Motion Variants, Live Params & 6-Axis Control	動作變式、即時參數與六軸手控	Варианты, параметры и управление 6 осями	動作変式・ライブ設定・6軸手動制御	동작 변형, 실시간 파라미터 및 6축 제어	Varianten, Live-Parameter & 6-Achsen-Steuerung	Variantes, paramètres live & contrôle 6 axes
+Mouth	口部	Рот	口	입	Mund	Bouche
+Mute	靜音	Тихо	ミュート	음소거	Stumm	Muet
+Muted	已靜音	Без зв.	静音中	음소거됨	Stumm	Muet
+Native	原生自由	Нативно	ゲーム標準	기본 자유	Nativ	Natif
+Native H-Event Bus Live Stream	戀活原生 H 事件匯流排即時串流	Поток нативных событий H-сцены	コイカツ標準 H イベントバス（リアルタイム）	코이카츠 네이티브 H 이벤트 버스 실시간	Nativer H-Ereignisbus-Livestream	Flux temps réel du bus d’événements H natifs
+Native interaction	原生交互動作	Нативное действие	ゲーム標準インタラクション	네이티브 상호작용	Native Interaktion	Interaction native
+Native interaction item	原生交互物件	Нативный предмет	標準インタラクション小物	네이티브 상호작용 도구	Natives Interaktionsobjekt	Objet d’interaction natif
+Native speed:	原生遊戲速：	Скорость игры:	標準速度：	기본 속도:	Spieltempo:	Vitesse native :
+No complete take for this stage yet; using live calculation	目前階段尚無完整錄製，使用即時計算	Нет полной записи этой стадии; используется живой расчёт	この段階の完全録画がないためリアルタイム計算を使用します	현재 단계의 완전 녹화가 없어 실시간 계산을 사용합니다	Noch keine vollständige Aufnahme; Live-Berechnung aktiv	Aucune prise complète pour cette phase ; calcul en direct
+No events yet. Pose switches, insertions, climaxes, clothing edits, and manual clicks appear here live.	暫無事件。進入戀活 H 場景後，切體位、插入、高潮清零、衣物調節與玩家手動操作都會在此即時記錄。	Событий пока нет. Смена поз, введение, оргазмы, одежда и ручные действия отобразятся здесь.	イベントなし。H シーンでの体位変更・挿入・絶頂・脱衣・手動操作がここにリアルタイム表示されます。	이벤트 없음. H 장면에서 체위 변경, 삽입, 절정, 의상 조절, 수동 조작이 실시간 표시됩니다.	Noch keine Ereignisse. Posenwechsel, Einführen, Orgasmen, Kleidung und Klicks erscheinen hier live.	Aucun événement. Changements de pose, insertions, orgasmes, vêtements et clics s’affichent ici en direct.
+No kPlug guest characters present. Open the invite panel or type a name above to invite and control guests.	目前無 kPlug 副角色在場。點上方「開啟 kPlug 邀請面板」或輸入角色名邀請後，可在此控制自慰/換主角。	Нет гостевых персонажей kPlug. Откройте панель приглашения или введите имя выше.	kPlug ゲストキャラがいません。上の招待パネルまたは名前入力で招待するとここで操作できます。	현재 kPlug 게스트 캐릭터가 없습니다. 위 초대 패널이나 이름 입력으로 초대해 제어하세요.	Keine kPlug-Gäste anwesend. Einladungspanel öffnen oder Namen oben eingeben.	Aucun invité kPlug présent. Ouvrez le panneau d’invitation ou saisissez un nom ci-dessus.
+No saved preferences yet. Say "remember this" in chat to store one.	暫無長期偏好。聊天時說「記住以後都這樣」會自動存入。	Пока нет сохранённых предпочтений. Скажите «запомни это» в чате.	長期メモリはありません。会話で「これを覚えて」と言うと保存されます。	저장된 장기 선호가 없습니다. 대화 중 "기억해 둬"라고 말하면 저장됩니다.	Noch keine Vorlieben gespeichert. Sage im Chat „merk dir das“ zum Speichern.	Aucune préférence enregistrée. Dites « retiens ça » dans le chat pour en sauvegarder.
+No serial ports found	未發現序列埠裝置	COM-порты не найдены	シリアルポートが見つかりません	시리얼 포트를 찾지 못했습니다	Keine seriellen Ports gefunden	Aucun port série trouvé
+Non-shaft mode switched: 	非插入體感已切換：	Режим без введения: 	非挿入モード変更：	비삽입 모드 전환: 	Nicht-Schaft-Modus: 	Mode hors insertion : 
+Non-shaft silent · standby until insertion	非插入靜默 · 待機等待插入	Тихо без введения · ожидание ввода	非挿入ミュート · 挿入まで待機	비삽입 무음 · 삽입까지 대기	Nicht-Schaft stumm · Standby bis Einführen	Silence hors insertion · veille jusqu’à insertion
+Non-shaft:	非插入體感：	Без ввода:	非挿入：	비삽입:	Ohne Schaft:	Hors insert. :
+Not connected	未連線	Не подключено	未接続	연결 안 됨	Nicht verbunden	Non connecté
+Not currently in an H-scene	目前不在 H 場景中	Сейчас не в H-сцене	現在 H シーンではありません	현재 H 장면이 아닙니다	Derzeit in keiner H-Szene	Pas dans une scène H
+Not inserted yet! Click Insert or switch to an insertion pose first	尚未插入！請先點「插入開始」或切入體位後再使用插入變式	Ещё не введено! Сначала нажмите «Ввести» или выберите позу введения	まだ挿入されていません！先に「挿入開始」または挿入体位へ切り替えてください	아직 삽입되지 않았습니다! 먼저 '삽입 시작' 또는 삽입 체위로 전환하세요	Noch nicht eingeführt! Erst auf Einführen klicken oder eine Einführpose wählen	Pas encore inséré ! Cliquez sur Insérer ou choisissez une pose d’insertion
+Not inserted; insertion variants locked:	目前尚未插入，插入專屬變式已鎖定：	Не введено; варианты введения заблокированы:	未挿入のため挿入専用変式はロック中：	미삽입 상태라 삽입 전용 변형이 잠겨 있습니다:	Nicht eingeführt; Einführvarianten gesperrt:	Non inséré ; variantes d’insertion verrouillées :
+Observed	觀測入口	Наблюд.	観測入口	관측 입구	Beobachtet	Observé
+Observed XYZ (mm)   	觀測 XYZ（mm）   	Наблюд. XYZ (мм)   	観測 XYZ (mm)   	관측 XYZ (mm)   	Beobachtet XYZ (mm)   	Observé XYZ (mm)   
+Observed entry XYZ   	觀測入口 XYZ   	Наблюд. вход XYZ   	観測入口 XYZ   	관측 입구 XYZ   	Beob. Eingang XYZ   	Entrée observée XYZ   
+Off	關閉	Выкл.	オフ	끔	Aus	Désactivé
+Off bra	脫胸罩	Снять бюст	ブラ脱ぐ	브라 벗기	BH aus	Sans sout.
+Off leg	脫絲襪	Снять чулки	靴下脱ぐ	스타킹 벗기	Strümpfe	Sans bas
+Off pty	脫內褲	Снять трус.	パンツ脱	팬티 벗기	Slip aus	Sans cul.
+Off top	脫上衣	Снять верх	上着脱ぐ	상의 벗기	Oberteil	Sans haut
+Offline	語音離線	Офлайн	オフライン	오프라인	Offline	Hors ligne
+Offset from calibrated 	與校準入口相差 	Отклонение от базы 	校正入口からのズレ 	보정 입구와의 오차 	Abstand zur Kalibrierung 	Écart du calibré 
+Online v	線上 v	В сети v	オンライン v	온라인 v	Online v	En ligne v
+Open Web Console	開啟網頁主控台	Открыть веб-консоль	Web コンソールを開く	웹 콘솔 열기	Webkonsole öffnen	Ouvrir console web
+Open Web Console (API / Models / Prompts)	開啟網頁主控台 (API / 模型 / 提示詞)	Веб-консоль (API / Модели / Промпты)	Web コンソールを開く (API / モデル / プロンプト)	웹 콘솔 열기 (API / 모델 / 프롬프트)	Webkonsole öffnen (API / Modelle / Prompts)	Console web (API / Modèles / Prompts)
+Open data folder	開啟本體儲存目錄	Открыть папку данных	保存フォルダーを開く	저장 폴더 열기	Datenordner öffnen	Ouvrir dossier données
+Open kPlug invite	開啟 kPlug 邀請面板	Панель приглаш. kPlug	kPlug 招待パネルを開く	kPlug 초대 패널 열기	kPlug-Einladung öffnen	Ouvrir invit. kPlug
+Open mic	自由麥	Своб. микр.	常時マイク	자유 마이크	Offenes Mikro	Micro libre
+Open six-axis monitor	開啟六軸監控	Открыть монитор 6 осей	6軸モニターを開く	6축 모니터 열기	6-Achsen-Monitor öffnen	Ouvrir moniteur 6 axes
+Open-mic threshold	自由麥靈敏度	Порог микрофона	常時マイク感度	자유 마이크 감도	Mikrofon-Schwelle	Seuil micro libre
+OpenMic: Live	自由麥:聽聲中	Своб.: слушаю	常時:集音中	자유:청취 중	Mikro: Aktiv	Libre : écoute
+OpenMic: ON	自由麥:開啟	Своб.: ВКЛ	常時:オン	자유:켜짐	Mikro: EIN	Libre : ON
+Opened 	已開啟 	Открыто 	接続済み 	열림 	Geöffnet 	Ouvert 
+Orange(	橙區(	Оранж.(	橙(	주황(	Orange(	Orange(
+OrbitAmp (L1/L2/R1/R2)	空間傾壓幅度 OrbitAmp (L1/L2/R1/R2)	Амплитуда орбиты (L1/L2/R1/R2)	空間軌道振幅 OrbitAmp (L1/L2/R1/R2)	공간 궤도 진폭 OrbitAmp (L1/L2/R1/R2)	OrbitAmp (L1/L2/R1/R2)	Amplitude orbite (L1/L2/R1/R2)
+Org	有機	Орг.	有機	유기	Org.	Org.
+Organic	有機隨機	Органика	有機ランダム	오가닉 랜덤	Organisch	Organique
+Origin	起點	Начало	原点	시작점	Ursprung	Origine
+Origin · Axial / L1 / L2 (mm)	起點 · 軸向 / L1 / L2（mm）	Начало · Ось / L1 / L2 (мм)	原点 · 軸 / L1 / L2 (mm)	시작점 · 축 / L1 / L2 (mm)	Ursprung · Axial / L1 / L2 (mm)	Origine · Axial / L1 / L2 (mm)
+Outer L0	杯口外限 L0	Предел L0	外限 L0	외곽 한계 L0	Außen-L0	Limite L0
+Outer L0 limit set to 	杯口防脫離外限 L0 已設為 	Внешний предел L0 задан: 	抜け防止の外限 L0 を設定：	이탈 방지 외곽 L0 설정됨: 	Äußeres L0-Limit gesetzt auf 	Limite externe L0 définie sur 
+Output	輸出重建	Вывод	出力モデル	출력 모델	Ausgabe	Sortie
+Output entry XYZ   	輸出入口 XYZ   	Выходной вход XYZ   	出力入口 XYZ   	출력 입구 XYZ   	Ausgangs-Eingang XYZ   	Entrée sortie XYZ   
+Output pose · pre-delay six axes	輸出模型 · 傳送延遲前六軸	Поза вывода · 6 осей до задержки	出力ポーズ · 遅延前の6軸	출력 자세 · 지연 전 6축	Ausgabepose · 6 Achsen vor Verzögerung	Pose de sortie · 6 axes avant délai
+Output rate limit (% / s)	輸出速度上限（% / s）	Предел скорости (% / с)	出力速度上限 (% / 秒)	출력 속도 상한 (% / 초)	Ausgabe-Ratenlimit (% / s)	Limite de vitesse (% / s)
+PTT(	按鍵(	Кн.(	キー(	키(	PTT(	PTT(
+PTT: 	說話鍵: 	Речь: 	通話キー: 	말하기 키: 	PTT: 	PTT : 
+Panel	顯隱面板	Панель	パネル	패널	Fenster	Panneau
+Partial take saved	已儲存實際片段	Фрагмент сохранён	部分テイクを保存しました	부분 녹화가 저장되었습니다	Teilaufnahme gespeichert	Prise partielle enregistrée
+Path:	軌跡：	Путь:	軌道：	궤적:	Bahn:	Trajet :
+Peak	高潮	Пик	絶頂	절정	Höhep.	Pic
+Peeping entry / exit; waiting for action phase	旁觀入場 / 離場，等待動作階段	Вход / выход подглядывания; ожидание фазы	覗き入退場中 · アクション段階待ち	엿보기 입/퇴장 중 · 동작 단계 대기	Zuschau-Ein-/Austritt; warte auf Aktionsphase	Entrée/sortie voyeur ; attente de phase d’action
+Pelvis	骨盆	Таз	骨盤	골반	Becken	Bassin
+Player and device lengths are global; interaction length saves per action.	玩家長度和裝置行程全域儲存，交互長度依動作儲存。	Длина игрока и устройства общие; длина контакта сохраняется для каждого действия.	プレイヤー長と機器行程は全体保存、交互長はアクションごとに保存されます。	사용자 길이와 기기 이동은 공통 저장, 상호작용 길이는 동작별로 저장됩니다.	Spieler- und Gerätelänge sind global; Interaktionslänge je Aktion.	Longueurs joueur et appareil globales ; longueur d’action enregistrée par action.
+Player lead	聽從主人主導	Ведёт игрок	プレイヤー主導	플레이어 주도	Spieler führt	Joueur décide
+Player usable length mm	玩家可用長度 mm	Доступная длина, мм	使用可能な長さ mm	사용 가능한 길이 mm	Nutzbare Länge mm	Longueur utilisable mm
+Port busy: 	連接埠佔用：	Порт занят: 	ポート使用中：	포트 사용 중: 	Port belegt: 	Port occupé : 
+Pose switch failed: 	切換體位失敗：	Не удалось сменить позу: 	体位切替に失敗：	체위 전환 실패: 	Posenwechsel fehlgeschlagen: 	Échec changement de pose : 
+Pose switched; stopped SR6 Math Lab	切換體位，退出 SR6 數學實驗台	Поза изменена; SR6 Math Lab остановлен	体位切替により SR6 実験台を停止しました	체위 전환으로 SR6 수학 실험실 종료됨	Pose gewechselt; SR6-Mathelabor gestoppt	Pose changée ; Labo Math SR6 arrêté
+Pose switched; stopped Timeline variant	切換體位，退出時間軸變式	Поза изменена; вариант Timeline остановлен	体位切替によりタイムライン変式を停止しました	체위 전환으로 타임라인 변형 종료됨	Pose gewechselt; Timeline-Variante gestoppt	Pose changée ; variante Timeline arrêtée
+Poses, Clothing (Half / Piece) & Expressions	體位、服裝半脫/單件與表情手控	Позы, одежда (полуснятие/части) и мимика	体位・着脱（半脱ぎ/単体）・表情操作	체위, 의상 (반탈의/단품) 및 표정 제어	Posen, Kleidung (Halb / Einzeln) & Mimik	Poses, vêtements (demi / pièce) & expressions
+Press any key (Esc cancels)	請按任意鍵 (ESC取消)	Нажмите клавишу (Esc — отмена)	任意のキーを押下 (Esc で取消)	아무 키나 누르세요 (ESC 취소)	Beliebige Taste (Esc bricht ab)	Appuyez sur une touche (Échap annule)
+Press any key or mouse side button (Esc to cancel)	請按下任意鍵盤按鍵或滑鼠側鍵（ESC取消）	Нажмите клавишу или боковую кнопку мыши (Esc — отмена)	キーボードまたはマウス側ボタンを押してください（Esc で取消）	키보드 키나 마우스 측면 버튼을 누르세요 (ESC 취소)	Taste oder Mausseitentaste drücken (Esc zum Abbrechen)	Appuyez sur une touche ou bouton latéral (Échap pour annuler)
+Press key...	請按鍵...	Нажмите...	キー入力...	키 입력...	Taste...	Touche...
+Preview awaiting binding	預覽等待綁定	Предпросмотр ожидает привязки	プレビューはバインド待ち	미리보기 바인딩 대기 중	Vorschau wartet auf Bindung	Aperçu en attente de liaison
+Preview awaiting valid pose	預覽等待有效姿態	Предпросмотр ждёт позу	プレビュー有効姿勢待ち	미리보기 유효 자세 대기	Vorschau wartet auf gültige Pose	Aperçu en attente de pose valide
+Preview material is unavailable	預覽材質不可用	Материал предпросмотра недоступен	プレビュー用マテリアルを利用できません	미리보기 재질을 사용할 수 없습니다	Vorschaumaterial nicht verfügbar	Matériau d’aperçu indisponible
+Preview model lacks anchors or mesh	預覽模型缺少錨點或網格	В модели предпросмотра нет якорей или сетки	プレビューモデルにアンカーまたはメッシュがありません	미리보기 모델에 앵커 또는 메시가 없습니다	Vorschaumodell fehlen Anker oder Mesh	Le modèle d’aperçu manque d’ancres ou de maillage
+Proactive	主動引導	Инициатива	自発発言	먼저 말걸기	Proaktiv	Proactif
+Proactive check-in after climax / idle	高潮/動作結束或10分鐘後主動問	Инициатива после финала / простоя	絶頂後や待機時に AI から話しかける	절정/종료 또는 대기 후 먼저 말걸기	Proaktive Nachfrage nach Höhepunkt / Leerlauf	Relance proactive après climax / inactivité
+Prompt check-in	讓她主動問一句	Вызвать реплику	AI から一言促す	먼저 말 걸게 하기	Nachfrage auslösen	Déclencher réplique
+Pull-out guard · 	拔出保護 · 	Защита от выхода · 	抜け防止 · 	이탈 방지 · 	Ausrutschschutz · 	Garde sortie · 
+Pulled out; stopped SR6 Math Lab	抽出，退出 SR6 數學實驗台	Извлечение; SR6 Math Lab остановлен	引き抜きにより SR6 実験台を停止しました	이탈로 SR6 수학 실험실 종료됨	Herausgezogen; SR6-Mathelabor gestoppt	Retrait ; Labo Math SR6 arrêté
+Pulled out; stopped Timeline variant	抽出，退出時間軸變式	Извлечение; вариант Timeline остановлен	引き抜きによりタイムライン変式を停止しました	이탈로 타임라인 변형 종료됨	Herausgezogen; Timeline-Variante gestoppt	Retrait ; variante Timeline arrêtée
+Push-to-talk key set to: 	按住說話快捷鍵已改為：	Клавиша речи установлена: 	プッシュトークキーを設定：	말하기 단축키 설정됨: 	PTT-Taste festgelegt auf: 	Touche PTT définie sur : 
+Quick action notice: 	快捷動作提示：	Быстрое действие: 	クイック操作：	빠른 동작 안내: 	Schnellaktion: 	Action rapide : 
+Quick pose switch	常用體位一鍵切換	Быстрая смена позы	よく使う体位をワンクリック切替	자주 쓰는 체위 원클릭 전환	Schneller Posenwechsel	Changement rapide de pose
+R0 HelixTwist (±105°)	R0 螺旋扭轉度 HelixTwist (±105°)	Спиральное кручение R0 (±105°)	R0 らせん捻り HelixTwist (±105°)	R0 나선 비틀기 HelixTwist (±105°)	R0 HelixTwist (±105°)	Torsion hélice R0 (±105°)
+R0 twist	R0 扭轉	R0 кручение	R0 ねじり	R0 비틀기	R0 Drehung	R0 torsion
+R1 roll	R1 側傾	R1 крен	R1 ロール	R1 롤	R1 Rollen	R1 roulis
+R1+R2	R1+R2直	R1+R2	R1+R2直	R1+R2	R1+R2	R1+R2
+R2 pitch	R2 俯仰	R2 тангаж	R2 ピッチ	R2 피치	R2 Neigung	R2 tangage
+Raw (1:1)	原味幾何 (1:1)	Исходн. (1:1)	生ジオメトリ (1:1)	원본 기하 (1:1)	Roh (1:1)	Brut (1:1)
+Raw geometry	原味幾何	Исходная геометрия	生ジオメトリ	원본 기하	Rohgeometrie	Géométrie brute
+Raw geometry · 1:1 physical mapping	原味幾何 · 1:1 物理映射	Исходная геометрия · 1:1	生ジオメトリ · 1:1 物理マッピング	원본 기하 · 1:1 물리 매핑	Rohgeometrie · 1:1 physische Abbildung	Géométrie brute · mappage physique 1:1
+Ready! Speak or type commands:\n· "Switch to missionary / cowgirl" → pose & insertion control\n· "Half-undress top" / "Take off panties" / "Swimsuit" → outfit control\n· "Slow down" / "Front-back sway only" / "Virtual pivot wave"	已就緒！可直接語音或打字互動：\n·「換正常位 / 騎乘位」→ 先切面對面經典並詢問變體與插入\n·「半脫上衣」/「把內褲脫掉」/「換泳裝」→ 精準單件控制\n·「1淺1深」/「只扭腰不旋轉」/「開啟虛擬支點行波」	Готово! Говорите или пишите команды:\n· «Смени на классику / наездницу» → смена позы и ввод\n· «Полусними верх» / «Сними трусики» / «Купальник» → одежда\n· «Помедленнее» / «Только вперёд-назад» / «Волна опоры»	準備完了！音声やテキストで指示できます：\n・「正常位 / 騎乗位に変えて」→ 体位切替と挿入\n・「上着を半脱ぎ / パンツを脱いで / 水着に」→ 衣装操作\n・「ゆっくり / 前後揺らしだけ / 仮想支点波」	준비 완료! 음성이나 텍스트로 명령해 보세요:\n· "정상위 / 기승위로 바꿔" → 체위 전환 및 삽입\n· "상의 반탈의" / "팬티 벗어" / "수영복" → 의상 제어\n· "천천히" / "앞뒤 직선만" / "가상 지점 파동"	Bereit! Befehle sprechen oder tippen:\n· „Wechsle zu Missionar / Reiter“ → Pose & Einführen\n· „Oberteil halb aus“ / „Slip aus“ / „Badeanzug“ → Kleidung\n· „Langsamer“ / „Nur vor-zurück“ / „Drehpunktwelle“	Prêt ! Parlez ou tapez vos commandes :\n· « Passe en missionnaire / cavalière » → pose & insertion\n· « Haut mi-enlevé » / « Enlève la culotte » / « Maillot » → tenue\n· « Plus lent » / « Va-et-vient seul » / « Onde pivot »
+Recapture rotation ref	重取目前旋轉基準	Переснять базу вращ.	回転基準を再取得	회전 기준 재캡처	Rotationsref. neu erfassen	Reprendre réf. rotation
+Record current & subsequent actions	開始錄製目前及後續動作	Записать текущее и следующие действия	現在と以降のアクションを録画開始	현재 및 이후 동작 녹화 시작	Aktuelle & folgende Aktionen aufnehmen	Enregistrer cette action et les suivantes
+Recorded script · final output	錄製腳本 · 最終輸出	Записанный скрипт · итог	記録スクリプト · 最終出力	녹화 스크립트 · 최종 출력	Aufgenommenes Skript · Endausgabe	Script enregistré · sortie finale
+Recording 	錄製 	Запись 	録画 	녹화 	Aufnahme 	Enregistrement 
+Recording save failed: 	錄製儲存失敗：	Ошибка сохранения записи: 	録画の保存に失敗：	녹화 저장 실패: 	Speichern der Aufnahme fehlgeschlagen: 	Échec d’enregistrement de la capture : 
+Recording started: saves one full loop per stage; non-looping stages save immediately	已開始隨畫面錄製：每個動作階段儲存一個完整循環，非循環段立即記錄	Запись запущена: один полный цикл на стадию; нецикличные сохраняются сразу	録画開始：各段階ごとに完全ループを1つ保存し、非ループ段階は即時保存します	녹화 시작됨: 단계별 완전 루프 1개 저장, 비루프 구간은 즉시 저장	Aufnahme gestartet: speichert eine volle Schleife je Phase; einmalige Phasen sofort	Enregistrement démarré : une boucle complète par phase ; phases uniques enregistrées aussitôt
+Records full loops per native stage and keeps partial takes. Send delay is independent of recording time.	隨原生階段記錄完整循環，保留中途片段。傳送延遲獨立於錄製時間。	Записывает полные циклы на каждую стадию и хранит фрагменты. Задержка отправки не влияет на время записи.	ゲーム標準段階ごとに完全ループを記録し、途中テイクも保持します。送信遅延は録画時刻に影響しません。	네이티브 단계별 완전 루프를 기록하고 중간 조각도 유지합니다. 전송 지연은 녹화 시간과 독립적입니다.	Zeichnet volle Schleifen je Phase auf und behält Teilaufnahmen. Sendeverzögerung beeinflusst die Aufnahmezeit nicht.	Enregistre des boucles complètes par phase native et garde les prises partielles. Le délai d’envoi n’affecte pas le temps d’enregistrement.
+Red(	紅區(	Красн.(	赤(	빨강(	Rot(	Rouge(
+Reference span 	固定來源標尺 	Базовая длина 	基準スパン 	고정 기준 	Referenzspanne 	Portée de réf. 
+Relative centering	相對姿態居中	Относ. центрирование	相対センタリング	상대 중앙 보정	Relatives Zentrieren	Centrage relatif
+Relative rotation ref saved; steep poses stay centered	已儲存相對旋轉基準，大傾角體位居中活動	База вращения сохранена; крутые позы центрированы	相対回転基準を保存済み。深い角度でも中央に収まります	상대 회전 기준 저장됨. 큰 각도 체위도 중앙 유지	Relative Rotationsref. gespeichert; steile Posen zentriert	Réf. relative enregistrée ; poses inclinées centrées
+Release	鬆開傳送	Отпустить	離して送信	떼서 전송	Loslassen	Relâcher
+Released SR6 Math Lab	手動釋放 SR6 數學實驗台	SR6 Math Lab остановлен вручную	SR6 数学実験台を手動停止しました	SR6 수학 실험실을 수동 해제함	SR6-Mathelabor freigegeben	Labo Math SR6 relâché
+Released Timeline variant	手動釋放時間軸變式	Вариант Timeline остановлен вручную	タイムライン変式を手動停止しました	타임라인 변형을 수동 해제함	Timeline-Variante freigegeben	Variante Timeline relâchée
+Reply	回覆	Ответ	返信	응답	Antwort	Réponse
+Req 	需求 	Запрос 	要求 	요청 	Soll 	Cible 
+Reset	歸零	Сброс	リセット	초기화	Zurücksetzen	Réinitialiser
+Reset entry offset	入口偏移歸零	Сбросить смещение	入口オフセットをリセット	입구 오프셋 초기화	Eingangsversatz zurücksetzen	Réinitialiser décalage
+Reset from body scale	依骨架尺度重設	Сброс по масштабу тела	骨格スケールで再設定	골격 크기로 초기화	Aus Körpermaß ableiten	Réinitialiser selon le corps
+Reset length	恢復參考長度	Сброс длины	基準長に戻す	기준 길이 복원	Länge zurücksetzen	Rétablir longueur
+Reset origin	恢復模型起點	Сброс начала	原点を戻す	시작점 복원	Ursprung zurücks.	Rétablir origine
+Reset tip	對齊模型末端	Сброс конца	先端を戻す	끝점 복원	Spitze zurücks.	Rétablir pointe
+Resume AI	恢復 AI	Вернуть ИИ	AI 再開	AI 재개	KI fortsetzen	Reprendre IA
+Right armpit	右腋下	Правая подмышка	右脇	오른쪽 겨드랑이	Rechte Achsel	Aisselle droite
+Right finger chain	右手指鏈	Пальцы правой руки	右指チェーン	오른손가락 체인	Rechte Fingerkette	Doigts main droite
+Right foot	右腳	Правая стопа	右足	오른발	Rechter Fuß	Pied droit
+Right hand	右手	Правая рука	右手	오른손	Rechte Hand	Main droite
+Right hand span	右手持物標尺	Длина правой руки	右手スパン	오른손 기준	Rechte Handspanne	Main droite (portée)
+Rotation centering · anti-clipping	姿態旋轉居中 · 防頂死	Центрирование вращения · защита	回転センタリング · クリップ防止	회전 중앙 정렬 · 한계 방지	Rotationszentrierung · Anti-Clipping	Centrage rotation · anti-butée
+SR6 6-DOF Math Lab · Dual-Actor Skeleton & Physics	SR6 六自由度數學極限實驗台 · 雙人骨骼與權重同步	SR6 6-DOF Math Lab · Скелеты пары и физика	SR6 6-DOF 数学実験台 · 両キャラ骨格＆軟体物理同期	SR6 6축 수학 실험실 · 듀얼 뼈대 및 소프트본 물리	SR6 6-DOF-Mathelabor · Doppel-Rig & Physik	Labo Math SR6 6-DOF · Squelettes & physique
+Save / Record	儲存 / 錄製	Сохранение / Запись	保存 / 記録	저장 / 녹화	Speichern / Aufnehmen	Enregistrer / Capturer
+Save current action profile	儲存目前動作設定	Сохранить профиль действия	現在のアクション設定を保存	현재 동작 프로필 저장	Aktuelles Aktionsprofil speichern	Enregistrer le profil d’action
+Saved entry offset for current zone	已儲存目前部位的入口偏移	Смещение входа для зоны сохранено	この部位の入口オフセットを保存しました	현재 부위의 입구 오프셋이 저장되었습니다	Eingangsversatz für Zone gespeichert	Décalage d’entrée enregistré pour la zone
+Saved rotation reference for current source	已儲存目前來源的旋轉基準	База вращения для источника сохранена	現在のソースの回転基準を保存しました	현재 소스의 회전 기준이 저장되었습니다	Rotationsreferenz für Quelle gespeichert	Référence de rotation enregistrée pour la source
+Scan ports	掃描連接埠	Поиск портов	ポート検索	포트 검색	Ports suchen	Chercher les ports
+Scanning…	掃描中…	Поиск…	検索中…	검색 중…	Suche…	Recherche…
+Scene anchor	場景固定支撐	Опора сцены	シーン固定アンカー	장면 고정 앵커	Szenenanker	Ancre de scène
+Scene ended	場景結束	Сцена завершена	シーン終了	장면 종료	Szene beendet	Scène terminée
+Scene handles	場景手柄	Ручки в сцене	シーンハンドル	장면 핸들	Szenengriffe	Poignées scène
+Scene model preview	場景模型預覽	Модель в сцене	シーンモデル表示	장면 모델 미리보기	Szenenmodell-Vorschau	Aperçu modèle scène
+Script playback	腳本回放	Воспроизведение скрипта	スクリプト再生	스크립트 재생	Skriptwiedergabe	Lecture du script
+Script source: 	腳本來源：	Источник скрипта: 	スクリプト元：	스크립트 출처: 	Skriptquelle: 	Source du script : 
+Select driver for this action	為目前動作選擇驅動	Выберите привод для действия	このアクションの駆動ソースを選択	현재 동작의 구동 소스 선택	Antrieb für diese Aktion wählen	Choisir la source motrice
+Select source for this action	為目前動作選擇來源	Выберите источник для действия	このアクションの操作側を選択	현재 동작의 소스 선택	Quelle für diese Aktion wählen	Choisir l’acteur source
+Select target for this action	為目前動作選擇目標	Выберите цель для действия	このアクションの対象先を選択	현재 동작의 대상 선택	Ziel für diese Aktion wählen	Choisir l’acteur cible
+Select zone for this action	為目前動作選擇部位	Выберите зону для действия	このアクションの部位を選択	현재 동작의 부위 선택	Zone für diese Aktion wählen	Choisir la zone de contact
+Send	傳送	Отпр.	送信	전송	Senden	Envoyer
+Sending output	同步傳送中	Передача данных	同期出力中	동기화 전송 중	Ausgabe läuft	Envoi en cours
+Sent stop command to AI sidecar and cut takeover	已傳送停止背景 AI 服務指令並斷開 AI 接管	Отправлена команда остановки сервиса ИИ; перехват снят	AI バックグラウンド停止指令を送信し制御を切断しました	AI 백엔드 중지 명령을 보내고 제어를 차단했습니다	Stoppbefehl an KI-Dienst gesendet; Übernahme getrennt	Arrêt envoyé au service IA et prise en main coupée
+Seq[	劇本[	Сцен.[	連撃[	시퀀스[	Seq[	Séq[
+Serial	序列埠	COM-порт	シリアル	직렬 포트	Seriell	Port série
+Serial port	序列埠	COM-порт	シリアルポート	시리얼 포트	Serieller Port	Port série
+Settings	設定	Настройки	設定	설정	Einstellungen	Paramètres
+Shaft model	陰莖模型	Модель члена	ペニスモデル	페니스 모델	Penismodell	Modèle pénis
+Show entry markers	顯示場景入口標記	Показать метки входа	入口マーカーを表示	입구 마커 표시	Eingangsmarker anzeigen	Afficher repères d’entrée
+Show entry markers in scene	工作台顯示入口標記	Показывать метки входа в сцене	シーン内に入口マーカーを表示	장면에 입구 마커 표시	Eingangsmarker in Szene anzeigen	Afficher les repères en scène
+Show quick dock	右下角快捷懸浮條	Быстрая панель в H-сцене	クイックドックを表示	우측 하단 빠른 독 표시	Schnellleiste anzeigen	Afficher dock rapide
+Shy	害羞	Смущ.	照れ	부끄럼	Scheu	Timide
+Sidecar is initializing CUDA models; wait ~	背景服務正在初始化 CUDA 模型，請等待約 	Сервис загружает модели CUDA; подождите ~	バックグラウンドで CUDA モデル初期化中 · 残り約 	백엔드 CUDA 모델 초기화 중 · 약 	Dienst initialisiert CUDA-Modelle; warte ~	Initialisation des modèles CUDA ; attendez ~
+Sidecar online	服務執行中	Сервис в сети	稼働中	서비스 실행 중	Dienst aktiv	Service actif
+Silent	靜音執行	Тихо	静音実行	무음 실행	Stumm	Silencieux
+Silent mode (actions only)	靜音執行 (只聽做動作)	Тихий режим (без голоса)	静音実行（動作のみ）	무음 실행 (동작만)	Stummmodus (nur Aktionen)	Mode silence (actions seules)
+Silent mode on: executes voice commands without TTS	已進入靜音執行：只聽語音做動作，AI 不出聲	Тихий режим включён: команды выполняются без озвучки	静音実行オン：音声コマンドを動作のみで実行します	무음 실행 켜짐: AI 발화 없이 동작만 실행합니다	Stummmodus an: führt Sprachbefehle ohne TTS aus	Mode silence activé : exécute les commandes sans synthèse vocale
+Silent park	靜默待機	Тихий покой	静音待機	무음 대기	Stumm parken	Veille muette
+Six axes	六軸行程	Шесть осей	6軸表示	6축 모니터	Sechs Achsen	Six axes
+Six-axis travel & gain monitor	六軸行程與倍率監控	Монитор хода и усиления 6 осей	6軸ストロークと倍率モニター	6축 이동 범위 및 배율 모니터	6-Achsen-Hub- & Verstärkungsmonitor	Moniteur course & gain 6 axes
+Slow 25%	慢 25%	Медл. 25%	遅 25%	느림 25%	Langs. 25%	Lent 25%
+Slow branch loop	慢速分支循環	Медленный цикл (ветвь)	低速分岐ループ	저속 분기 루프	Langsame Zweigschleife	Boucle lente (branche)
+Slow loop	慢速循環	Медленный цикл	低速ループ	저속 루프	Langsame Schleife	Boucle lente
+Smile	甜笑	Улыбка	笑顔	미소	Lächeln	Sourire
+Smoothing (ms)	輸出平滑度 smoothingMs	Сглаживание (мс)	平滑化 (ms)	출력 평활 (ms)	Glättung (ms)	Lissage (ms)
+Soft anti-clip (default)	柔順防頂死 (預設)	Мягк. защита (ст.)	ソフト保護 (既定)	부드런 보호 (기본)	Sanft (Standard)	Souple (défaut)
+Soft compression at large angles	大角度保留連續變化	Мягкое сжатие на больших углах	大角度でのソフト圧縮	큰 각도에서 유연 압축	Weiche Kompression bei großen Winkeln	Compression souple aux grands angles
+Soft mapping uses these rotation limits; relative mode uses an action reference.	柔性映射使用這些旋轉選項，盡量保真模式使用動作基準。	Мягкий режим использует эти пределы; относительный использует базу действия.	ソフト保護ではこれらの制限を使い、相対モードではアクション基準を使います。	부드러운 보호는 이 제한을 사용하며 상대 모드는 동작 기준을 사용합니다.	Weiche Abbildung nutzt diese Grenzen; Relativmodus nutzt Aktionsreferenz.	Le mode souple utilise ces limites ; le mode relatif utilise une référence d’action.
+Soft rotation response	柔性旋轉響應	Мягкий отклик вращения	ソフト回転応答	유연 회전 응답	Weiche Rotationsantwort	Réponse rotative souple
+Soft shoulder compression prevents R0/R1/R2 clipping	大仰角自動軟肩壓縮，防止 R0/R1/R2 頂死	Мягкое сжатие предотвращает упор R0/R1/R2	ソフト肩圧縮で R0/R1/R2 の頭打ちを防止	소프트 압축으로 R0/R1/R2 한계 도달 방지	Weiche Kompression verhindert R0/R1/R2-Anschlag	La compression souple évite la saturation R0/R1/R2
+Soft-tissue physics (DynamicBone_Ver02)	軟組織物理權重 (DynamicBone_Ver02 胸臀)	Физика мягких тканей (DynamicBone_Ver02)	軟体物理ウェイト (DynamicBone_Ver02)	소프트본 물리 가중치 (DynamicBone_Ver02)	Weichteil-Physik (DynamicBone_Ver02)	Physique tissus mous (DynamicBone_Ver02)
+Solo	躺自慰	Соло	自慰	자위	Solo	Solo
+Source	來源	Источник	操作側	소스	Quelle	Source
+Source lacks the required driving node	來源缺少固定驅動節點	У источника нет нужного узла привода	操作側に必要な駆動ノードがありません	소스에 필요한 구동 노드가 없습니다	Quelle fehlt der erforderliche Antriebsknoten	La source manque du nœud moteur requis
+Source span	來源標尺	Длина источника	ソーススパン	소스 기준	Quellspanne	Portée source
+Source · 	來源 · 	Ист. · 	操作 · 	소스 · 	Quelle · 	Source · 
+Source · live calculation	來源 · 即時計算	Источник · живой расчёт	ソース · リアルタイム計算	소스 · 실시간 계산	Quelle · Live-Berechnung	Source · calcul en direct
+Source · stage script	來源 · 目前階段腳本	Источник · скрипт стадии	ソース · 段階スクリプト	소스 · 단계 스크립트	Quelle · Phasenskript	Source · script de phase
+Spooning	側臥位	На боку	側臥位	측와위	Löffelchen	Cuillère
+Standby · Edge guard 	待機 · 防射守護 	Ожидание · Защита 	待機 · 寸止めガード 	대기 · 사정 방지 	Standby · Schutz 	Veille · Garde 
+Standby · Following game sync	待機 · 正常跟隨遊戲同步	Ожидание · следует за игрой	待機 · ゲーム同期に追従	대기 · 게임 동기화 추종 중	Standby · folgt Spiel-Sync	Veille · suit la sync du jeu
+Start sidecar	啟動背景服務	Запустить сервис	サービス起動	백엔드 시작	Dienst starten	Lancer service
+Started variant: 	已啟動變式：	Запущен вариант: 	変式を開始：	변형 시작됨: 	Variante gestartet: 	Variante démarrée : 
+Started variant: 1 Shallow 1 Deep	已啟動組合變式：1淺1深	Запущен вариант: 1 мелк. 1 глуб.	変式を開始：1浅1深	변형 시작됨: 1얕 1깊	Variante gestartet: 1 flach 1 tief	Variante démarrée : 1 court 1 profond
+Started: Fixed-depth F/B Sway (L1+R2 only, no orbit/twist)	已啟動：定深前後直線擺腰 (僅L1+R2，不畫圈不旋轉)	Запущено: прямое качание (только L1+R2, без кругов/кручения)	開始：定深度の前後直線揺らし（L1+R2 のみ、回転なし）	시작됨: 고정 깊이 앞뒤 직선 (L1+R2 전용, 회전 없음)	Gestartet: Vor/Zurück auf fester Tiefe (nur L1+R2)	Démarré : balancement av./arr. fixe (L1+R2 seul)
+Stationary	靜止	Неподвижно	静止	정지	Statisch	Stationnaire
+Status: AI takeover hard-blocked (all remote commands intercepted; click Resume AI to re-enable)	狀態：AI 接管已硬切斷（背景所有動作指令均被攔截，點擊「恢復 AI 接管」或重新勾選上方開關即可恢復）	Статус: ИИ жёстко заблокирован (все команды перехватываются; нажмите «Вернуть ИИ»)	状態：AI 制御を完全遮断中（すべての遠隔指令をブロック中。「AI 再開」で復帰）	상태: AI 제어 완전 차단됨 (모든 원격 명령 차단 중, 'AI 재개'로 복구)	Status: KI hart blockiert (alle Befehle abgefangen; „KI fortsetzen“ zum Aktivieren)	État : IA bloquée (commandes interceptées ; cliquez Reprendre IA)
+Status: Disabled (check Enable AI voice above to connect to the local sidecar)	狀態：未開啟（勾選上方「開啟 AI 語音互動」即可連線本機背景服務）	Статус: выкл. (отметьте «Вкл. голос ИИ» выше для подключения)	状態：オフ（上の「AI 音声連携をオン」でローカルサービスに接続）	상태: 꺼짐 (위 'AI 음성 연동 켜기'를 체크해 연결)	Status: Deaktiviert (oben „KI-Sprache aktivieren“ wählen)	État : Désactivé (cochez Activer voix IA ci-dessus)
+Status: Sidecar offline (click Start sidecar to launch a single instance)	狀態：背景未連線（點擊「啟動背景服務」單實例拉起，已防重複啟動卡死）	Статус: сервис не в сети (нажмите «Запустить сервис»)	状態：サービス未接続（「サービス起動」で単一インスタンス起動）	상태: 백엔드 오프라인 ('백엔드 시작'을 눌러 실행)	Status: Dienst offline („Dienst starten“ für Einzelinstanz)	État : Service hors ligne (cliquez Lancer service)
+Step 	步驟 	Шаг 	ステップ 	단계 	Schritt 	Étape 
+Stop	停自慰	Стоп	停止	중지	Stopp	Stop
+Stop / Reset	停止實驗 / 還原	Стоп / Сброс	停止 / リセット	중지 / 초기화	Stopp / Reset	Arrêt / Reset
+Stop recording & save	停止錄製並儲存	Остановить и сохранить	録画を停止して保存	녹화 중지 및 저장	Aufnahme stoppen & speichern	Arrêter et enregistrer
+Stop sidecar	停止背景服務	Остановить сервис	サービス停止	백엔드 중지	Dienst stoppen	Arrêter service
+Stop synchronization	停止裝置同步	Остановить синхронизацию	同期を停止	장치 동기화 중지	Synchronisierung stoppen	Arrêter la synchronisation
+Stopped SR6 Math Lab	手動停止 SR6 數學實驗台	SR6 Math Lab остановлен	SR6 数学実験台を停止しました	SR6 수학 실험실 중지됨	SR6-Mathelabor gestoppt	Labo Math SR6 arrêté
+Stopping background AI service and releasing takeover...	正在停止背景 AI 服務並釋放接管...	Остановка сервиса ИИ и снятие перехвата...	AI バックグラウンドを停止して制御を解除中...	AI 백엔드 중지 및 제어 해제 중...	Stoppe KI-Dienst und gebe Übernahme frei...	Arrêt du service IA et libération du contrôle...
+Strip	脫衣	Снять	脱衣	탈의	Aus	Désh.
+Swap	切主角	Смена	交代	교체	Tausch	Éch.
+Swap body	換主角身體	Сменить тело	主役ボディ変更	주역 바디 교체	Körper tausch.	Changer corps
+Switch outfit slot	切換服裝槽位	Сменить слот одежды	衣装スロット切替	의상 슬롯 전환	Outfit-Slot wechseln	Changer de tenue
+Sync	同步	Синхр.	同期	동기화	Sync	Synchro
+Sync & feel	同步偏好	Синхр. и чувств.	同期・体感	동기화·체감	Sync & Gefühl	Sync & ressenti
+Sync & output response	同步與輸出響應	Синхронизация и отклик	同期と出力応答	동기화 및 출력 응답	Sync & Ausgabeverhalten	Sync & réponse de sortie
+Sync armed · calibrating	同步已啟用 · 正在校準	Синхр. вкл. · калибровка	同期待機 · 校正中	동기화 켜짐 · 보정 중	Sync bereit · kalibriert	Sync armée · calibrage
+Sync armed · no channels enabled	同步已啟用 · 未選可傳送通道	Синхр. вкл. · нет каналов	同期待機 · 出力軸未選択	동기화 켜짐 · 출력 채널 없음	Sync bereit · keine Kanäle	Sync armée · aucun canal
+Sync armed · waiting for device	同步已啟用 · 等待連線	Синхр. вкл. · ждёт устройство	同期待機 · 機器接続待ち	동기화 켜짐 · 장치 연결 대기	Sync bereit · warte auf Gerät	Sync armée · attente appareil
+Sync armed · waiting for valid pose	同步已啟用 · 等待有效姿態	Синхр. вкл. · ждёт позу	同期待機 · 有効姿勢待ち	동기화 켜짐 · 유효 자세 대기	Sync bereit · warte auf Pose	Sync armée · attente pose
+Sync armed · waiting to send	同步已啟用 · 等待傳送	Синхр. вкл. · ждёт отправки	同期待機 · 送信待ち	동기화 켜짐 · 전송 대기	Sync bereit · warte auf Versand	Sync armée · attente envoi
+Sync disabled · AI takeover cut	同步關閉 · 已切斷 AI 接管	Синхр. выкл. · ИИ отключён	同期オフ · AI 制御を切断	동기화 꺼짐 · AI 제어 차단	Sync aus · KI-Übernahme getrennt	Sync désactivée · IA coupée
+Sync stays armed while waiting for connection, valid binding, or enabled channels.	等待連線、有效綁定或可傳送通道時，保持同步開關。	Переключатель синхронизации остаётся активным при ожидании подключения, привязки или каналов.	接続・バインド・出力軸の待機中も同期スイッチは維持されます。	연결, 바인딩 또는 활성 채널을 기다리는 동안 동기화 스위치가 유지됩니다.	Sync bleibt aktiv, während auf Verbindung, Bindung oder Kanäle gewartet wird.	La sync reste armée en attendant la connexion, la liaison ou les canaux.
+Talk	說話	Говор.	話す	말하기	Sprechen	Parler
+Talk(	說話(	Речь(	話す(	말(	Spr.(	Parl.(
+Target	目標	Цель	対象先	대상	Ziel	Cible
+Target entry offset	目標入口微調	Смещение входа цели	対象入口の微調整	대상 입구 미세조정	Ziel-Eingangsversatz	Décalage d’entrée cible
+Target lacks complete opening markers	目標缺少完整入口標記	У цели не хватает меток входа	対象先に完全な入口マーカーがありません	대상에 완전한 입구 마커가 없습니다	Ziel fehlen vollständige Öffnungsmarker	La cible manque de repères d’ouverture complets
+Target lacks the opening bone	目標缺少實際入口骨骼	У цели нет кости входа	対象先に入口ボーンがありません	대상에 실제 입구 뼈가 없습니다	Ziel fehlt der Öffnungsknochen	La cible ne possède pas l’os d’ouverture
+Target · 	目標 · 	Цель · 	対象 · 	대상 · 	Ziel · 	Cible · 
+Teal · Input     Orange · Output     White · Pre-filter target	青色 · 輸入     橙色 · 最終輸出     白線 · 濾波前目標	Бирюз. · Вход     Оранж. · Выход     Бел. · Цель до фильтра	青緑 · 入力     橙 · 最終出力     白線 · フィルタ前目標	청록 · 입력     주황 · 최종 출력     흰선 · 필터 전 목표	Türkis · Eingang     Orange · Ausgang     Weiß · Rohziel	Turquoise · Entrée     Orange · Sortie     Blanc · Cible brute
+Text	文字	Текст	文字	텍스트	Text	Texte
+This action is configured as stationary	此動作設定為靜止	Действие настроено как неподвижное	このアクションは静止に設定されています	이 동작은 정지로 설정되어 있습니다	Diese Aktion ist als statisch konfiguriert	Cette action est configurée comme stationnaire
+Timeline variant inactive	時間軸變式未啟用	Вариант Timeline неактивен	タイムライン変式は非アクティブ	타임라인 변형 비활성	Timeline-Variante inaktiv	Variante Timeline inactive
+Tip	末端	Конец	先端	끝점	Spitze	Pointe
+Tip rub	淺逗入口	У входа	入口焦らし	입구 애태움	Spitzenreiz	Effleurer
+Tip · Axial / L1 / L2 (mm)	末端 · 軸向 / L1 / L2（mm）	Конец · Ось / L1 / L2 (мм)	先端 · 軸 / L1 / L2 (mm)	끝점 · 축 / L1 / L2 (mm)	Spitze · Axial / L1 / L2 (mm)	Pointe · Axial / L1 / L2 (mm)
+Tip: API keys, base URLs, models, custom prompts, and voice models live in the Web Console. Use the AI Hub sidebar tab in-game for chat, manual director controls, and the SR6 Math Lab.	提示：為保持遊戲內介面清爽，API Key、中轉位址、模型選擇、自訂提示詞與語音模型目錄已統一收斂到網頁主控台；遊戲內點擊側欄「AI 互動」即可對話、手控服裝/節奏或做 SR6 數學實驗。	Совет: ключи API, адреса, модели, промпты и голоса настраиваются в веб-консоли. В игре используйте вкладку «ИИ-центр» для чата, ручной режиссуры и SR6 Math Lab.	ヒント：API キー、接続先 URL、モデル、プロンプト、音声モデルは Web コンソールで管理します。ゲーム内はサイドバーの「AI ハブ」から会話・手動制御・SR6 実験を利用できます。	팁: API 키, URL, 모델, 프롬프트, 음성 모델은 웹 콘솔에서 관리합니다. 게임 내에서는 'AI 허브' 탭에서 대화, 수동 제어, SR6 실험을 이용할 수 있습니다.	Tipp: API-Keys, URLs, Modelle, Prompts und Stimmen befinden sich in der Webkonsole. Nutze im Spiel den Reiter „KI-Hub“ für Chat, manuelle Regie und SR6-Mathelabor.	Astuce : clés API, URL, modèles, prompts et voix se gèrent dans la console web. Utilisez l’onglet Hub IA en jeu pour le chat, la régie manuelle et le Labo SR6.
+Toggle sync	切換同步	Перекл. синхр.	同期切替	동기화 전환	Sync umschalten	Basculer sync
+Trance	微醺	Транс	うっとり	황홀	Trance	Transe
+Trigger AI beat now	立刻觸發一次女方主動決策	Вызвать шаг ИИ сейчас	今すぐ AI の自律判断を実行	지금 AI 자율 판단 실행	KI-Impuls jetzt auslösen	Déclencher décision IA
+Twist amp (twistAmp)	旋轉幅度 twistAmp	Амплитуда кручения (twistAmp)	ねじり振幅 (twistAmp)	비틀기 진폭 (twistAmp)	Drehamplitude (twistAmp)	Amplitude torsion (twistAmp)
+Type	打字	Ввод	入力	입력	Tippen	Écrire
+UDP has no device acknowledgement	UDP 無裝置應答	UDP без подтверждения устройства	UDP は機器応答なし	UDP 기기 응답 없음	UDP ohne Gerätebestätigung	UDP sans accusé de réception
+UDP port	UDP 連接埠	UDP-порт	UDP ポート	UDP 포트	UDP-Port	Port UDP
+Unclassified	尚未分類	Не классиф.	未分類	미분류	Unklassifiziert	Non classé
+Undress	全脫	Раздеть	全裸	모두 벗기	Ausziehen	Tout ôter
+Use Intiface Central for The Handy	Handy 請使用 Intiface Central	Для The Handy используйте Intiface Central	The Handy には Intiface Central を使用してください	The Handy는 Intiface Central을 사용하세요	Für The Handy Intiface Central verwenden	Utilisez Intiface Central pour The Handy
+Using live calculation	使用即時計算	Используется живой расчёт	リアルタイム計算を使用	실시간 계산 사용 중	Nutzt Live-Berechnung	Calcul en direct actif
+Using manual binding	目前使用手動綁定	Используется ручная привязка	手動バインドを使用中	수동 바인딩 사용 중	Manuelle Bindung aktiv	Liaison manuelle active
+Vaginal	陰道	Вагина	膣	질	Vaginal	Vaginal
+Variable-Pitch Dual Helix	變螺距雙螺旋剪切	Двойная спираль перемен. шага	可変ピッチ二重らせん剪断	가변 피치 이중 나선 전단	Doppelhelix mit variabler Steigung	Double hélice à pas variable
+Variant[	變式[	Вар.[	変式[	변형[	Var.[	Var.[
+Virtual Pivot Traveling Cone	虛擬支點行波錐面	Конус бегущей опоры	仮想支点・進行波円錐	가상 지점 진행파 원뿔	Wandernder Drehpunktkegel	Cône d’onde à pivot virtuel
+Virtual pivot PivotZ (0 base..1 tip)	虛擬支點高度 PivotZ (0根部..1頂端)	Высота опоры PivotZ (0 корень..1 край)	仮想支点高さ PivotZ (0根元..1先端)	가상 지점 높이 PivotZ (0뿌리..1끝)	Virtueller Drehpunkt PivotZ (0..1)	Pivot virtuel PivotZ (0 base..1 pointe)
+Visible chain 	可見鏈 	Видимая цепь 	可視チェーン 	가시 체인 	Sichtbare Kette 	Chaîne visible 
+Voice 	語音 	Голос 	音声 	음성 	Sprache 	Voix 
+Voice sidecar is already online (single-instance lock active)	背景服務已在線，無需重複啟動（防多開鎖已生效）	Фоновый сервис уже в сети (защита от дублей активна)	音声サービスは既にオンラインです（多重起動防止有効）	백엔드 서비스가 이미 실행 중입니다 (중복 실행 방지)	Sprachdienst ist bereits online (Einzelinstanz aktiv)	Le service vocal est déjà en ligne (instance unique active)
+Voice: OFF	語音輸入:關	Голос: ВЫКЛ	音声入力:オフ	음성 입력:끔	Sprache: AUS	Voix : OFF
+Waiting for Main Game H-scene	等待本體 H 場景	Ожидание H-сцены	本編 H シーン待機中	본편 H 장면 대기 중	Warte auf Hauptspiel-H-Szene	En attente d’une scène H
+Waiting for a valid observation of this action	等待目前動作的有效觀測	Ожидание корректного наблюдения действия	現在アクションの有効な観測待ち	현재 동작의 유효 관측 대기 중	Warte auf gültige Beobachtung dieser Aktion	En attente d’une observation valide de cette action
+Waiting for action	等待動作	Ожидание действия	アクション待ち	동작 대기 중	Warte auf Aktion	En attente d’action
+Waiting for action start to capture reference span	等待動作開始後擷取固定標尺	Ожидание начала действия для захвата длины	基準スパン取得のため動作開始待ち	기준 스팬 캡처를 위해 동작 시작 대기	Warte auf Aktionsstart für Referenzspanne	En attente du début d’action pour capturer la portée
+Waiting for animation to load	等待動作載入	Ожидание загрузки анимации	アニメーション読込待ち	애니메이션 로드 대기 중	Warte auf Laden der Animation	En attente du chargement de l’animation
+Waiting for contact · holding outer park	等待接觸 · 保持退出位	Ожидание контакта · удержание у края	接触待ち · 外側待機位置を保持	접촉 대기 · 외곽 대기 위치 유지	Warte auf Kontakt · halte äußere Parkposition	Attente de contact · maintien en position externe
+Waiting for entry observation	等待入口觀測	Ожидание наблюдения входа	入口の観測待ち	입구 관측 대기 중	Warte auf Eingangsbeobachtung	En attente d’observation d’entrée
+Waiting for native animated prop p_item_dildo	等待固定原生動畫道具 p_item_dildo	Ожидание анимированного предмета p_item_dildo	標準アニメ小物 p_item_dildo 待ち	네이티브 소품 p_item_dildo 대기 중	Warte auf animierte Requisite p_item_dildo	En attente de l’accessoire animé p_item_dildo
+Waiting for native interaction item (target zone inactive)	等待原生交互物件（目前未操作對應部位）	Ожидание нативного предмета (зона неактивна)	標準インタラクション小物待ち（対象部位非アクティブ）	네이티브 상호작용 도구 대기 (대상 부위 비활성)	Warte auf natives Interaktionsobjekt (Zone inaktiv)	En attente de l’objet d’interaction natif (zone inactive)
+Waiting for source actor animation	等待來源角色動畫	Ожидание анимации источника	操作側キャラのアニメ待ち	소스 캐릭터 애니메이션 대기	Warte auf Animation der Quellfigur	En attente de l’animation de la source
+Waiting for source actor animation pose	等待來源角色最終動畫姿態	Ожидание позы источника	操作側キャラの姿勢待ち	소스 캐릭터 최종 자세 대기	Warte auf Pose der Quellfigur	En attente de la pose de la source
+Waiting for source binding	等待來源綁定	Ожидание привязки источника	ソースバインド待ち	소스 바인딩 대기 중	Warte auf Quellbindung	En attente de liaison source
+Waiting for target actor 	等待固定目標角色 	Ожидание целевого персонажа 	対象キャラ待ち 	대상 캐릭터 대기 	Warte auf Zielfigur 	En attente de la cible 
+Waiting for target actor animation pose	等待目標角色最終動畫姿態	Ожидание позы цели	対象キャラの姿勢待ち	대상 캐릭터 최종 자세 대기	Warte auf Pose der Zielfigur	En attente de la pose de la cible
+Waiting for valid animation clock	等待有效動畫時鐘	Ожидание корректного таймера анимации	有効なアニメクロック待ち	유효한 애니메이션 클럭 대기	Warte auf gültige Animationsuhr	En attente d’une horloge d’animation valide
+Waiting for valid pose	等待有效姿態	Ожидание корректной позы	有効な姿勢待ち	유효한 자세 대기 중	Warte auf gültige Pose	En attente d’une pose valide
+Waiting for valid six-axis output	等待有效六軸輸出	Ожидание корректного вывода 6 осей	有効な6軸出力待ち	유효한 6축 출력 대기 중	Warte auf gültige 6-Achsen-Ausgabe	En attente d’une sortie 6 axes valide
+WebSocket URL	WebSocket 位址	Адрес WebSocket	WebSocket URL	WebSocket 주소	WebSocket-URL	URL WebSocket
+Workbench	工作台	Редактор	作業台	작업대	Arbeitsbereich	Atelier
+X-ray	透視顯示	Сквозной вид	透過表示	투시 표시	Röntgenansicht	Vue transparente
+X-ray preview	模型透視顯示	Сквозной предпросмотр	透過プレビュー	투시 미리보기	Röntgenvorschau	Aperçu transparent
+Yellow(	黃區(	Жёлт.(	黄(	노랑(	Gelb(	Jaune(
+You: 	主人：	Вы: 	あなた：	나: 	Du: 	Vous : 
+ZH Serena	中文 Serena	ZH Serena	中国語 Serena	중국어 Serena	ZH Serena	ZH Serena
+Zone	部位	Зона	部位	부위	Zone	Zone
+Zone · 	部位 · 	Зона · 	部位 · 	부위 · 	Zone · 	Zone · 
+kPlug Character Invite, Swap & Guest Actions	kPlug 角色邀請、換人與副角色行為	kPlug: приглашение, смена и действия гостей	kPlug キャラ招待・交代・ゲスト操作	kPlug 캐릭터 초대, 교체 및 게스트 행동	kPlug-Einladung, Tausch & Gast-Aktionen	Invitation, échange & actions invités kPlug
+kPlug invite	kPlug 邀請	Пригласить	kPlug 招待	kPlug 초대	kPlug einl.	Inviter kPlug
+s (launch throttled)	 秒（已防重複啟動）	 с (защита от повторного запуска)	 秒（多重起動防止）	초 (중복 실행 방지)	 s (Start gedrosselt)	 s (lancement limité)
+×)	 次)	 раз)	 回)	회)	×)	×)
+⋮⋮ Quick Director	⋮⋮ 快捷導演	⋮⋮ Быстр. реж.	⋮⋮ クイック監督	⋮⋮ 빠른 디렉터	⋮⋮ Schnellregie	⋮⋮ Régie rapide
+○ AI MCP disabled; kPlug unchanged	○ AI MCP 已關閉，kPlug 保持原設定	○ ИИ MCP выкл.; kPlug без изменений	○ AI MCP オフ · kPlug は元設定のまま	○ AI MCP 꺼짐 · kPlug 원래 설정 유지	○ KI-MCP aus; kPlug unverändert	○ MCP IA désactivé ; kPlug inchangé
+○ Sweep: OFF	○ 行波掃描:關	○ Скан: ВЫКЛ	○ 走査:オフ	○ 스윕:끔	○ Sweep: AUS	○ Balay.: OFF
+○ Unlocks during direct insertion (auto-locked outside insertion)	○ 僅限直接性器官插入態解鎖（非插入態自動封鎖以護骨護權重）	○ Доступно только при прямом введении (автоблок вне ввода)	○ 直接挿入中のみ解放（非挿入時は骨格保護のため自動ロック）	○ 직접 삽입 시에만 잠금 해제 (비삽입 시 뼈대 보호 자동 잠금)	○ Nur bei direktem Einführen entsperrt (sonst automatisch gesperrt)	○ Déverrouillé en insertion directe (verrouillé hors insertion)
+○ kPlug not detected (all 3 modes & 4 permissions work natively)	○ 目前未偵測到 kPlug（原生場景完整支援 3 檔主權與 4 項權限）	○ kPlug не обнаружен (все 3 режима и 4 права работают нативно)	○ kPlug 未検出（3 モードと 4 権限は標準シーンで完全動作）	○ kPlug 미감지 (3가지 모드와 4가지 권한 기본 지원)	○ kPlug nicht erkannt (alle 3 Modi & 4 Freigaben laufen nativ)	○ kPlug non détecté (les 3 modes et 4 permissions fonctionnent nativement)
+● AI MCP active: kPlug native girlThink paused to prevent conflicts	● AI MCP 已接管：已預設關閉 kPlug 原生 girlThink，杜絕雙大腦打架	● ИИ MCP активен: kPlug girlThink на паузе для исключения конфликтов	● AI MCP 稼働中：競合防止のため kPlug の自動思考を一時停止	● AI MCP 활성: 충돌 방지를 위해 kPlug girlThink 일시중지됨	● KI-MCP aktiv: kPlug girlThink zur Konfliktvermeidung pausiert	● MCP IA actif : kPlug girlThink en pause pour éviter tout conflit
+● AI MCP ready (auto-pauses kPlug girlThink in H-scene)	● AI MCP 已就緒（進入 H 場景即自動關閉 kPlug 主動）	● ИИ MCP готов (автопауза kPlug girlThink в H-сцене)	● AI MCP 準備完了（H シーン突入時に kPlug 自動思考を停止）	● AI MCP 준비됨 (H 장면 진입 시 kPlug 자동 사고 일시중지)	● KI-MCP bereit (pausiert kPlug girlThink in der H-Szene)	● MCP IA prêt (met kPlug girlThink en pause en scène H)
+● Direct insertion active (sonyu*): all 5 6-DOF manifolds unlocked	● 已處於直接性器官插入態（sonyu*）：5 大 6-DOF 數學流形已解鎖	● Прямое введение активно (sonyu*): все 5 многообразий 6-DOF открыты	● 直接挿入中（sonyu*）：5 大 6-DOF 数学多様体が解放されました	● 직접 삽입 활성 (sonyu*): 5대 6-DOF 수학 다양체 잠금 해제됨	● Direktes Einführen aktiv (sonyu*): alle 5 6-DOF-Mannigfaltigkeiten frei	● Insertion directe active (sonyu*) : les 5 variétés 6-DOF déverrouillées
+● Sweep: ON	● 行波掃描:開	● Скан: ВКЛ	● 走査:オン	● 스윕:켜짐	● Sweep: EIN	● Balay.: ON
+L0 travel range (default 0–99)	L0 行程範圍（預設 0–99）	Диапазон хода L0 (по умолч. 0–99)	L0 ストローク範囲（初期値 0–99）	L0 스트로크 범위 (기본 0–99)	L0-Hubbereich (Standard 0–99)	Plage de course L0 (défaut 0–99)
+Player-length bottom clipping removed; full L0 travel (0–99) is active by default. Adjust L0 Min/Max or Outer L0 below if needed.	已取消玩家長度底限截斷，預設釋放完整 L0 行程（0–99）。如需限制深度，請在六軸面板調節 L0 Min / Max 或下方外限滑塊。	Нижнее ограничение по длине игрока снято; по умолчанию активен полный ход L0 (0–99). При необходимости настройте L0 Min/Max или внешний предел L0 ниже.	プレイヤー長による下限クリップを撤廃し、標準で L0 全幅（0–99）を解放します。深さを制限する場合は6軸パネルの L0 Min/Max か下の外限スライダーを調整してください。	사용자 길이 하한 클리핑을 제거하여 기본으로 L0 전체 범위(0–99)를 사용합니다. 깊이를 제한하려면 6축 패널의 L0 Min/Max 또는 아래 외한 슬라이더를 조정하세요.	Untere Begrenzung durch Spielerlänge entfernt; voller L0-Hub (0–99) ist standardmäßig aktiv. Bei Bedarf L0 Min/Max oder äußeres L0-Limit unten anpassen.	Écrêtage bas lié à la longueur du joueur supprimé ; la course L0 complète (0–99) est active par défaut. Ajustez L0 Min/Max ou la limite L0 externe ci-dessous si besoin.
+Current L0 range: 	目前 L0 範圍：	Текущий диапазон L0: 	現在の L0 範囲：	현재 L0 범위: 	Aktueller L0-Bereich: 	Plage L0 actuelle : 
+Reset full 0–99 range	恢復預設 0–99 滿行程	Сбросить на полные 0–99	標準 0–99 全幅に戻す	기본 0–99 전체로 복원	Vollen Bereich 0–99 zurücksetzen	Rétablir la plage 0–99
+L0 restored to full 0–99 travel	L0 已恢復 0–99 全幅行程	Для L0 восстановлен полный ход 0–99	L0 を 0–99 全幅ストロークに戻しました	L0가 0–99 전체 스트로크로 복원되었습니다	L0 auf vollen Hub 0–99 zurückgesetzt	L0 rétabli sur toute la course 0–99
+Feel Layer below drives full 0–99 L0 travel across all poses and fast sprints.	目前由下方體感翻譯層驅動 L0 黃金全幅行程（0–99），自動適配各體位與高速衝刺。	Слой ощущений ниже управляет полным ходом L0 (0–99) во всех позах и при быстрых рывках.	下の体感レイヤーが全ポーズと高速スパートで L0 全幅（0–99）を自動駆動します。	아래 체감 레이어가 모든 체위와 고속 스퍼트에서 L0 전체 범위(0–99)를 자동 구동합니다.	Die Gefühlsebene unten steuert den vollen L0-Hub (0–99) über alle Posen und schnellen Sprints.	La couche de ressenti ci-dessous pilote toute la course L0 (0–99) sur toutes les poses et accélérations.
+Raw Geometry mode outputs 1:1 skeletal travel without length clipping.	目前為「原味幾何」1:1 直出，無底限截斷。	Режим «Сырая геометрия» выводит ход костей 1:1 без обрезки по длине.	「生ジオメトリ」モードは長さクリップなしで骨格移動を 1:1 直出力します。	「원본 기하」 모드는 길이 클리핑 없이 뼈대 이동을 1:1 직출력합니다.	Der Modus „Rohgeometrie“ gibt den Skeletthub 1:1 ohne Längenbegrenzung aus.	Le mode Géométrie brute sort la course osseuse 1:1 sans écrêtage de longueur.
+SR6 Math Lab started: {0}	SR6 數學實驗台已啟動：{0}	SR6 Math Lab запущен: {0}	SR6 数学実験台を起動：{0}	SR6 수학 실험실 시작됨: {0}	SR6-Mathelabor gestartet: {0}	Labo Math SR6 démarré : {0}
+Afterglow ended; gauges cleared and resumed gentle motion	高潮餘韻結束，敏感度條已清零並恢復輕柔慢動	Послевкусие завершено; шкалы сброшены, возобновлено мягкое движение	絶頂の余韻が終了し、ゲージをリセットして緩やかな動きへ戻りました	절정 여운이 끝나 게이지를 초기화하고 부드러운 움직임으로 복귀했습니다	Nachklang beendet; Anzeigen geleert und sanfte Bewegung fortgesetzt	Rémanence terminée ; jauges réinitialisées et mouvement doux repris
+Climax sprint active; transitioning seamlessly to native climax...	高潮衝刺中，無縫切入原生高潮射精…	Рывок к кульминации; плавный переход к нативной разрядке…	絶頂スパート中、ゲームの標準絶頂へシームレス移行中…	절정 스퍼트 중, 게임 기본 절정으로 자연스럽게 전환 중…	Höhepunkt-Sprint aktiv; nahtloser Übergang zum nativen Höhepunkt…	Sprint de climax actif ; transition fluide vers le climax natif…
+Transitioned seamlessly to native climax & afterglow	已無縫進入遊戲原生高潮射精與餘韻	Выполнен плавный переход к нативной кульминации и послевкусию	ゲームの標準絶頂と余韻へシームレスに移行しました	게임 기본 절정 및 여운으로 자연스럽게 전환되었습니다	Nahtlos in nativen Höhepunkt & Nachklang übergegangen	Transition fluide vers le climax natif et la rémanence effectuée
+Switched to [{0}] standby; waiting to start	已切至【{0}】待機，等待確認開始	Переключено в ожидание [{0}]; ждём подтверждения старта	【{0}】待機へ切替済み・開始確認待ち	[{0}] 대기 상태로 전환됨 · 시작 확인 대기	In [{0}]-Bereitschaft gewechselt; warte auf Start	Passé en attente [{0}] ; en attente de démarrage
+Started gentle foreplay	已開始溫柔愛撫互動	Начата мягкая прелюдия	優しい愛撫を開始しました	부드러운 애무를 시작했습니다	Sanftes Vorspiel gestartet	Préliminaires doux démarrés
+Auto-entered {0} with gentle rhythm	已自動進入{0}並開始溫柔律動	Автопереход в «{0}» с мягким ритмом	{0}へ自動移行し、優しいリズムを開始しました	{0}에 자동 진입하여 부드러운 리듬을 시작했습니다	Automatisch in {0} gewechselt mit sanftem Rhythmus	Entrée auto dans {0} avec rythme doux
+insertion	插入狀態	введение	挿入状態	삽입 상태	Einführen	insertion
+School (1)	校服（第一套）	Школьная (1)	制服 (1)	교복 (1)	Schule (1)	École (1)
+School (2)	第二套校服	Школьная (2)	制服 (2)	교복 (2)	Schule (2)	École (2)
+Gym	體操服	Спортивная	体操服	체육복	Sport	Gym
+Swimsuit	泳裝	Купальник	水着	수영복	Badeanzug	Maillot
+Club	社團服	Клубная	部活服	동아리복	Club	Club
+Casual	私服	Повседневная	私服	사복	Freizeit	Tenue ville
+Sleepwear	睡衣	Пижама	パジャマ	잠옷	Schlafanzug	Pyjama
+Outfit {0}	套裝 {0}	Наряд {0}	衣装 {0}	의상 {0}	Outfit {0}	Tenue {0}
+Top	上衣	Верх	トップス	상의	Oberteil	Haut
+Bottom	下衣	Низ	ボトムス	하의	Unterteil	Bas
+Bra	胸罩	Бюстгальтер	ブラ	브라	BH	Soutien-gorge
+Panties	內褲	Трусики	ショーツ	팬티	Höschen	Culotte
+Gloves	手套	Перчатки	手袋	장갑	Handschuhe	Gants
+Pantyhose	連褲襪	Колготки	パンスト	팬티스타킹	Strumpfhose	Collants
+Socks	襪子	Носки	靴下	양말	Socken	Chaussettes
+Indoor shoes	室內鞋	Сменная обувь	上履き	실내화	Hausschuhe	Chaussures d’intérieur
+Outdoor shoes	室外鞋	Уличная обувь	外履き	실외화	Straßenschuhe	Chaussures d’extérieur
+Part {0}	部位 {0}	Часть {0}	部位 {0}	부위 {0}	Teil {0}	Pièce {0}
+on	穿上	надето	着用	착용	an	mis
+half-off	半脫	полуснято	半脱ぎ	반탈의	halb aus	à moitié ôté
+pulled down	半脫（褪下）	спущено	ずらし	내림	heruntergezogen	abaissé
+removed	脫下（無半脫態）	снято	脱衣	벗김	entfernt	retiré
+off	脫掉	снято	脱ぎ	벗음	aus	ôté
+worn	穿	надето	着	착용	getragen	porté
+All dressed	全穿	Полностью одета	全着用	모두 입기	Voll bekleidet	Tout habillé
+Half-undressed (pulled down)	全員半脫（褪下）	Полураздета (спущено)	全身半脱ぎ（ずらし）	전체 반탈의 (내림)	Halb ausgezogen (abgezogen)	À moitié déshabillé (abaissé)
+Half-undressed	全員半脫	Полураздета	全身半脱ぎ	전체 반탈의	Halb ausgezogen	À moitié déshabillé
+All undressed	全脫	Полностью раздета	全裸	모두 벗기	Ganz ausgezogen	Tout déshabillé
+AI clothes: {0} -> {1}	AI 服裝調節：{0} -> {1}	ИИ одежда: {0} -> {1}	AI 衣装操作：{0} -> {1}	AI 의상 조절: {0} -> {1}	KI-Kleidung: {0} -> {1}	Vêtements IA : {0} -> {1}
+AI outfit: {0} -> {1}	AI 換裝：{0} -> {1}	ИИ смена наряда: {0} -> {1}	AI 着替え：{0} -> {1}	AI 의상 교체: {0} -> {1}	KI-Outfit: {0} -> {1}	Tenue IA : {0} -> {1}
+Swapped main character body natively to: {0}	已原生切換主角身體為：{0}	Тело главной героини нативно заменено на: {0}	主役のボディをネイティブ変更しました：{0}	주역 바디를 네이티브로 교체했습니다: {0}	Hauptfigur-Körper nativ gewechselt zu: {0}	Corps du personnage principal remplacé nativement par : {0}
+Focused camera on character: {0}	已將鏡頭定位到角色：{0}	Камера наведена на персонажа: {0}	カメラをキャラに合わせました：{0}	카메라를 캐릭터에 맞췄습니다: {0}	Kamera auf Figur fokussiert: {0}	Caméra centrée sur le personnage : {0}
+Opened {0} character invite panel	已開啟 {0} 角色邀請面板	Открыта панель приглашения {0}	{0} キャラ招待パネルを開きました	{0} 캐릭터 초대 패널을 열었습니다	{0}-Einladungsfenster geöffnet	Panneau d’invitation {0} ouvert
+Closed {0} character invite panel	已關閉 {0} 角色邀請面板	Закрыта панель приглашения {0}	{0} キャラ招待パネルを閉じました	{0} 캐릭터 초대 패널을 닫았습니다	{0}-Einladungsfenster geschlossen	Panneau d’invitation {0} fermé
+Opened {0} invite panel to choose a character	已開啟 {0} 邀請面板供主人選擇角色	Открыта панель приглашения {0} для выбора персонажа	キャラ選択用に {0} 招待パネルを開きました	캐릭터 선택을 위해 {0} 초대 패널을 열었습니다	{0}-Einladungsfenster zur Figurenauswahl geöffnet	Panneau d’invitation {0} ouvert pour choisir un personnage
+{0} inviting character: {1}	{0} 正在邀請角色：{1}	{0} приглашает персонажа: {1}	{0} がキャラを招待中：{1}	{0} 캐릭터 초대 중: {1}	{0} lädt Figur ein: {1}	{0} invite le personnage : {1}
+{0} loading invite card: {1}	{0} 正在載入邀請人物卡：{1}	{0} загружает карточку приглашения: {1}	{0} が招待キャラカードを読込中：{1}	{0} 초대 캐릭터 카드 불러오는 중: {1}	{0} lädt Einladungskarte: {1}	{0} charge la carte d’invitation : {1}
+{0} swapping main character to: {1}	{0} 正在切換主角為：{1}	{0} меняет главную героиню на: {1}	{0} が主役を交代中：{1}	{0} 주역을 교체하는 중: {1}	{0} wechselt Hauptfigur zu: {1}	{0} échange le personnage principal avec : {1}
+{0} character started striptease: {1}	{0} 角色開始脫衣舞：{1}	Персонаж {0} начал стриптиз: {1}	{0} キャラがストリップを開始：{1}	{0} 캐릭터가 스트립을 시작함: {1}	{0}-Figur startet Striptease: {1}	Le personnage {0} commence un strip-tease : {1}
+{0} character started dancing: {1}	{0} 角色開始跳舞：{1}	Персонаж {0} начал танец: {1}	{0} キャラがダンスを開始：{1}	{0} 캐릭터가 춤을 시작함: {1}	{0}-Figur startet Tanz: {1}	Le personnage {0} commence à danser : {1}
+Stopped dancing: {0}	已停止跳舞：{0}	Танец остановлен: {0}	ダンスを停止しました：{0}	춤을 중지했습니다: {0}	Tanz gestoppt: {0}	Danse arrêtée : {0}
+Stopped guest solo action: {0}	已讓角色停止自慰：{0}	Соло-действие гостя остановлено: {0}	ゲストのソロ行為を停止しました：{0}	게스트 솔로 행동을 중지했습니다: {0}	Solo-Aktion des Gasts gestoppt: {0}	Action solo de l’invité arrêtée : {0}
+{0} started solo action for {1} ({2})	{0} 已控制 {1} 開始自慰 ({2})	{0} запустил соло-действие для {1} ({2})	{0} が {1} のソロ行為を開始 ({2})	{0}에서 {1}의 솔로 행동을 시작함 ({2})	{0} startete Solo-Aktion für {1} ({2})	{0} a lancé l’action solo pour {1} ({2})
+Started native solo mode	已啟動原生自慰模式	Запущен нативный соло-режим	ゲームの標準ソロモードを開始しました	게임 기본 솔로 모드를 시작했습니다	Nativen Solo-Modus gestartet	Mode solo natif démarré
+Dismissed {0} guest: {1}	已請離 {0} 角色：{1}	Гость {0} удалён из сцены: {1}	{0} ゲストを退場させました：{1}	{0} 게스트를 퇴장시켰습니다: {1}	{0}-Gast entlassen: {1}	Invité {0} renvoyé : {1}
+{0} character already in scene: {1}	{0} 角色已在目前場景中：{1}	Персонаж {0} уже в сцене: {1}	{0} キャラは既にシーン内にいます：{1}	{0} 캐릭터가 이미 장면에 있습니다: {1}	{0}-Figur ist bereits in der Szene: {1}	Le personnage {0} est déjà dans la scène : {1}
+{0} inviting story character: {1}	{0} 正在邀請劇情角色：{1}	{0} приглашает сюжетного персонажа: {1}	{0} がストーリーキャラを招待中：{1}	{0} 스토리 캐릭터 초대 중: {1}	{0} lädt Story-Figur ein: {1}	{0} invite le personnage d’histoire : {1}
+{0} interrupted guest action to swap main character to: {1}	{0} 已中斷副角色動作並準備切換主角為：{1}	{0} прервал действие гостя для смены главной героини на: {1}	{0} がゲスト動作を中断し主役を交代準備中：{1}	{0} 게스트 행동을 중단하고 주역 교체 준비 중: {1}	{0} unterbrach Gastaktion für Hauptfigur-Tausch zu: {1}	{0} a interrompu l’action invité pour passer au personnage principal : {1}
+{0} guest already undressed: {1}	{0} 副角色已無衣物可脫：{1}	Гость {0} уже раздет: {1}	{0} ゲストは既に脱衣済みです：{1}	{0} 게스트는 이미 탈의 상태입니다: {1}	{0}-Gast bereits ausgezogen: {1}	L’invité {0} est déjà déshabillé : {1}
+{0} main character has no striptease; undressed directly: {1}	{0} 主角無脫衣舞動畫，已直接脫衣：{1}	У главной героини {0} нет анимации стриптиза; раздета напрямую: {1}	{0} 主役にストリップアニメがないため直接脱衣しました：{1}	{0} 주역에 스트립 모션이 없어 바로 탈의했습니다: {1}	{0}-Hauptfigur hat keinen Striptease; direkt ausgezogen: {1}	Pas de strip-tease pour le personnage principal {0} ; déshabillage direct : {1}
+{0} guest started dancing: {1} ({2})	{0} 副角色開始跳舞：{1} ({2})	Гость {0} начал танец: {1} ({2})	{0} ゲストがダンスを開始：{1} ({2})	{0} 게스트가 춤을 시작함: {1} ({2})	{0}-Gast startet Tanz: {1} ({2})	L’invité {0} commence à danser : {1} ({2})
+Stopped main character dancing: {0}	已停止主角跳舞：{0}	Танец главной героини остановлен: {0}	主役のダンスを停止しました：{0}	주역의 춤을 중지했습니다: {0}	Tanz der Hauptfigur gestoppt: {0}	Danse du personnage principal arrêtée : {0}
+{0} main character started dancing: {1} ({2})	{0} 主角開始跳舞：{1} ({2})	Главная героиня {0} начала танец: {1} ({2})	{0} 主役がダンスを開始：{1} ({2})	{0} 주역이 춤을 시작함: {1} ({2})	{0}-Hauptfigur startet Tanz: {1} ({2})	Le personnage principal {0} commence à danser : {1} ({2})
+Stopped {0} guest action: {1}	已停止 {0} 副角色動作：{1}	Действие гостя {0} остановлено: {1}	{0} ゲスト動作を停止しました：{1}	{0} 게스트 행동을 중지했습니다: {1}	{0}-Gastaktion gestoppt: {1}	Action de l’invité {0} arrêtée : {1}
+Restored main character action: {0}	已還原主角動作：{0}	Действие главной героини восстановлено: {0}	主役の動作を元に戻しました：{0}	주역의 동작을 복원했습니다: {0}	Aktion der Hauptfigur wiederhergestellt: {0}	Action du personnage principal rétablie : {0}
+ · {0} auto-think paused	 · {0} 主動思考已自動關閉	 · авто-мышление {0} на паузе	 · {0} 自動思考を一時停止	 · {0} 자동 사고 일시중지	 · {0} Auto-Denken pausiert	 · auto-pensée {0} en pause
+{0} Character Invite, Swap & Guest Actions	{0} 角色邀請、換人與副角色行為	{0}: приглашение, смена и действия гостей	{0} キャラ招待・交代・ゲスト操作	{0} 캐릭터 초대, 교체 및 게스트 행동	{0}-Einladung, Tausch & Gast-Aktionen	Invitation, échange & actions invités {0}
+Open {0} invite	開啟 {0} 邀請面板	Панель приглаш. {0}	{0} 招待パネルを開く	{0} 초대 패널 열기	{0}-Einladung öffnen	Ouvrir invit. {0}
+{0} invite	{0} 邀請	Пригласить ({0})	{0} 招待	{0} 초대	{0} einl.	Inviter {0}
+No {0} guest characters present. Open the invite panel or type a name above to invite and control guests.	目前無 {0} 副角色在場。點上方「開啟 {0} 邀請面板」或輸入角色名邀請後，可在此控制自慰/換主角。	Гостей {0} в сцене нет. Откройте панель приглашения или введите имя выше, чтобы пригласить и управлять гостями.	{0} ゲストキャラが不在です。上の「{0} 招待パネルを開く」または名前入力で招待すると、ここで操作できます。	현재 {0} 게스트 캐릭터가 없습니다. 위에서 초대 패널을 열거나 이름을 입력해 초대하고 제어할 수 있습니다.	Keine {0}-Gastfiguren vorhanden. Öffne oben das Einladungsfenster oder gib einen Namen ein, um Gäste einzuladen und zu steuern.	Aucun invité {0} présent. Ouvrez le panneau d’invitation ou saisissez un nom ci-dessus pour inviter et contrôler des invités.
+Autonomy Mode & {0} Conflict Arbitration	純女方主動模式 & {0} 防衝突仲裁	Режим автономии и арбитраж {0}	自律主導モード & {0} 競合調停	자율 주도 모드 & {0} 충돌 조정	Autonomiemodus & {0}-Konfliktschlichtung	Mode autonomie & arbitrage {0}
+Control mode (pauses {0} auto-think while AI MCP is active):	互動主權模式（開啟 AI MCP 時預設關閉 {0} 原生主動）：	Режим управления (ставит авто-мышление {0} на паузу при ИИ MCP):	主導モード（AI MCP 有効時は {0} 自動思考を一時停止）：	주도권 모드 (AI MCP 활성 시 {0} 자동 사고 일시중지):	Steuermodus (pausiert {0} Auto-Denken bei aktivem KI-MCP):	Mode de contrôle (met l’auto-pensée {0} en pause avec MCP IA) :
+ Auto {0} invite / swap	 允許自主拉人/輪換角色	 Авто-приглашение / смена {0}	 {0} 招待・交代を自動許可	 자동 {0} 초대 / 교체	 Auto-{0}-Einladung / Tausch	 Auto invitation / échange {0}
+● AI MCP active: {0} native auto-think paused to prevent conflicts	● AI MCP 已接管：已預設關閉 {0} 原生主動思考，杜絕雙大腦打架	● ИИ MCP активен: авто-мышление {0} на паузе для исключения конфликтов	● AI MCP 稼働中：競合防止のため {0} の自動思考を一時停止	● AI MCP 활성: 충돌 방지를 위해 {0} 자동 사고 일시중지됨	● KI-MCP aktiv: {0} Auto-Denken zur Konfliktvermeidung pausiert	● MCP IA actif : auto-pensée {0} en pause pour éviter tout conflit
+● AI MCP ready (auto-pauses {0} auto-think in H-scene)	● AI MCP 已就緒（進入 H 場景即自動關閉 {0} 主動）	● ИИ MCP готов (автопауза авто-мышления {0} в H-сцене)	● AI MCP 準備完了（H シーン突入時に {0} 自動思考を停止）	● AI MCP 준비됨 (H 장면 진입 시 {0} 자동 사고 일시중지)	● KI-MCP bereit (pausiert {0} Auto-Denken in der H-Szene)	● MCP IA prêt (met l’auto-pensée {0} en pause en scène H)
+○ AI MCP disabled; {0} unchanged	○ AI MCP 已關閉，{0} 保持原設定	○ ИИ MCP выкл.; {0} без изменений	○ AI MCP オフ · {0} は元設定のまま	○ AI MCP 꺼짐 · {0} 원래 설정 유지	○ KI-MCP aus; {0} unverändert	○ MCP IA désactivé ; {0} inchangé
+○ {0} not detected (all 3 modes & 4 permissions work natively)	○ 目前未偵測到 {0}（原生場景完整支援 3 檔主權與 4 項權限）	○ {0} не обнаружен (все 3 режима и 4 права работают нативно)	○ {0} 未検出（3 モードと 4 権限は標準シーンで完全動作）	○ {0} 미감지 (3가지 모드와 4가지 권한 기본 지원)	○ {0} nicht erkannt (alle 3 Modi & 4 Freigaben laufen nativ)	○ {0} non détecté (les 3 modes et 4 permissions fonctionnent nativement)

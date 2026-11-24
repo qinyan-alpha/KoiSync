@@ -1,0 +1,9 @@
+Upstream OSR/SR6 browser simulator bundle
+Source: https://github.com/nbnb9527/nb-3d-simulator
+Original file: python/osr_emu_standalone.html (master branch)
+Retrieved: 2026-10-05
+Upstream README declares MIT. UPSTREAM.md preserves that statement.
+The first inline script is retained as the OSREmulator rendering bundle.
+The upstream WebSocket application/automatic connection is replaced by the local video/file preview host.
+The bundle includes Three.js and OSR model geometry; upstream source remains available at the link above.
+This package preserves the upstream bundle without modifying its rendering/model code.
